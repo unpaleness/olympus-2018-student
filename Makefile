@@ -2,7 +2,9 @@ CC         = g++
 CFLAGS     = -std=c++14 -O2 -Wall -Wextra
 # LFLAGS     = -std=c++14
 SOURCES    = src/01.cpp \
-             src/02.cpp
+             src/02.cpp \
+             src/03.cpp \
+             src/04.cpp
 # OBJECTS    = $(SOURCES:src/%.cpp=obj/%.o)
 EXECUTABLE = $(SOURCES:src/%.cpp=%.out)
 
