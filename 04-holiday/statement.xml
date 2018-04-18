@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <problem
   package = "ru.ejudge.sample_contest"
-  id = "5"
+  id = "4"
   type = "standard">
   <statement language="ru_RU">
     <title>Отпуск</title>
