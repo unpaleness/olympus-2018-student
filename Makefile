@@ -4,7 +4,8 @@ CFLAGS     = -std=c++14 -O2 -Wall -Wextra
 SOURCES    = src/01.cpp \
              src/02.cpp \
              src/03.cpp \
-             src/04.cpp
+             src/04.cpp \
+             src/05.cpp
 # OBJECTS    = $(SOURCES:src/%.cpp=obj/%.o)
 EXECUTABLE = $(SOURCES:src/%.cpp=%.out)
 
