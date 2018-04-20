@@ -1,0 +1,4759 @@
+http://readmanga.me
+<!doctype html>
+
+<html lang='ru' xml:lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Expires" content="-1"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+
+<link rel="shortcut icon" type="image/x-icon" href="http://res.readmanga.me/static/favicon-7aceae2703db371c15058bc9d562d247.ico"/>
+<link rel="apple-touch-icon" href="http://res.readmanga.me/static/apple-touch-icon-a401a05b79c2dad93553ebc3523ad5fe.png"/>
+<meta name="msapplication-config" content="none"/>
+
+<title>Читать мангу на русском Ванпанчмен (One Punch-Man) Новые главы - ReadManga.me</title>
+
+<script>
+var _gaq = window._gaq || [];
+window.onerror = function(msg, url, line) {
+    var preventErrorAlert = true;
+    _gaq.push(['_trackEvent', 'JS Error', msg, navigator.userAgent + ' -> ' + url + " : " + line, 0, true]);
+    return preventErrorAlert;
+};
+</script>
+<!--[if lt IE 9]>
+<link id="respond-proxy" rel="respond-proxy" href="http://res.readmanga.me/static/iefix/cross-domain/respond-proxy-b832fbe3dac1b83a0a53e241df2a7948.html"/>
+<link href="/assets/iefix/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+<![endif]-->
+
+<link rel="stylesheet" href="http://res.readmanga.me/static/application-a7c609a130ff0654cdc20e62f041298f.css"/>
+<script type="text/javascript" src="http://res.readmanga.me/static/application-132265b33068b5f41d608d66450c3ee7.js" ></script>
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="http://res.readmanga.me/static/iefix/iefix-6690d202c73a78abcebea85c166e1840.js" ></script>
+<![endif]-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script language="JavaScript" type="text/javascript" >
+  var jQ = jQuery.noConflict();
+  var $=jQ;
+  var RM_auto_link="/search/suggestion";
+
+  function sendStatistic(id) {
+    jQuery.ajax({type:'POST',data:'id='+id, url:'/internal/ajax/visit',success:function(data,textStatus){},error:function(XMLHttpRequest,textStatus,errorThrown){}});
+  }
+
+  function forumSsoCallback(token){
+    jQuery.ajax({type:'POST',data:{curUrl:location.href, j_token:token}, url:'/ssi/context',success:function(data,textStatus){jQuery('#accountMenu').html(data);},error:function(XMLHttpRequest,textStatus,errorThrown){}});
+  }
+
+  function setMangaBookmark(status, id, type, vol, num){
+    jQuery.ajax({type:'POST',data:'id='+id+'&type='+type+'&status='+status+'&vol='+vol+'&num='+num+'&page='+rm_h.cur, url:'/internal/ajax/addBookmark',success:function(data,textStatus){rm_h.xuser.onSave(data);},error:function(XMLHttpRequest,textStatus,errorThrown){}});
+  }
+</script>
+
+
+
+
+
+  <meta name="description" content="Описание  манги Ванпанчмен: Хорошо известная поговорка гласит: &quot;Всегда найдётся кто-то сильнее&quot;. Но что если достигнуть таких высот, что даже равных по силе не видать? Обычный парень по имени Сайтама, после того как его уволили, а затем и не приняли на другую работу, решает стать на путь героя. Пройдя через изнурительные тренировки и жестокие битвы, наш герой в совершенстве овладевает своим телом и познаёт что такое настоящая сила. Ну и попутно лысеет. А что поделать, за силу нужно платить. Вроде всё должно быть замечательно, ведь теперь ему ничего не страшно и он сможет справиться с любыми напастями, обрушивающимися на человечество. Но не тут-то было! Как быть, если все монстры и злодеи не могут выдержать даже одного удара героя? Как дальше заниматься любимым делом, если оно стало рутиной? Как вновь ощутить азарт схватки? Сможет ли хоть что-то развеять эту скуку? Сайтама не знает ответы на эти вопросы, но он постарается их найти."/>
+  <link rel="alternate" type="application/rss+xml" title="RSS" href='/rss/manga?name=one_punch_man'/>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-9002078-2', 'readmanga.me');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+    $(function(){
+//rm_h.layout.weWantEat();
+    })
+
+</script>
+
+<script type="text/javascript">
+try{
+if (window.location.href.toLowerCase().indexOf("http://readmanga.me")!=0) {window.location.href="http://readmanga.me"}
+} catch(all){}
+
+$(function(){
+// rm_h.layout.addPageEars('http://d.readmanga.ru/uploads/pics/00/88/811_o.png','http://d.readmanga.ru/uploads/pics/00/88/810_o.png', 'http://tera-online.ru/c/Nibd/' );
+})
+</script>
+<style type="text/css">
+.right-brand, .left-brand { top: 39px; }
+.nav-main-menu{
+    position: relative;
+    z-index: 1;
+}
+.federation-nav {background-color: transparent}
+.federation-nav   .container {background-color: #f4f4f4}
+
+.right-brand {width:930px}
+.right-brand div {width:350px}
+.left-brand {width:350px}
+ </style>
+
+</head>
+
+<body>
+<script language="JavaScript" type="text/javascript" >
+  rm_h.user.restoreUserSettings();
+</script>
+<div class="navbar navbar-default ">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <i class="fa fa-bars fa-lg"></i>
+      </button>
+
+
+
+
+      <div class="mobile-block visible-xxs-block">
+        <a href='https://grouple.co/chat/index'><i class='fa fa-lg fa-comment'></i></a>
+      </div>
+      <div class="mobile-block visible-xxs-block">
+        <a href="/search/advanced">
+          <i class="fa fa-lg fa-search"></i>
+        </a>
+
+
+      </div>
+
+      <a href="/" class="navbar-brand">
+        <img src="http://res.readmanga.me/static/logo-e8c1315f5387d3d8346cb89c851add6d.png" id="logo" width="250" height="45" class="hidden-sm hidden-xs" alt="Читать мангу Online" title="ReadManga.me -- читай мангу с удовольствием"/>
+        <img src="http://res.readmanga.me/static/logo_m-0d28ac65905711fa45aa4caf3e3d6dd5.png" id="logo" width="80" height="40" class="hidden-lg hidden-md" alt="Читать мангу Online" title="ReadManga.me -- читай мангу с удовольствием"/>
+      </a>
+    </div>
+
+    <span class="navbar-text hidden-xxs" data-toggle="tooltip" title="Все наши сайты"><i class="btn-link fa fa-caret-square-o-down fa-lg federation-menu-open"></i></span>
+
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
+        <li>
+          <a href="https://grouple.co/forum/posts/list/0/23305.page" data-toggle="tooltip" title="ЧаВо - ответы на частые вопросы" target="_blank">
+            <span class="fa fa-question-circle fa-lg"> </span>
+          </a>
+        </li>
+      </ul>
+      <form action="/search" method="post" class="navbar-form navbar-right" >
+  <div class="fast-search input-group">
+    <select id="q" placeholder="Название манги или автор" class="form-control head-suggestion" maxlength="50"></select>
+    <span class="input-group-btn">
+      <button type="submit" title="Поиск" class="btn btn-default">
+        <span class="fa fa-search"></span>
+      </button>
+    </span>
+  </div>
+</form>
+
+
+
+      <ul id="accountMenu" class="nav navbar-nav navbar-right">
+
+
+
+
+
+  <li><a class='strong' href='https://grouple.co/internal/auth/register' >Регистрация</a></li>
+  <li><a class='strong' href='https://grouple.co/internal/auth/login?quiet=false&targetUri=http%3A%2F%2Freadmanga.me%2Finternal%2Fauth%3FtargetUri%3D%252Fone_punch_man' >Вход</a></li>
+
+
+
+<script type="text/javascript">
+
+  document.cookie = "JSESSIONID=A567E97ED7AFCB529FE2AA3DCD7A6A01; path=/";
+
+</script>
+
+      </ul>
+      <ul class="hidden-lg hidden-md hidden-sm hidden-xs visible-xxs-inline list-unstyled">
+        <li>
+          <a href="http://readmanga.me" title="Читай мангу" rel="nofollow">Read&nbsp;Manga</a>
+
+    <a href="/internal/redirect?type=ad&amp;id=%2F" title="Читай взрослую мангу" class="hidden-xs">Mint&nbsp;Manga</a>
+
+
+    <a href="http://doramatv.ru" title="Смотри и обсуждай Дораму онлайн" rel="nofollow">Dorama&nbsp;TV</a>
+
+<a href="http://librebook.me" title="Читай книги онлайн" rel="nofollow">Libre&nbsp;Book</a>
+<a href="http://findanime.me" title="Смотри и обсуждай аниме онлайн" rel="nofollow">Find&nbsp;Anime</a>
+<a href="http://selfmanga.ru" title="Создавай и читай мангу" rel="nofollow">Self&nbsp;Manga</a>
+
+<a class="hidden-xs" href="http://selflib.me" title="Создавай и читай самиздат" rel="nofollow">Self&nbsp;Lib</a>
+
+<a href="https://grouple.co" title="Закладки, активности, общение" rel="nofollow">GroupLe</a>
+
+        </li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+<div class="federation-nav">
+  <div class="container">
+    <a href="http://readmanga.me" title="Читай мангу" rel="nofollow">Read&nbsp;Manga</a>
+
+    <a href="/internal/redirect?type=ad&amp;id=%2F" title="Читай взрослую мангу" class="hidden-xs">Mint&nbsp;Manga</a>
+
+
+    <a href="http://doramatv.ru" title="Смотри и обсуждай Дораму онлайн" rel="nofollow">Dorama&nbsp;TV</a>
+
+<a href="http://librebook.me" title="Читай книги онлайн" rel="nofollow">Libre&nbsp;Book</a>
+<a href="http://findanime.me" title="Смотри и обсуждай аниме онлайн" rel="nofollow">Find&nbsp;Anime</a>
+<a href="http://selfmanga.ru" title="Создавай и читай мангу" rel="nofollow">Self&nbsp;Manga</a>
+
+<a class="hidden-xs" href="http://selflib.me" title="Создавай и читай самиздат" rel="nofollow">Self&nbsp;Lib</a>
+
+<a href="https://grouple.co" title="Закладки, активности, общение" rel="nofollow">GroupLe</a>
+
+  </div>
+</div>
+<div class="second-nav">
+  <div class="container">
+
+<div class="nav-main-menu">
+  <div class="pull-right">
+    <strong>
+      <a href="/">Главная</a> |
+      <a href="/list/presentation">Каталог манги</a> <i class="js-link sub-menu-open fa fa-lg fa-caret-down"></i> |
+      <span class=hidden-xs><a href="http://librebook.ru" title="Читай и обсуждай книги онлайн">Книги</a> |</span> <span class=hidden-xs><a href="http://readmanga.me/collection/prodavaemaia_manga" title="Купить мангу онлайн">Купить<sup class=manga-updated>new</sup></a> |</span>
+      <a href="https://grouple.co">GroupLe</a>
+      <span class="hidden-xs">|
+        <a href="https://grouple.co/forum/forums/list.page">Форум</a>
+      </span>
+    </strong>
+  </div>
+  <div class="pull-left hidden-sm hidden-xs">
+
+  </div>
+  <div class="clearfix"><!----></div>
+</div>
+<div class="nav-sub-menu hide row">
+  <div class="col-md-3 col-xs-6">
+    <ul>
+      <li><a href="/review/list">Рецензии</a></li>
+      <li><a href="/collection">Коллекции</a></li>
+      <li><a href="/news/allnews">Новости</a></li>
+      <li><a href="/quote">Цитаты</a></li>
+    </ul>
+  </div>
+  <div class="col-md-3 col-xs-6">
+    <ul>
+      <li>манги:</li>
+      <li><a href="/list?sortType=created">Новинки</a></li>
+      <li><a href="/list?sortType=votes">По рейтингу</a></li>
+      <li><a href="/list?sortType=updated">По дате обновления</a></li>
+    </ul>
+  </div>
+  <div class="col-md-3 col-xs-6">
+    <ul>
+      <li><strong><a href="/list/presentation">Каталог</a></strong></li>
+      <li>
+
+        <a href="/list/authors/sort_name">Авторы</a>
+
+      </li>
+      <li><a href="/list/genres/sort_name">Жанры</a></li>
+    </ul>
+  </div>
+  <div class="col-md-3 col-xs-6" >
+    <ul>
+      <li><a href="/internal/random">Случайная манга</a></li>
+      <li><a href="/news/calendar/month">Календарь</a></li>
+    </ul>
+  </div>
+</div>
+
+<script type="text/javascript">
+  rm_h.navMenu.process();
+</script>
+  </div>
+</div>
+
+
+
+
+<div class="pageBlock container" id="mangaBox">
+
+
+  <div class="manga_ba top_ba">
+  <noindex>
+    <div id="M6397Composite619292"></div>
+  </noindex>
+</div>
+
+
+
+
+
+<div class="leftContent" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <h1 class="names">
+
+      Манга
+
+    <span class='name'>Ванпанчмен</span>
+
+  | <span class='eng-name' title="английское название">One Punch-Man</span>
+
+
+
+  </h1>
+
+  <meta itemprop="name" content="Ванпанчмен" />
+  <meta itemprop="alternativeHeadline" content="One Punch-Man" />
+  <meta itemprop="url" content="http://readmanga.me/one_punch_man"/>
+  <meta itemprop="description" content="Хорошо известная поговорка гласит: &quot;Всегда найдётся кто-то сильнее&quot;. Но что если достигнуть таких высот, что даже равных по силе не видать? Обычный парень по имени Сайтама, после того как его уволили, а затем и не приняли на другую работу, решает стать на путь героя. Пройдя через изнурительные тренировки и жестокие битвы, наш герой в совершенстве овладевает своим телом и познаёт что такое настоящая сила. Ну и попутно лысеет. А что поделать, за силу нужно платить. Вроде всё должно быть замечательно, ведь теперь ему ничего не страшно и он сможет справиться с любыми напастями, обрушивающимися на человечество. Но не тут-то было! Как быть, если все монстры и злодеи не могут выдержать даже одного удара героя? Как дальше заниматься любимым делом, если оно стало рутиной? Как вновь ощутить азарт схватки? Сможет ли хоть что-то развеять эту скуку? Сайтама не знает ответы на эти вопросы, но он постарается их найти."/>
+
+
+
+<div class="flex-row">
+
+    <div class="subject-cower col-sm-5">
+
+
+
+  <div class="picture-fotorama" data-width="100%" data-ratio="325/450" data-max-width="100%" data-allowfullscreen="true" data-autoplay="5000"
+       data-transition="dissolve" data-clicktransition="slide" data-arrows="true" data-click="true" data-swipe="true" data-shuffle="true">
+
+
+        <img class="" src="http://static.readmanga.me/uploads/pics/00/21/148.jpg" data-thumb="http://static.readmanga.me/uploads/pics/00/21/148_p.jpg" data-full="http://static.readmanga.me/uploads/pics/00/21/148_o.jpg" alt="манга Ванпанчмен (One Punch-Man) 29/11/12" itemprop="image"/>
+
+
+
+        <a href="http://static.readmanga.me/uploads/pics/00/21/153.jpg" data-thumb="http://static.readmanga.me/uploads/pics/00/21/153_p.jpg" data-full="http://static.readmanga.me/uploads/pics/00/21/153_o.jpg"></a>
+
+
+
+        <a href="http://static.readmanga.me/uploads/pics/00/43/873.jpg" data-thumb="http://static.readmanga.me/uploads/pics/00/43/873_p.jpg" data-full="http://static.readmanga.me/uploads/pics/00/43/873_o.png"></a>
+
+
+
+        <img class="hide" src="http://static.readmanga.me/uploads/pics/00/43/874.jpg" data-thumb="http://static.readmanga.me/uploads/pics/00/43/874_p.jpg" data-full="http://static.readmanga.me/uploads/pics/00/43/874_o.jpg" alt="манга Ванпанчмен (One Punch-Man) 26/07/14" itemprop="image"/>
+
+
+
+        <img class="hide" src="http://static.readmanga.me/uploads/pics/00/56/377.jpg" data-thumb="http://static.readmanga.me/uploads/pics/00/56/377_p.jpg" data-full="http://static.readmanga.me/uploads/pics/00/56/377_o.jpg" alt="манга Ванпанчмен (One Punch-Man) 24/08/15" itemprop="image"/>
+
+
+
+        <img class="hide" src="http://static.readmanga.me/uploads/pics/00/56/378.jpg" data-thumb="http://static.readmanga.me/uploads/pics/00/56/378_p.jpg" data-full="http://static.readmanga.me/uploads/pics/00/56/378_o.png" alt="манга Ванпанчмен (One Punch-Man) 24/08/15" itemprop="image"/>
+
+
+
+        <img class="hide" src="http://static.readmanga.me/uploads/pics/00/56/694.jpg" data-thumb="http://static.readmanga.me/uploads/pics/00/56/694_p.jpg" data-full="http://static.readmanga.me/uploads/pics/00/56/694_o.jpg" alt="манга Ванпанчмен (One Punch-Man) 04/09/15" itemprop="image"/>
+
+
+
+        <img class="hide" src="http://static.readmanga.me/uploads/pics/00/65/708.jpg" data-thumb="http://static.readmanga.me/uploads/pics/00/65/708_p.jpg" data-full="http://static.readmanga.me/uploads/pics/00/65/708_o.jpg" alt="манга Ванпанчмен (One Punch-Man) 09/04/16" itemprop="image"/>
+
+
+
+        <img class="hide" src="http://static.readmanga.me/uploads/pics/00/70/420.jpg" data-thumb="http://static.readmanga.me/uploads/pics/00/70/420_p.jpg" data-full="http://static.readmanga.me/uploads/pics/00/70/420_o.png" alt="манга Ванпанчмен (One Punch-Man) 09/07/16" itemprop="image"/>
+
+
+
+        <img class="hide" src="http://static.readmanga.me/uploads/pics/00/70/421.jpg" data-thumb="http://static.readmanga.me/uploads/pics/00/70/421_p.jpg" data-full="http://static.readmanga.me/uploads/pics/00/70/421_o.jpg" alt="манга Ванпанчмен (One Punch-Man) 09/07/16" itemprop="image"/>
+
+
+
+        <a href="http://static.readmanga.me/uploads/pics/00/76/779.jpg" data-thumb="http://static.readmanga.me/uploads/pics/00/76/779_p.jpg" data-full="http://static.readmanga.me/uploads/pics/00/76/779_o.jpg"></a>
+
+
+
+        <a href="http://static.readmanga.me/uploads/pics/00/77/190.jpg" data-thumb="http://static.readmanga.me/uploads/pics/00/77/190_p.jpg" data-full="http://static.readmanga.me/uploads/pics/00/77/190_o.jpg"></a>
+
+
+
+        <a href="http://static.readmanga.me/uploads/pics/00/82/013.jpg" data-thumb="http://static.readmanga.me/uploads/pics/00/82/013_p.jpg" data-full="http://static.readmanga.me/uploads/pics/00/82/013_o.jpg"></a>
+
+
+
+        <a href="http://static.readmanga.me/uploads/pics/00/87/833.jpg" data-thumb="http://static.readmanga.me/uploads/pics/00/87/833_p.jpg" data-full="http://static.readmanga.me/uploads/pics/00/87/833_o.jpg"></a>
+
+
+
+        <a href="http://static.readmanga.me/uploads/pics/00/94/355.jpg" data-thumb="http://static.readmanga.me/uploads/pics/00/94/355_p.jpg" data-full="http://static.readmanga.me/uploads/pics/00/94/355_o.jpg"></a>
+
+
+  </div>
+  <script type="text/javascript">
+      $('.picture-fotorama').on('fotorama:fullscreenenter fotorama:fullscreenexit', function (e, fotorama) {
+        fotorama.setOptions({nav: (e.type === 'fotorama:fullscreenenter'?'thumbs':'dots')});
+      }).fotorama();
+  </script>
+
+    </div>
+
+
+
+    <div title="Известен так же под именем" class="another-names col-sm-7">
+      ワンパンマン / 一拳超人 / One Punch Man / One-Punch Man: Tek Yumruk / Onepunch Man / Onepunch-Man
+    </div>
+
+
+
+
+
+    <div class="subject-actions col-sm-7">
+
+
+
+
+<span id="user_rate_11384" class="user-rating " itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+  <meta itemprop="bestRating" content="5.0">
+  <meta itemprop="ratingCount" content="12327">
+  <meta itemprop="ratingValue" content="4.9">
+
+  <span class='rating-block' data-half="true" data-readOnly="false" data-score="4.85"
+        data-id="11384" data-type="creation" data-subject-id="5530" data-rate-url="/internal/ajax/rate">
+  </span>
+
+
+
+    <span class='info-icon' data-toggle="popover" data-trigger="hover" title="Информация о рейтинге" data-content="
+    Рейтинг: <b>4,85/5</b><br/>
+
+      Относительно остальных произведений: <b>4,89/5</b><br/>
+
+    Всего голосов: <b>12327</b>
+">
+      <i class="fa fa-info-circle"></i>
+    </span>
+
+
+      <a href="/list/votes/creation/5530"><i class="fa fa-bar-chart"></i></a>
+
+    <script>
+      $(function () {
+        $('#user_rate_11384 [data-toggle="popover"]').popover({placement:'bottom', container: 'body', html: true});
+      })
+    </script>
+
+
+
+</span>
+
+
+
+<div class="manga-actions">
+  <a href="https://grouple.co/forum/posts/list/34219.page" title="Обсудить" data-toggle="tooltip" itemprop="discussionUrl"><i class="fa fa-lgg fa-comments-o text-success"></i></a>
+  <a href="/rss/manga?name=one_punch_man" title="RSS подписка" data-toggle="tooltip"><i class="fa fa-lgg fa-rss-square"></i> </a>
+
+
+<span class="bookmark-menu need-process favorite-button" data-id="5530" data-site-id="1" data-type="">
+  <span onclick="setMangaBookmark('PLANED', 5530, '')" class="js-link non-hover favorite-img" title="В закладки" >
+    <i class="fa fa-heart text-danger fa-lgg"></i>
+  </span>
+  <div class="menu my-tooltip">
+    <div style="width: 150px"></div>
+
+    <p class="loading">Загрузка...<i class="fa fa-spinner fa-pulse"></i></p>
+    <p class="loading text-additional">Если не работает, попробуйте выключить AdBlock</p>
+
+    <p class="status-placeholder hide"></p>
+
+      <p class="hide status-link PLANED">
+        <span onclick="setMangaBookmark('PLANED', 5530, '')" class="js-link">В закладки</span>
+      </p>
+
+      <p class="hide status-link COMPLETED">
+        <span onclick="setMangaBookmark('COMPLETED', 5530, '')" class="js-link">Прочитано</span>
+      </p>
+
+      <p class="hide status-link FAVORITE">
+        <span onclick="setMangaBookmark('FAVORITE', 5530, '')" class="js-link">Любимое</span>
+      </p>
+
+      <p class="hide status-link USER_DEFINED">
+        <span onclick="setMangaBookmark('USER_DEFINED', 5530, '')" class="js-link">Пользовательская</span>
+      </p>
+
+      <p class="hide status-link ON_HOLD">
+        <span onclick="setMangaBookmark('ON_HOLD', 5530, '')" class="js-link">Пока бросил</span>
+      </p>
+
+      <p class="hide status-link DROPPED">
+        <span onclick="setMangaBookmark('DROPPED', 5530, '')" class="js-link">Убрать</span>
+      </p>
+
+
+      <p class="hide status-link WATCHING">
+        <span onclick="setMangaBookmark('WATCHING', 5530, '')" class="js-link">В процессе</span>
+      </p>
+
+    <p class="hide not-logged-in">Вы должны быть зарегистрированы для использования закладок</p>
+    <div class="word-wrap bookmark-comment"></div>
+    <p class="edit-link hide"><a href="/internal/modal/editBookmark?type=&amp;id=5530" class="colorbox-modalbox">Редактировать</a></p>
+    <p><a href="https://grouple.co/private/">Перейти к закладкам</a></p>
+  </div>
+</span>
+
+
+</div>
+
+
+  <span class="read-first"><a href="/one_punch_man/vol0/9" title="">Начать читать мангу онлайн</a></span><br/>
+
+
+  <span class="read-last"><a href="/one_punch_man/vol17/131" title="">Читать 17 - 131 Потому что я монстр <sup><span class='chapterNew'>новое</span></sup></a></span><br/>
+
+    </div>
+
+    <div class="subject-meta col-sm-7">
+
+
+  <h4>Информация о манге</h4>
+
+
+
+
+<p>
+
+
+      <b>Томов:</b>
+      16
+
+        , выпуск продолжается
+
+
+
+</p>
+
+
+
+
+  <p><b>Перевод:</b>
+    продолжается
+  </p>
+
+
+
+  <p>
+    Просмотров: <span itemprop="interactionCount">46247312</span>
+  </p>
+
+
+
+
+
+
+  <p class="elementList"><span class="strong">Жанры:</span>
+
+    <span class="elem_genre "> <a href="/list/genre/action" class="element-link">боевик</a></span><span class="elem_genre ">, <a href="/list/genre/natural" class="element-link">повседневность</a></span><span class="elem_genre ">, <a href="/list/genre/martial_arts" class="element-link">боевые искусства</a></span><span class="elem_genre ">, <a href="/list/genre/heroic_fantasy" class="element-link">героическое фэнтези</a></span><span class="elem_genre ">, <a href="/list/genre/adventure" class="element-link">приключения</a></span><span class="elem_genre ">, <a href="/list/genre/comedy" class="element-link">комедия</a></span><span class="elem_genre hide">, <a href="/list/genre/seinen" class="element-link">сэйнэн</a></span><span class="elem_genre hide">, <a href="/list/genre/supernatural" class="element-link">сверхъестественное</a></span><span class="elem_genre hide">, <a href="/list/genre/shounen" class="element-link">сёнэн</a></span><span class="elem_genre hide">, <a href="/list/genre/fantastic" class="element-link">фантастика</a></span>
+
+      <span class="js-link" style="font-size: 18px; line-height: 4px;" onclick="$(this).hide(); $('.elem_genre').fadeIn()">&hellip;</span>
+
+  </p>
+
+
+  <p class="elementList"><span class="strong">Сценарист:</span>
+
+    <span class="elem_screenwriter "> <a href="/list/person/one" class="person-link">ONE</a><a class='screenshot' rel='http://static.readmanga.me/uploads/pics/00/70/790.jpg' data-title='ONE' data-h='450' data-w='325'></a></span>
+
+  </p>
+
+
+  <p class="elementList"><span class="strong">Художник:</span>
+
+    <span class="elem_illustrator "> <a href="/list/person/murata_yuusuke" class="person-link">Мурата Юсукэ</a><a class='screenshot' rel='http://static.readmanga.me/uploads/pics/00/35/406.jpg' data-title='Мурата Юсукэ' data-h='450' data-w='325'></a></span>
+
+  </p>
+
+
+  <p class="elementList"><span class="strong">Год выпуска:</span>
+
+    <span class="elem_year "> <a href="/list/year/2011" class="element-link">2011</a></span>
+
+  </p>
+
+
+  <p class="elementList"><span class="">Издательства:</span>
+
+    <span class="elem_publisher "> <a href="/list/publisher/shueisha" class="element-link">Shueisha</a></span><span class="elem_publisher ">, <a href="/list/publisher/azbooka" class="element-link">Азбука</a></span>
+
+  </p>
+
+
+  <p class="elementList"><span class="strong">Журнал:</span>
+
+    <span class="elem_magazine "> <a href="/list/magazine/tonari_no_young_jump" class="element-link">Tonari no Young Jump</a></span>
+
+  </p>
+
+
+  <p class="elementList"><span class="strong">Переводчики:</span>
+
+    <span class="elem_translator "> <a href="/list/person/uroboros" class="person-link">Уроборос</a></span><span class="elem_translator ">, <a href="/list/person/one_piece_ru" class="person-link">One-Piece.Ru</a></span><span class="elem_translator ">, <a href="/list/person/fastmemoryman" class="person-link">FastMemoryMan</a></span><span class="elem_translator ">, <a href="/list/person/a_y_mu__team_19_15_2015" class="person-link">AYM</a><a class='screenshot' rel='http://static.readmanga.me/uploads/pics/00/59/610.jpg' data-title='AYM' data-h='450' data-w='325'></a></span>
+
+  </p>
+
+    </div>
+
+
+
+  </div>
+
+
+
+
+    <h3>Описание</h3>
+
+
+  <div class="manga-description" itemprop="description">
+    Хорошо известная поговорка гласит: &quot;Всегда найдётся кто-то сильнее&quot;. Но что если достигнуть таких высот, что даже равных по силе не видать? Обычный парень по имени Сайтама, после того как его уволили, а затем и не приняли на другую работу, решает стать на путь героя. Пройдя через изнурительные тренировки и жестокие битвы, наш герой в совершенстве овладевает своим телом и познаёт что такое настоящая сила. Ну и попутно лысеет. А что поделать, за силу нужно платить. Вроде всё должно быть замечательно, ведь теперь ему ничего не страшно и он сможет справиться с любыми напастями, обрушивающимися на человечество. Но не тут-то было! Как быть, если все монстры и злодеи не могут выдержать даже одного удара героя? Как дальше заниматься любимым делом, если оно стало рутиной? Как вновь ощутить азарт схватки? Сможет ли хоть что-то развеять эту скуку? Сайтама не знает ответы на эти вопросы, но он постарается их найти.<br />
+    <div class="clearfix"></div>
+  </div>
+
+
+
+
+<div class="clearfix"> </div>
+
+
+
+
+  <div>
+
+
+  <a href="/internal/edit/edit/5530" data-toggle="tooltip" title="Редактировать описание">
+    <i class="fa fa-2x fa-fw text-info fa-pencil-square-o"></i>
+  </a>
+
+  <a href="/internal/edit/edit/5530" data-toggle="tooltip" title="Добавить обложку">
+    <i class="fa fa-2x fa-fw text-info fa-picture-o"></i>
+  </a>
+
+  <a href="/internal/upload/index/5530" data-toggle="tooltip" title="Добавить новые главы">
+    <i class="fa fa-2x fa-fw text-info fa-cloud-upload"></i>
+  </a>
+
+    <a href="/internal/upload/replace/5530" data-toggle="tooltip" title="Заменить главы">
+      <i class="fa fa-2x fa-fw text-info fa-refresh"></i>
+    </a>
+
+  &nbsp;
+
+  <a href="/internal/review/create/5530" data-toggle="tooltip" title="Добавить рецензию">
+    <i class="fa fa-2x fa-fw text-success fa-file-text-o"></i>
+  </a>
+
+  <a href="/internal/quote/create?id=5530" class="colorbox-modalbox" data-toggle="tooltip" title="Добавить цитату One Punch-Man">
+    <i class="fa fa-2x fa-fw text-success fa-quote-right"></i>
+  </a>
+
+  <a href="/internal/like/add/5530" class="colorbox-modalbox" data-toggle="tooltip" title="One Punch-Man похоже на ...">
+    <i class="fa fa-2x fa-fw text-success fa-files-o"></i>
+  </a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="posts-container">
+    <h4>
+
+        <a href="/one_punch_man/quotes">
+          Новые цитаты из манги <strong>Ванпанчмен</strong>
+        </a>
+        (Всего: 27)
+
+    </h4>
+
+    <blockquote class="manga-quote" itemprop="quotes" itemscope itemtype="http://schema.org/Quotation">
+  <meta itemprop="dateCreated" content="2018-04-16"/>
+  <p>Не думаю... Что смогу стать сильнее, чем сейчас.</p>
+
+  <div class="row">
+    <div class="col-sm-4">
+
+        <footer>Сайтама</footer>
+
+    </div>
+    <div class="col-sm-8 text-right">
+      <a href="/internal/quote/editQuote?id=3504" class="colorbox-modalbox show-for-moderator">редактировать</a>
+
+
+<span id="user_rate_58599" class="user-rating small-size" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+  <meta itemprop="bestRating" content="5.0">
+  <meta itemprop="ratingCount" content="0">
+  <meta itemprop="ratingValue" content="0">
+
+  <span class='rating-block' data-half="true" data-readOnly="false" data-score="0"
+        data-id="58599" data-type="" data-subject-id="" data-rate-url="/internal/ajax/rate">
+  </span>
+
+
+
+
+
+</span>
+
+
+      &nbsp;
+      <a href="https://grouple.co/user/948001">Xaldar Voice Roar</a>
+    </div>
+  </div>
+</blockquote>
+
+    <blockquote class="manga-quote" itemprop="quotes" itemscope itemtype="http://schema.org/Quotation">
+  <meta itemprop="dateCreated" content="2018-02-22"/>
+  <p>Быть человеком, значит быть вечным странником.</p>
+
+  <div class="row">
+    <div class="col-sm-4">
+
+        <footer>Кинг</footer>
+
+    </div>
+    <div class="col-sm-8 text-right">
+      <a href="/internal/quote/editQuote?id=3031" class="colorbox-modalbox show-for-moderator">редактировать</a>
+
+
+<span id="user_rate_56005" class="user-rating small-size" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+  <meta itemprop="bestRating" content="5.0">
+  <meta itemprop="ratingCount" content="10">
+  <meta itemprop="ratingValue" content="4.8">
+
+  <span class='rating-block' data-half="true" data-readOnly="false" data-score="4.85"
+        data-id="56005" data-type="" data-subject-id="" data-rate-url="/internal/ajax/rate">
+  </span>
+
+
+
+
+
+</span>
+
+
+      &nbsp;
+      <a href="https://grouple.co/user/948001">Xaldar Voice Roar</a>
+    </div>
+  </div>
+</blockquote>
+
+    <blockquote class="manga-quote" itemprop="quotes" itemscope itemtype="http://schema.org/Quotation">
+  <meta itemprop="dateCreated" content="2018-02-06"/>
+  <p>Я не позволю вам тратить драгоценное время учителя, которое он использует, чтобы бездельничать!</p>
+
+  <div class="row">
+    <div class="col-sm-4">
+
+        <footer>Генос</footer>
+
+    </div>
+    <div class="col-sm-8 text-right">
+      <a href="/internal/quote/editQuote?id=2857" class="colorbox-modalbox show-for-moderator">редактировать</a>
+
+
+<span id="user_rate_55333" class="user-rating small-size" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+  <meta itemprop="bestRating" content="5.0">
+  <meta itemprop="ratingCount" content="32">
+  <meta itemprop="ratingValue" content="4.9">
+
+  <span class='rating-block' data-half="true" data-readOnly="false" data-score="4.89"
+        data-id="55333" data-type="" data-subject-id="" data-rate-url="/internal/ajax/rate">
+  </span>
+
+
+
+
+
+</span>
+
+
+      &nbsp;
+      <a href="https://grouple.co/user/1411648">Dare_mo</a>
+    </div>
+  </div>
+</blockquote>
+
+
+  </div>
+
+
+
+  <div class="posts-container">
+    <h4>
+      <a href="/one_punch_man/reviews">Новые рецензии на мангу <strong>Ванпанчмен</strong></a>
+      (Всего: 23)
+    </h4>
+
+      <div class="media" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+        <meta itemprop="dateCreated" content="2017-03-02"/>
+        <meta itemprop="url" content="http://readmanga.me/one_punch_man/review/13144"/>
+        <div class="media-left" itemprop='author' itemscope itemtype='http://schema.org/Person'>
+          <img class="lazy small-avatar media-object" data-original="https://res.grouple.co/uploads/pics/07/58/738_p.jpg" alt="Артур Шигапов" title="Артур Шигапов" itemprop="image"/>
+          <a href="https://grouple.co/user/767989" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>Артур Шигапов</span></a>
+        </div>
+        <div class="media-body review-short-main">
+          <div class="description" itemprop="reviewBody">
+   Никогда раньше не увлекался ни мангой, ни аниме. Считал, что это ванильное дерьмо для тупых школьников. Потом, сидя вечером у компьютера, друг показал мне аниме про &quot;чувака, который всех одним ударом выносит&quot;. После этого моя жизнь кардинально поменялась, я начал смотреть аниме. Но пересмотра аниме тысячу раз оказалось для меня недостаточно, а душа желала продолжения, я перешел через границу своих моральных принципов, начал читать мангу. Манга повествует&hellip;<br/>
+  <a href="/one_punch_man/review/13144">Читать полностью</a>
+</div>
+        </div>
+      </div>
+
+      <div class="media" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+        <meta itemprop="dateCreated" content="2017-02-02"/>
+        <meta itemprop="url" content="http://readmanga.me/one_punch_man/review/12822"/>
+        <div class="media-left" itemprop='author' itemscope itemtype='http://schema.org/Person'>
+          <img class="lazy small-avatar media-object" data-original="https://res.grouple.co/uploads/pics/08/99/528_p.jpg" alt="XiaoMao" title="XiaoMao" itemprop="image"/>
+          <a href="https://grouple.co/user/787548" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>XiaoMao</span></a>
+        </div>
+        <div class="media-body review-short-main">
+          <div class="description" itemprop="reviewBody">
+  Как человек, увлекающийся не только японской мангой, но и западными комиксами, я не смогла пройти мимо такого нашумевшего феномена как &quot;Onepuchman&quot;. Его слава пронеслась ураганом по всем фандомам, зачастую крайне далеким от манги и аниме. Этому произведению удалось завоевать сердца даже самых лютых ненавистников современной японской культуры. Его основная концепция до безобразия проста: живет в миру человек, обладающий нечеловеческими способностями&hellip;<br/>
+  <a href="/one_punch_man/review/12822">Читать полностью</a>
+</div>
+        </div>
+      </div>
+
+      <div class="media" itemprop="reviews" itemscope itemtype="http://schema.org/Review">
+        <meta itemprop="dateCreated" content="2017-01-15"/>
+        <meta itemprop="url" content="http://readmanga.me/one_punch_man/review/12613"/>
+        <div class="media-left" itemprop='author' itemscope itemtype='http://schema.org/Person'>
+          <img class="lazy small-avatar media-object" data-original="https://res.grouple.co/uploads/pics/09/27/542_p.jpg" alt="Вьюрим" title="Вьюрим" itemprop="image"/>
+          <a href="https://grouple.co/user/391807" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>Вьюрим</span></a>
+        </div>
+        <div class="media-body review-short-main">
+          <div class="description" itemprop="reviewBody">
+  &quot;Ванпанчмен&quot; - действительно очень занимательная манга, которая не несет много смысловой нагрузки. Манга повествует нам о человеке, который, обретя силу, потерял то, что действительно важно для любого живого существа - заинтересованность в чем-либо. Жизнь начала казаться ему скучной, и он ищет то, что вернет жизни прежние краски. Для него это - противник, сравнимый с ним по силе. Главного героя не интересуют звания или события, происходящие в мире.&hellip;<br/>
+  <a href="/one_punch_man/review/12613">Читать полностью</a>
+</div>
+        </div>
+      </div>
+
+  </div>
+
+  <br/>
+
+
+  <div class="posts-container expandable post-container_ forum-topic" data-height="600">
+    <h4>
+      Комментарии
+
+      <a href="https://grouple.co/forum/posts/reply/0/34219.page">Ответить</a>
+      <a href="https://grouple.co/forum/posts/list/34219.page" class="text-additional" itemprop="discussionUrl">Читать обсуждение дальше...</a>
+    </h4>
+
+      <div class="media" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
+        <div class="media-left" itemprop='author' itemscope itemtype='http://schema.org/Person'>
+          <img class="small-avatar" src="https://res.grouple.co/uploads/pics/avatar/1a/4fd0f5f3982054fbac07cd4a8ba2b9_p.jpg" alt="Света_tyan" title="Света_tyan"/><br/>
+          <a href="https://grouple.co/user/91771" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>Света_tyan</span><meta itemprop='url' content='https://grouple.co/user/91771'/><meta itemprop='image' content='https://res.grouple.co/uploads/pics/avatar/1a/4fd0f5f3982054fbac07cd4a8ba2b9_p.jpg'/></a><br>
+
+        </div>
+        <div class="media-body" itemprop="description">
+          <table><tr><td>
+          Пришло время&nbsp; и в этой манге оставить свой след) Что ж. Данная манга повествует нам о герое-любителе Сайтаме. Почему любителе? Да потому что в данном мире, чтобы творить добро, как герой, ты должен зарегистрироваться и пройти тесты в Ассоциации героев, где тебе выдадут геройское имя и ранг, соответствующий твоим способностям. И если честно, даже если ты до этого уже успел несколько раз спасти планету... всем на это абсолютно наплевать. Ты просто должен продолжать делать свою работу и отчитываться перед Ассоциацией. И естественно наш Сайтама не знал, что не так уж просто &quot;стать&quot; настоящим героем, ведь было это для него всего лишь хобби, ради которого он настолько упорно тренировался, что даже потерял свои волосы. В любом случае... в виду некоторых событий население неверно истолковало не только его мотивы, но и вообще не поверило в то, что какой-то выскочка может выносить с одного удара тех, кого даже несколько героев высшего ранга не могло вынести. И такие образом, за нашим героем зацепилась слава того, кто подлизывает все лавры за теми, кто не смог выстоять в бою. Но тем не менее, он все равно продолжает совершать геройские поступки, ведь делает это не ради славы, денег, почета или еще чего-то другого... а всего лишь потому что быть героем - это его хобби.. Но насколько одиноко может чувствовать себя такой герой, который не чувствует радости от сражения, не может найти себе соперника под стать или проще говоря, оказался в тупике, загнанный самим собой... Как бы то ни было.. манга стоящая, давать какие-то оценки я не буду. Рисовка хороша, персонажи разнообразны, мотивы довольно ясны. Что-то еще? Ну ради этого уже стоит идти в саму мангу) Приятного всем чтения)
+          </td></tr></table>
+        </div>
+      </div>
+
+      <div class="media" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
+        <div class="media-left" itemprop='author' itemscope itemtype='http://schema.org/Person'>
+          <img class="small-avatar" src="//res.grouple.co/static/no_avatar_small.png" alt="Rosserin" title="Rosserin"/><br/>
+          <a href="https://grouple.co/user/918585" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>Rosserin</span><meta itemprop='url' content='https://grouple.co/user/918585'/><meta itemprop='image' content='//res.grouple.co/static/no_avatar_small.png'/></a><br>
+
+        </div>
+        <div class="media-body" itemprop="description">
+          <table><tr><td>
+          Я так понимаю, есть те, кто не понял всю суть Гароу... Наверное, это и называется &quot;глубинным смыслом&quot;. В общем, в глазах мальчишки Гароу &quot;все&quot; герои - это эгоисты (например, как &quot;все&quot; политики воры). Гароу не понимал, почему героев считают крутыми, а монстров нет. А ведь большинство монстров - это патриоты своего дела: они каждый день думают о своей цели, каждый миг ищут способ стать сильнее... А герои что? А у них и так всё есть (от природы и общества). Монстры восходят из самых низов на вершину своими же силами. А герои зачастую жульничают в битвах, ведь им сопутствует удача, им достаточно один раз напрячься, чтобы потом годами жить беззаботной жизнь, тем временем как монстр должен &quot;страдать&quot; всю свою жизнь (страдать своими планами). Монстры - это непризнанные гении, а герои всего лишь авторитеты, актёры, играющие на публику для удовлетворения своих эгоистичных желаний, они хотят признания, славы, богатства и фанатов. А монстра это всё не нужно, монстры устремляются в будущее. Короче будет так, герои - это нечестные актёры-мерзавцы, а монстры - настоящие самураи (т. е. воины).<br />В данной ситуации монстр Гароу - это не злодей, а наоборот, Гароу - герой, который защищает нечестно непризнанных и обиженных. В главах очень чётко это показывается.
+          </td></tr></table>
+        </div>
+      </div>
+
+      <div class="media" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
+        <div class="media-left" itemprop='author' itemscope itemtype='http://schema.org/Person'>
+          <img class="small-avatar" src="//res.grouple.co/static/no_avatar_small.png" alt="Kor9lGaremaGod" title="Kor9lGaremaGod"/><br/>
+          <a href="https://grouple.co/user/691497" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>Kor9lGaremaGod</span><meta itemprop='url' content='https://grouple.co/user/691497'/><meta itemprop='image' content='//res.grouple.co/static/no_avatar_small.png'/></a><br>
+
+        </div>
+        <div class="media-body" itemprop="description">
+          <table><tr><td>
+          Мангу прикрыли (на сайте) - расходимся народ<img src="https://res.grouple.co/forum/images/smilies/915344bf9a44319064482ef0ef54f213.gif" />
+          </td></tr></table>
+        </div>
+      </div>
+
+      <div class="media" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
+        <div class="media-left" itemprop='author' itemscope itemtype='http://schema.org/Person'>
+          <img class="small-avatar" src="https://res.grouple.co/uploads/pics/06/92/078_p.jpg" alt="Red Crow или Рыжий Ворон" title="Red Crow или Рыжий Ворон"/><br/>
+          <a href="https://grouple.co/user/515174" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>Red Crow или Рыжий Ворон</span><meta itemprop='url' content='https://grouple.co/user/515174'/><meta itemprop='image' content='https://res.grouple.co/uploads/pics/06/92/078_p.jpg'/></a><br>
+
+        </div>
+        <div class="media-body" itemprop="description">
+          <table><tr><td>
+          Ребята, если вы хотите продолжить читать ванпанчмена в нашем переводе, то мы ещё выкладываем его на нашем сайте. О подробностях вы можете узнать, зайдя в нашу группу. (Кликните на персону переводчиков, а там прямо в описании команды есть ссылка на нашу группу в вк)<br />С вами был Red &quot;Репрессики&quot; Crow.
+          </td></tr></table>
+        </div>
+      </div>
+
+      <div class="media" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
+        <div class="media-left" itemprop='author' itemscope itemtype='http://schema.org/Person'>
+          <img class="small-avatar" src="https://res.grouple.co/uploads/pics/06/69/266_p.jpg" alt="Бронот" title="Бронот"/><br/>
+          <a href="https://grouple.co/user/441473" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>Бронот</span><meta itemprop='url' content='https://grouple.co/user/441473'/><meta itemprop='image' content='https://res.grouple.co/uploads/pics/06/69/266_p.jpg'/></a><br>
+
+        </div>
+        <div class="media-body" itemprop="description">
+          <table><tr><td>
+          Что-то манга совсем в :бип: скатывается. Муратоверсия всегда была посредственной, но сейчас как-то совсем всё плохо.
+          </td></tr></table>
+        </div>
+      </div>
+
+      <div class="media" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
+        <div class="media-left" itemprop='author' itemscope itemtype='http://schema.org/Person'>
+          <img class="small-avatar" src="https://res.grouple.co/uploads/pics/06/90/223_p.jpg" alt="Leo Один" title="Leo Один"/><br/>
+          <a href="https://grouple.co/user/814458" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>Leo Один</span><meta itemprop='url' content='https://grouple.co/user/814458'/><meta itemprop='image' content='https://res.grouple.co/uploads/pics/06/90/223_p.jpg'/></a><br>
+
+        </div>
+        <div class="media-body" itemprop="description">
+          <table><tr><td>
+          Хмм, Манга намного лучше веб-комикса.&nbsp;<br />Начнем с того, что в вебке было полно сюжетных дыр, и не состыковок в характеров персонажей.&nbsp;<br />В манге же такие ошибки исправили, единственный ее минус это что, ее слишком затягивают.&nbsp;
+          </td></tr></table>
+        </div>
+      </div>
+
+    <p>
+      <a href="https://grouple.co/forum/posts/reply/0/34219.page">Ответить</a>
+      <a href="https://grouple.co/forum/posts/list/34219.page" class="readMore" itemprop="discussionUrl">Читать обсуждение дальше...</a>
+    </p>
+    <script type="text/javascript">
+
+      $(".posts-container img").each(function(){
+        var e = $(this);
+        if (e.attr('src') && e.attr('src').indexOf('/images/smilies')>=0){
+          e.attr('width','25')
+        }
+      });
+
+
+
+</script>
+
+  </div>
+
+
+
+  <div class="manga_ba middle_ba">
+  <noindex>
+    <center><a href="http://librebook.me/collection/zimnie_knigi" class="nonHover" target="_blank"><img src="http://static.librebook.me/uploads/pics/02/17/808_o.png" style="margin-bottom:5px"></a></center>
+  </noindex>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="expandable chapters-link" data-height="800">
+    <table class="table table-hover">
+      <thead>
+      <tr>
+        <th width="550" colspan="2">
+          <h2>
+
+              Читать главы One Punch-Man онлайн
+
+          </h2>
+        </th>
+        <th width="80" class="hidden-xxs"></th>
+      </tr>
+      </thead>
+
+
+
+
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol17/131" title="">
+
+            Ванпанчмен
+
+          17 - 131 Потому что я монстр
+         <sup><span class='chapterNew'>новое</span></sup></a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        14/04/18
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol17/130" title="">
+
+            Ванпанчмен
+
+          17 - 130 Набе
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        02/04/18
+
+    </td>
+  </tr>
+
+
+
+
+
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol16/129" title="">
+
+            Ванпанчмен
+
+          16 - 129 Лимитер
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        01/04/18
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol16/128" title="">
+
+            Ванпанчмен
+
+          16 - 128 Природа монстров
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        11/02/18
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol16/127" title="">
+
+            Ванпанчмен
+
+          16 - 127 Убежище
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        23/01/18
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol16/126" title="">
+
+            Ванпанчмен
+
+          16 - 126 Это всё потому, что я лысый плащ?
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        30/12/17
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol16/125" title="">
+
+            Ванпанчмен
+
+          16 - 125 Кульминация битвы
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        12/12/17
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol16/124" title="">
+
+            Ванпанчмен
+
+          16 - 124 Тяжёлая дорога в гору
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        04/11/17
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol16/123" title="">
+
+            Ванпанчмен
+
+          16 - 123 Обессиленный
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        17/10/17
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol16/122" title="">
+
+            Ванпанчмен
+
+          16 - 122 Упорство
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        17/10/17
+
+    </td>
+  </tr>
+
+
+
+
+
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol15/121" title="">
+
+            Ванпанчмен
+
+          15 - 121 Окружен
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        11/09/17
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol15/120" title="">
+
+            Ванпанчмен
+
+          15 - 120 Что такое дешёвый трюк
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        11/09/17
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol15/119" title="">
+
+            Ванпанчмен
+
+          15 - 119 Воины тени
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        02/08/17
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol15/118" title="">
+
+            Ванпанчмен
+
+          15 - 118 Скучно как обычно
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        01/07/17
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol15/117" title="">
+
+            Ванпанчмен
+
+          15 - 117 Стагнация и Рост
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        09/06/17
+
+    </td>
+  </tr>
+
+
+
+
+
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol14/116" title="">
+
+            Ванпанчмен
+
+          14 - 116 Грязная Игра
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        28/05/17
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol14/115" title="">
+
+            Ванпанчмен
+
+          14 - 115 Глубина Отчаяния (часть 2)
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        13/05/17
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol14/114" title="">
+
+            Ванпанчмен
+
+          14 - 114 Глубина Отчаяния
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        22/04/17
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol14/113" title="">
+
+            Ванпанчмен
+
+          14 - 113 Сопротивление сильнейших (часть 2)
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        22/04/17
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol14/112" title="">
+
+            Ванпанчмен
+
+          14 - 112 Сопротивление сильнейших
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        13/04/17
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol14/111" title="">
+
+            Ванпанчмен
+
+          14 - 111 Монстрофикация (часть 2)
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        16/03/17
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol14/110" title="">
+
+            Ванпанчмен
+
+          14 - 110 Монстрофикация + Экстра
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        10/02/17
+
+    </td>
+  </tr>
+
+
+
+
+
+
+  <tr>
+
+    <td class="extra-chapter " colspan="2">
+
+
+        <a href="/one_punch_man/vol13/110" title="">
+
+            Ванпанчмен
+
+          13 Экстра Звезда
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        24/04/17
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol13/109" title="">
+
+            Ванпанчмен
+
+          13 - 109 Настоящее боевое искусство!
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        04/02/17
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol13/108" title="">
+
+            Ванпанчмен
+
+          13 - 108 Быть cильным - это весело! (Часть 2)
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        22/01/17
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol13/107" title="">
+
+            Ванпанчмен
+
+          13 - 107 Быть cильным - это весело!
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        11/02/17
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol13/106" title="">
+
+            Ванпанчмен
+
+          13 - 106 Клетки Монстров
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        12/12/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol13/105" title="">
+
+            Ванпанчмен
+
+          13 - 105 Боевая мощь (Часть 2)
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        27/11/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol13/104" title="">
+
+            Ванпанчмен
+
+          13 - 104 Боевая мощь
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        18/11/16
+
+    </td>
+  </tr>
+
+
+
+
+
+
+  <tr>
+
+    <td class="extra-chapter " colspan="2">
+
+
+        <a href="/one_punch_man/vol12/104" title="">
+
+            Ванпанчмен
+
+          12 Экстра Выходные Кинга, как будни
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        08/02/17
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol12/103" title="">
+
+            Ванпанчмен
+
+          12 - 103 Вне всех стандартов
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        14/10/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol12/102" title="">
+
+            Ванпанчмен
+
+          12 - 102 Сильнейшие
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        24/09/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol12/101" title="">
+
+            Ванпанчмен
+
+          12 - 101 Сёстры (2)
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        08/09/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol12/100" title="">
+
+            Ванпанчмен
+
+          12 - 100 Сёстры
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        06/08/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol12/99" title="">
+
+            Ванпанчмен
+
+          12 - 99 Предел. Часть 2
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        01/08/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol12/98" title="">
+
+            Ванпанчмен
+
+          12 - 98 Предел
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        13/07/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol12/97" title="">
+
+            Ванпанчмен
+
+          12 - 97 Турнир и битва (часть 2)
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        27/06/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol12/96" title="">
+
+            Ванпанчмен
+
+          12 - 96 Турнир и битва (часть 1)
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        27/06/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol12/95" title="">
+
+            Ванпанчмен
+
+          12 - 95 Причина, которую я ищу. Часть 2
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        25/06/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol12/94" title="">
+
+            Ванпанчмен
+
+          12 - 94 Причина, которую я ищу. Часть 1
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        19/05/16
+
+    </td>
+  </tr>
+
+
+
+
+
+
+  <tr>
+
+    <td class="extra-chapter " colspan="2">
+
+
+        <a href="/one_punch_man/vol11/95" title="">
+
+            Ванпанчмен
+
+          11 Экстра Концерт + Омаке &quot;Оружие&quot;
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        09/07/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class="extra-chapter " colspan="2">
+
+
+        <a href="/one_punch_man/vol11/94" title="">
+
+            Ванпанчмен
+
+          11 Экстра Эскадрилья
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        01/08/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol11/93" title="">
+
+            Ванпанчмен
+
+          11 - 93 Темная лошадка. Часть 3
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        02/04/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol11/92" title="">
+
+            Ванпанчмен
+
+          11 - 92 Темная лошадка. Часть 2
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        22/03/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol11/91" title="">
+
+            Ванпанчмен
+
+          11 - 91 Темная лошадка
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        07/03/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol11/90" title="">
+
+            Ванпанчмен
+
+          11 - 90 Вступление
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        13/02/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol11/88" title="">
+
+            Ванпанчмен
+
+          11 - 88 Только ты
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        30/01/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol11/87" title="">
+
+            Ванпанчмен
+
+          11 - 87 Подбирающаяся тьма. Часть 4
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        01/01/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol11/86" title="">
+
+            Ванпанчмен
+
+          11 - 86 Подбирающаяся тьма. Часть 3
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        01/01/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol11/85" title="">
+
+            Ванпанчмен
+
+          11 - 85 Подбирающаяся тьма. Часть 2
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        01/01/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol11/84" title="">
+
+            Ванпанчмен
+
+          11 - 84 Подбирающаяся тьма
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        01/01/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol11/83" title="">
+
+            Ванпанчмен
+
+          11 - 83 Встрял по уши
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        22/11/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol11/82" title="">
+
+            Ванпанчмен
+
+          11 - 82 Встрял
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        11/11/15
+
+    </td>
+  </tr>
+
+
+
+
+
+
+  <tr>
+
+    <td class="extra-chapter " colspan="2">
+
+
+        <a href="/one_punch_man/vol10/85" title="">
+
+            Ванпанчмен
+
+          10 Экстра Рождество
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        27/08/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class="extra-chapter " colspan="2">
+
+
+        <a href="/one_punch_man/vol10/84" title="">
+
+            Ванпанчмен
+
+          10 Экстра Числа
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        09/07/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class="extra-chapter " colspan="2">
+
+
+        <a href="/one_punch_man/vol10/83" title="">
+
+            Ванпанчмен
+
+          10 Экстра Поймать и отпустить
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        01/08/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class="extra-chapter " colspan="2">
+
+
+        <a href="/one_punch_man/vol10/82" title="">
+
+            Ванпанчмен
+
+          10 Экстра Выходной Тацумаки
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        28/04/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol10/81" title="">
+
+            Ванпанчмен
+
+          10 - 81 Бойцовский дух. Часть 2
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        11/11/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol10/80" title="">
+
+            Ванпанчмен
+
+          10 - 80 Бойцовский дух
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        04/10/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol10/79" title="">
+
+            Ванпанчмен
+
+          10 - 79 Многоножка
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        12/09/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol10/78" title="">
+
+            Ванпанчмен
+
+          10 - 78 В комнате ожидания (версия 2)
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        01/09/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol10/77" title="">
+
+            Ванпанчмен
+
+          10 - 77 В комнате ожидания
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        08/08/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol10/76" title="">
+
+            Ванпанчмен
+
+          10 - 76 Не ложи обратно! Часть 2
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        08/08/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol10/75" title="">
+
+            Ванпанчмен
+
+          10 - 75 Не ложи обратно!
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        10/08/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol10/74" title="">
+
+            Ванпанчмен
+
+          10 - 74 Прикрытие. Часть 3
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        07/07/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol10/73" title="">
+
+            Ванпанчмен
+
+          10 - 73 Прикрытие. Часть 2
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        04/07/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol10/72" title="">
+
+            Ванпанчмен
+
+          10 - 72 Прикрытие
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        04/07/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol10/71" title="">
+
+            Ванпанчмен
+
+          10 - 71 Все равно мне скучно
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        10/06/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol10/70" title="">
+
+            Ванпанчмен
+
+          10 - 70 Банан
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        10/06/15
+
+    </td>
+  </tr>
+
+
+
+
+
+
+  <tr>
+
+    <td class="extra-chapter " colspan="2">
+
+
+        <a href="/one_punch_man/vol9/71" title="">
+
+            Ванпанчмен
+
+          9 Экстра Вкус
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        03/02/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class="extra-chapter " colspan="2">
+
+
+        <a href="/one_punch_man/vol9/70" title="">
+
+            Ванпанчмен
+
+          9 Экстра Проблемы группировки Метель
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        03/02/16
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol9/69" title="">
+
+            Ванпанчмен
+
+          9 - 69 Техника. Часть 2
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        27/05/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol9/68" title="">
+
+            Ванпанчмен
+
+          9 - 68 Техника
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        27/05/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol9/67" title="">
+
+            Ванпанчмен
+
+          9 - 67 Охота на героев
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        14/05/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol9/66" title="">
+
+            Ванпанчмен
+
+          9 - 66 Геройское имя. Часть 3
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        19/04/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol9/65" title="">
+
+            Ванпанчмен
+
+          9 - 65 Геройское имя. Часть 2
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        09/04/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol9/64" title="">
+
+            Ванпанчмен
+
+          9 - 64 Геройское имя
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        09/04/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol9/63" title="">
+
+            Ванпанчмен
+
+          9 - 63 Ускорение. Часть 3
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        01/04/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol9/62" title="">
+
+            Ванпанчмен
+
+          9 - 62 Ускорение. Часть 2
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        24/02/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol9/61" title="">
+
+            Ванпанчмен
+
+          9 - 61 Ускорение
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        11/02/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol9/60" title="">
+
+            Ванпанчмен
+
+          9 - 60 Не смотри свысока!
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        26/01/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol9/59" title="">
+
+            Ванпанчмен
+
+          9 - 59 Группировка Метель
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        08/01/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol9/58" title="">
+
+            Ванпанчмен
+
+          9 - 58 Человек, желающий стать монстром. Часть 2
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        24/12/14
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol9/57" title="">
+
+            Ванпанчмен
+
+          9 - 57 Человек, желающий стать монстром
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        09/12/14
+
+    </td>
+  </tr>
+
+
+
+
+
+
+  <tr>
+
+    <td class="extra-chapter " colspan="2">
+
+
+        <a href="/one_punch_man/vol8/58" title="">
+
+            Ванпанчмен
+
+          8 Экстра Битва за набе
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        01/04/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class="extra-chapter " colspan="2">
+
+
+        <a href="/one_punch_man/vol8/57" title="">
+
+            Ванпанчмен
+
+          8 Экстра Пропавшая кошка
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        22/11/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol8/56" title="">
+
+            Ванпанчмен
+
+          8 - 56 Вне закона. Часть 2
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        25/11/14
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol8/55" title="">
+
+            Ванпанчмен
+
+          8 - 55 Вне закона
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        29/10/14
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol8/54" title="">
+
+            Ванпанчмен
+
+          8 - 54 Тот самый человек
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        30/10/14
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol8/53" title="">
+
+            Ванпанчмен
+
+          8 - 53 Кинг. Часть 5
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        13/10/14
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol8/52" title="">
+
+            Ванпанчмен
+
+          8 - 52 Кинг. Часть 4
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        14/10/14
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol8/51" title="">
+
+            Ванпанчмен
+
+          8 - 51 Кинг. Часть 3
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        19/09/14
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol8/50" title="">
+
+            Ванпанчмен
+
+          8 - 50 Кинг. Часть 2
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        06/09/14
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol8/49" title="">
+
+            Ванпанчмен
+
+          8 - 49 Кинг
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        19/08/14
+
+    </td>
+  </tr>
+
+
+
+
+
+
+  <tr>
+
+    <td class="extra-chapter " colspan="2">
+
+
+        <a href="/one_punch_man/vol7/50" title="">
+
+            Ванпанчмен
+
+          7 Экстра Чрезвычайная ситуация в полицейском участке
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        20/11/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class="extra-chapter " colspan="2">
+
+
+        <a href="/one_punch_man/vol7/49" title="">
+
+            Ванпанчмен
+
+          7 Экстра Омаке + Большая стройка
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        13/05/15
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol7/48" title="">
+
+            Ванпанчмен
+
+          7 - 48 Крушение
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        19/08/14
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol7/47" title="">
+
+            Ванпанчмен
+
+          7 - 47 Сила Бороса. Часть 2
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        19/07/14
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol7/46" title="">
+
+            Ванпанчмен
+
+          7 - 46 Сила Бороса
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        06/06/14
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol7/45" title="">
+
+            Ванпанчмен
+
+          7 - 45 Ты совсем идиот? Часть 3
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        19/09/14
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol7/44" title="">
+
+            Ванпанчмен
+
+          7 - 44 Ты совсем идиот? Часть 2
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        17/03/14
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol7/43" title="">
+
+            Ванпанчмен
+
+          7 - 43 Ты совсем идиот?
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        02/03/14
+
+    </td>
+  </tr>
+
+
+
+
+
+
+  <tr>
+
+    <td class="extra-chapter " colspan="2">
+
+
+        <a href="/one_punch_man/vol6/43" title="">
+
+            Ванпанчмен
+
+          6 Экстра Сёмга
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        01/12/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol6/42" title="">
+
+            Ванпанчмен
+
+          6 - 42 Непослушные
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        16/02/14
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol6/41" title="">
+
+            Ванпанчмен
+
+          6 - 41 Контрнаступление
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        17/02/14
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol6/40" title="">
+
+            Ванпанчмен
+
+          6 - 40 Из космоса... Часть 2
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        22/12/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol6/39" title="">
+
+            Ванпанчмен
+
+          6 - 39 Из космоса...
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        08/12/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol6/38" title="">
+
+            Ванпанчмен
+
+          6 - 38 Великое пророчество
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        30/11/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol6/37" title="">
+
+            Ванпанчмен
+
+          6 - 37 S-Класс
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        03/10/13
+
+    </td>
+  </tr>
+
+
+
+
+
+
+  <tr>
+
+    <td class="extra-chapter " colspan="2">
+
+
+        <a href="/one_punch_man/vol5/37" title="">
+
+            Ванпанчмен
+
+          5 Экстра Вещи, которые нельзя купить
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        11/11/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol5/36" title="">
+
+            Ванпанчмен
+
+          5 - 36 B-класс
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        20/09/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol5/35" title="">
+
+            Ванпанчмен
+
+          5 - 35 Потому что дождь
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        31/08/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol5/34" title="">
+
+            Ванпанчмен
+
+          5 - 34 Избит, но признан
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        20/07/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol5/33" title="">
+
+            Ванпанчмен
+
+          5 - 33 Искра надежды. Часть 2
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        08/07/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol5/32" title="">
+
+            Ванпанчмен
+
+          5 - 32 Искра надежды. Часть 1
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        15/06/13
+
+    </td>
+  </tr>
+
+
+
+
+
+
+  <tr>
+
+    <td class="extra-chapter " colspan="2">
+
+
+        <a href="/one_punch_man/vol4/32" title="">
+
+            Ванпанчмен
+
+          4 Экстра Тюрьма
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        17/08/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol4/31" title="">
+
+            Ванпанчмен
+
+          4 - 31 Морской царь. Часть 2
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        06/06/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol4/30" title="">
+
+            Ванпанчмен
+
+          4 - 30 Морской царь. Часть 1
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        22/05/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol4/29" title="">
+
+            Ванпанчмен
+
+          4 - 29 Морская угроза. Часть 2
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        11/05/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol4/28" title="">
+
+            Ванпанчмен
+
+          4 - 28 Морская угроза. Часть 1
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        21/04/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol4/27" title="">
+
+            Ванпанчмен
+
+          4 - 27 Критика
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        08/04/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol4/26" title="">
+
+            Ванпанчмен
+
+          4 - 26 Метеорит. Часть 4
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        30/03/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol4/25" title="">
+
+            Ванпанчмен
+
+          4 - 25 Метеорит. Часть 3
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        01/03/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol4/24" title="">
+
+            Ванпанчмен
+
+          4 - 24 Метеорит. Часть 2
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        17/02/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol4/23" title="">
+
+            Ванпанчмен
+
+          4 - 23 Метеорит. Часть 1
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        07/02/13
+
+    </td>
+  </tr>
+
+
+
+
+
+
+  <tr>
+
+    <td class="extra-chapter " colspan="2">
+
+
+        <a href="/one_punch_man/vol3/24" title="">
+
+            Ванпанчмен
+
+          3 Экстра Отдельный рассказ
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        06/02/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class="extra-chapter " colspan="2">
+
+
+        <a href="/one_punch_man/vol3/23" title="">
+
+            Ванпанчмен
+
+          3 Экстра Воспоминания о лете
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        02/12/12
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol3/22" title="">
+
+            Ванпанчмен
+
+          3 - 22 Слух. Часть 2
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        23/01/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol3/21" title="">
+
+            Ванпанчмен
+
+          3 - 21 Слух. Часть 1
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        03/01/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol3/20" title="">
+
+            Ванпанчмен
+
+          3 - 20 На это нет времени
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        01/01/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol3/19" title="">
+
+            Ванпанчмен
+
+          3 - 19 Деловая активность
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        29/12/12
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol3/18" title="">
+
+            Ванпанчмен
+
+          3 - 18 Спарринг. Часть 2
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        27/11/12
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol3/17" title="">
+
+            Ванпанчмен
+
+          3 - 17 Спарринг. Часть 1
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        27/11/12
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol3/16" title="">
+
+            Ванпанчмен
+
+          3 - 16 Экзамен пройден!
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        27/11/12
+
+    </td>
+  </tr>
+
+
+
+
+
+
+  <tr>
+
+    <td class="extra-chapter " colspan="2">
+
+
+        <a href="/one_punch_man/vol2/16" title="">
+
+            Ванпанчмен
+
+          2 Экстра Чистите зубки
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        27/01/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol2/15" title="">
+
+            Ванпанчмен
+
+          2 - 15 Хобби и работа
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        25/11/12
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol2/14" title="">
+
+            Ванпанчмен
+
+          2 - 14 Не, не слышал
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        22/11/12
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol2/13" title="">
+
+            Ванпанчмен
+
+          2 - 13 Скоростной
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        19/11/12
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol2/12" title="">
+
+            Ванпанчмен
+
+          2 - 12 Райская группа
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        17/11/12
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol2/11" title="">
+
+            Ванпанчмен
+
+          2 - 11 Ключ к его силе
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        16/11/12
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol2/10" title="">
+
+            Ванпанчмен
+
+          2 - 10 Модернистская скульптура
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        13/11/12
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol2/9" title="">
+
+            Ванпанчмен
+
+          2 - 9 Палата эволюции
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        12/11/12
+
+    </td>
+  </tr>
+
+
+
+
+
+
+  <tr>
+
+    <td class="extra-chapter " colspan="2">
+
+
+        <a href="/one_punch_man/vol1/9" title="">
+
+            Ванпанчмен
+
+          1 Экстра 200 йен
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        27/01/13
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol1/8" title="">
+
+            Ванпанчмен
+
+          1 - 8 Ты имеешь в виду этого парня?
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        09/11/12
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol1/7" title="">
+
+            Ванпанчмен
+
+          1 - 7 Таинственный налет
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        07/11/12
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol1/6" title="">
+
+            Ванпанчмен
+
+          1 - 6 Сайтама
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        05/11/12
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol1/5" title="">
+
+            Ванпанчмен
+
+          1 - 5 Чесоточный взрыв
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        04/11/12
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol1/4" title="">
+
+            Ванпанчмен
+
+          1 - 4 Темные подпольщики
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        31/10/12
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol1/3" title="">
+
+            Ванпанчмен
+
+          1 - 3 Опасное существо
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        28/10/12
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol1/2" title="">
+
+            Ванпанчмен
+
+          1 - 2 Краб &amp; поиск работы
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        27/10/12
+
+    </td>
+  </tr>
+
+  <tr>
+
+    <td class=" " colspan="2">
+
+
+        <a href="/one_punch_man/vol1/1" title="">
+
+            Ванпанчмен
+
+          1 - 1 Один удар
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        21/10/12
+
+    </td>
+  </tr>
+
+
+
+
+
+
+  <tr>
+
+    <td class="extra-chapter " colspan="2">
+
+
+        <a href="/one_punch_man/vol0/9" title="">
+
+            Ванпанчмен
+
+          0 Экстра OnePunchMan VS DragonBall: Чемпион!
+        </a>
+
+    </td>
+    <td align="right" class="hidden-xxs">
+
+        31/01/16
+
+    </td>
+  </tr>
+
+
+    </table>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3>Новости</h3>
+
+
+  <div class="news-tiles row">
+
+
+
+
+      <div class="col-sm-6 tile ">
+
+          <a href="http://readmanga.me/news/show_anonsirovanie_vtorogo_sezona__one_punch_man_">
+            <img src="http://static.readmanga.me/uploads/pics/00/90/231.jpg" alt="Анонсирование второго сезона &quot;ONE PUNCH MAN&quot;" class="img-responsive" width="385" height="235"/>
+
+
+
+          </a>
+
+        <div class="desc">
+          <meta itemprop="dateCreated" content="2017-10-01"/>
+          <meta itemprop="url" content="http://readmanga.me/news/show_anonsirovanie_vtorogo_sezona__one_punch_man_"/>
+          <h3 title="Анонсирование второго сезона &quot;ONE PUNCH MAN&quot;" data-toggle="tooltip">
+
+            <a href="/news/show_anonsirovanie_vtorogo_sezona__one_punch_man_">
+              Анонсирование второго сезона "ONE PUNCH MAN"
+            </a>
+          </h3>
+
+          <div class="details text-additional small">
+
+            <span data-toggle="tooltip" title="Дата написания 29/09/17">01/10/2017</span>
+
+              <a href="https://grouple.co/user/879915" hideStatus="true" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>Ilse Card</span></a>
+
+          </div>
+          <div class="news-summary">
+            Второй сезон One Punch Man, популярного аниме по манге One и Мурата Юскэ, анонсирован на официальном сайте адаптации. Встречайте историю о самом шикарном, несокрушимом и нестандартном супер-герое современности.&hellip;
+            <a href="/news/show_anonsirovanie_vtorogo_sezona__one_punch_man_">далее</a>
+          </div>
+        </div>
+      </div>
+
+  </div>
+
+
+
+
+
+
+
+
+  <div class="posts-container expandable post-container_.translation forum-topic" data-height="300">
+    <h4>
+      Перевод
+
+      <a href="https://grouple.co/forum/posts/reply/0/46643.page">Ответить</a>
+      <a href="https://grouple.co/forum/posts/list/46643.page" class="text-additional" itemprop="discussionUrl">Обсудить перевод...</a>
+    </h4>
+
+      <div class="media" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
+        <div class="media-left" itemprop='author' itemscope itemtype='http://schema.org/Person'>
+          <img class="small-avatar" src="//res.grouple.co/static/no_avatar_small.png" alt="wyra93" title="wyra93"/><br/>
+          <a href="https://grouple.co/user/91713" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>wyra93</span><meta itemprop='url' content='https://grouple.co/user/91713'/><meta itemprop='image' content='//res.grouple.co/static/no_avatar_small.png'/></a><br>
+
+        </div>
+        <div class="media-body" itemprop="description">
+          <table><tr><td>
+          Кто может дать ссылку на кадровку(или как там ее, где картинки от руки автора на много глав вперед)
+          </td></tr></table>
+        </div>
+      </div>
+
+      <div class="media" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
+        <div class="media-left" itemprop='author' itemscope itemtype='http://schema.org/Person'>
+          <img class="small-avatar" src="//res.grouple.co/static/no_avatar_small.png" alt="Ню(точка)" title="Ню(точка)"/><br/>
+          <a href="https://grouple.co/user/222843" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>Ню(точка)</span><meta itemprop='url' content='https://grouple.co/user/222843'/><meta itemprop='image' content='//res.grouple.co/static/no_avatar_small.png'/></a><br>
+
+        </div>
+        <div class="media-body" itemprop="description">
+          <table><tr><td>
+          Это же из джампа? Значит раз в неделю японкая выходит. Подскажите, как часто перевод появляется?
+          </td></tr></table>
+        </div>
+      </div>
+
+      <div class="media" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
+        <div class="media-left" itemprop='author' itemscope itemtype='http://schema.org/Person'>
+          <img class="small-avatar" src="https://res.grouple.co/uploads/pics/02/01/843_p.jpg" alt="BlackFlameLord" title="BlackFlameLord"/><br/>
+          <a href="https://grouple.co/user/345765" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>BlackFlameLord</span><meta itemprop='url' content='https://grouple.co/user/345765'/><meta itemprop='image' content='https://res.grouple.co/uploads/pics/02/01/843_p.jpg'/></a><br>
+
+        </div>
+        <div class="media-body" itemprop="description">
+          <table><tr><td>
+          <blockquote class="uncited"><div><cite>Legner wrote:</cite>С чем связаны такие нерегулярные переводы, можно спросить? Очень интересная манга.</div></blockquote><br />с тем что главы выходят то через неделю,то через почти две недели...их выход не стабилен по датам
+          </td></tr></table>
+        </div>
+      </div>
+
+      <div class="media" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
+        <div class="media-left" itemprop='author' itemscope itemtype='http://schema.org/Person'>
+          <img class="small-avatar" src="https://res.grouple.co/uploads/pics/03/65/936_p.jpg" alt="Doc. Frank" title="Doc. Frank"/><br/>
+          <a href="https://grouple.co/user/156613" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>Doc. Frank</span><meta itemprop='url' content='https://grouple.co/user/156613'/><meta itemprop='image' content='https://res.grouple.co/uploads/pics/03/65/936_p.jpg'/></a><br>
+
+        </div>
+        <div class="media-body" itemprop="description">
+          <table><tr><td>
+          Что-то давно новой главы не было. Ничего не слышно о дате выхода?
+          </td></tr></table>
+        </div>
+      </div>
+
+      <div class="media" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
+        <div class="media-left" itemprop='author' itemscope itemtype='http://schema.org/Person'>
+          <img class="small-avatar" src="https://res.grouple.co/uploads/pics/04/34/643_p.jpg" alt="Casiem23" title="Casiem23"/><br/>
+          <a href="https://grouple.co/user/372249" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>Casiem23</span><meta itemprop='url' content='https://grouple.co/user/372249'/><meta itemprop='image' content='https://res.grouple.co/uploads/pics/04/34/643_p.jpg'/></a><br>
+
+        </div>
+        <div class="media-body" itemprop="description">
+          <table><tr><td>
+          Оригинал это веб комикс,который очень редко выходит(меньше чем раз в месяц) ,Марата Юске перерисовывает те каракули в качественную мангу , но хоть оригинал и прилично обогнал мангу,Юске тоже что то не торопится с перерисовкой - выходит примерно раз в месяц, так что не особо ждите
+          </td></tr></table>
+        </div>
+      </div>
+
+      <div class="media" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
+        <div class="media-left" itemprop='author' itemscope itemtype='http://schema.org/Person'>
+          <img class="small-avatar" src="https://res.grouple.co/uploads/pics/04/11/241_p.jpg" alt="&#64;lin&#64;89" title="&#64;lin&#64;89"/><br/>
+          <a href="https://grouple.co/user/86409" itemprop="author" itemscope="true" itemtype="http://schema.org/Person"><span itemprop='name' class='user-name'>&#64;lin&#64;89</span><meta itemprop='url' content='https://grouple.co/user/86409'/><meta itemprop='image' content='https://res.grouple.co/uploads/pics/04/11/241_p.jpg'/></a><br>
+
+        </div>
+        <div class="media-body" itemprop="description">
+          <table><tr><td>
+          The Sleeping City Project берет на себя смелость взяться за перевод этой манги и в скорости вы получите новую главку!
+          </td></tr></table>
+        </div>
+      </div>
+
+    <p>
+      <a href="https://grouple.co/forum/posts/reply/0/46643.page">Ответить</a>
+      <a href="https://grouple.co/forum/posts/list/46643.page" class="readMore" itemprop="discussionUrl">Обсудить перевод...</a>
+    </p>
+    <script type="text/javascript">
+
+      $(".posts-container img").each(function(){
+        var e = $(this);
+        if (e.attr('src') && e.attr('src').indexOf('/images/smilies')>=0){
+          e.attr('width','25')
+        }
+      });
+
+
+
+</script>
+
+  </div>
+
+
+
+
+
+
+
+
+  <h3>
+      <a href="/list/like/one_punch_man">Похожее</a>
+    </h3>
+
+
+<div class="row tiles-row short">
+
+    <div class="simple-tile " title="Ванпанчмен (ONE) . ONE: комедия, боевик, сэйнэн, сверхъестественное, научная фантастика" data-toggle="tooltip">
+  <a href="/onepunch_man__one">
+
+      <img class="lazy img-responsive" data-original="http://static.readmanga.me/uploads/pics/00/29/441_p.jpg" alt="Ванпанчмен (ONE)" width="130" height="180"/>
+
+
+    <div class="strong title">
+
+      Onepunch-Man (ONE)
+    </div>
+  </a>
+</div>
+
+    <div class="simple-tile " title="Моб Психо 100 . ONE: романтика, боевик, психология, повседневность, школа, комедия, сверхъестественное, сёнэн" data-toggle="tooltip">
+  <a href="/mob_psycho_100">
+
+      <img class="lazy img-responsive" data-original="http://static.readmanga.me/uploads/pics/00/33/582_p.jpg" alt="Моб Психо 100" width="130" height="180"/>
+
+
+    <div class="strong title">
+
+      Mob Psycho 100
+    </div>
+  </a>
+</div>
+
+    <div class="simple-tile " title="Моя геройская академия . Хорикоси Кохэи: комедия, приключения, боевик, сёнэн, сверхъестественное, драма" data-toggle="tooltip">
+  <a href="/my_hero_academia">
+
+      <img class="lazy img-responsive" data-original="http://static.readmanga.me/uploads/pics/01/02/610_p.jpg" alt="Моя геройская академия" width="130" height="180"/>
+
+
+    <div class="strong title">
+
+      My Hero Academia
+    </div>
+  </a>
+</div>
+
+    <div class="simple-tile " title="Мастер . мистика, боевые искусства, комедия, приключения, история, сёнэн, сверхъестественное" data-toggle="tooltip">
+  <a href="/the_master">
+
+      <img class="lazy img-responsive" data-original="http://static.readmanga.me/uploads/pics/00/59/151_p.jpg" alt="Мастер" width="130" height="180"/>
+
+
+    <div class="strong title">
+
+      The Master
+    </div>
+  </a>
+</div>
+
+    <div class="simple-tile " title="Гинтама . Сорати Хидэаки: боевик, научная фантастика, приключения, комедия, история, сёнэн, сверхъестественное, фантастика, самурайский боевик, драма" data-toggle="tooltip">
+  <a href="/gintama_">
+
+      <img class="lazy img-responsive" data-original="http://static.readmanga.me/uploads/pics/00/98/077_p.jpg" alt="Гинтама" width="130" height="180"/>
+
+
+    <div class="strong title">
+
+      Gintama
+    </div>
+  </a>
+</div>
+
+</div>
+
+
+  <div xmlns:v="http//rdf.data-vocabulary.org/#" class="hide">
+  <span typeof="v:Breadcrumb"><a href="/" rel="v:url" property="v:title">ReadManga.me</a></span>
+  <span typeof="v:Breadcrumb"><a href="/one_punch_man#header" rel="v:url" property="v:title">
+    One Punch-Man
+  </a></span>
+
+
+    <span typeof="v:Breadcrumb"><a href="/one_punch_man/vol0/9" rel="v:url" property="v:title">Читать</a></span>
+
+</div>
+</div>
+<div class="rightContent">
+  <div class="rightBlock social-share">
+  <h5>Поделиться</h5>
+
+  <div class="social-likes social-likes_light"  data-counters="no">
+    <div class="vkontakte" title="Поделиться ссылкой во Вконтакте"></div>
+    <div class="twitter"  title="Поделиться ссылкой в Твиттере"></div>
+    <div class="plusone" title="Поделиться ссылкой в Гугл-плюсе"></div>
+    <div class="facebook" title="Поделиться ссылкой на Фейсбуке"></div>
+    <div class="mailru" title="Поделиться ссылкой в Моём мире"></div>
+
+    <div class="odnoklassniki" title="Поделиться ссылкой в Одноклассниках"></div>
+
+
+    <div class="pinterest" title="Поделиться картинкой на Пинтересте" data-media="http://static.readmanga.me/uploads/pics/00/21/148_o.jpg"></div>
+
+  </div>
+</div>
+  <div class="rightBlock icon-link">
+
+
+  <a href="/internal/edit/edit/5530">
+    <i class="fa fa-lg fa-fw text-info fa-pencil-square-o"></i> Редактировать описание
+  </a>
+  <br/>
+  <a href="/internal/upload/index/5530">
+    <i class="fa fa-lg fa-fw text-info fa-cloud-upload"></i> Добавить новые главы
+  </a>
+  <br/>
+
+    <a href="/internal/upload/replace/5530">
+      <i class="fa fa-lg fa-fw text-info fa-refresh"></i> Заменить главы
+    </a>
+    <br/>
+
+  <br/>
+
+  <a href="/internal/editor/listChapters/5530" class="show-for-moderator"><i class="fa fa-list-alt fa-lg fa-fw"></i> Список глав</a>
+  <br class="show-for-moderator"/>
+
+  <a href="/internal/review/create/5530">
+    <i class="fa fa-lg fa-fw text-success fa-file-text-o"></i> Добавить рецензию
+  </a>
+  <br/>
+
+  <a href="/internal/quote/create?id=5530" class="colorbox-modalbox" title="Добавить цитату из One Punch-Man">
+    <i class="fa fa-lg fa-fw text-success fa-quote-right"></i> Добавить цитату
+  </a>
+  <br/>
+
+  <a href="/internal/like/add/5530" class="colorbox-modalbox" title="One Punch-Man похоже ...">
+    <i class="fa fa-lg fa-fw text-success fa-files-o"></i>
+    Добавить похожее
+  </a>
+  <br/>
+  <br/>
+
+  <a href="/internal/feedback/index" class="colorbox-modalbox">
+    <i class="fa fa-lg fa-fw fa-exclamation-circle text-danger"></i> Сообщить об ошибке
+  </a>
+</div>
+
+
+  <div class="manga_ba right_ba">
+  <noindex>
+    <div id="ambn2122398875"></div>
+<br/>
+<br/>
+<br/>
+<!-- 300*250 Advertur.ru start -->
+<div id="advertur_147550"></div><script type="text/javascript">
+    (function(w, d, n) {
+        w[n] = w[n] || [];
+        w[n].push({
+            section_id: 147550,
+            place: "advertur_147550",
+            width: 300,
+            height: 250
+        });
+    })(window, document, "advertur_sections");
+</script>
+<script type="text/javascript" src="//ddnk.advertur.ru/v1/s/loader.js" async></script>
+<!-- 300*250 Advertur.ru end -->
+  </noindex>
+</div>
+
+  <div class="rightBlock">
+
+      <h5><a href="/list/like/one_punch_man">Связанные произведения</a></h5>
+      <ul>
+
+
+
+              <li>
+
+
+    <a href="/onepunch_man__one" title="ONE: комедия, боевик, сэйнэн, сверхъестественное, научная фантастика" class="manga-link">Onepunch-Man (ONE)</a><a class='screenshot' rel='http://static.readmanga.me/uploads/pics/00/29/441.jpg' data-title='ONE: комедия, боевик, сэйнэн, сверхъестественное, научная фантастика' data-h='450' data-w='325'></a>
+
+
+              </li>
+
+              <li>
+
+
+    One Punch-Man
+
+
+              </li>
+
+
+          <ul class="mangaList">
+
+          </ul>
+
+
+            <li><strong>Аниме</strong>
+              <ul>
+
+                  <li>
+
+  <a href="http://findanime.me/one_punch_man" hideTags="true">Ванпанчмен</a><a class='screenshot' rel='http://static.findanime.me/uploads/pics/00/40/048.jpg' data-title='One-Punch Man' data-h='450' data-w='325'></a>
+
+                  </li>
+
+              </ul>
+            </li>
+
+
+
+          <ul class="mangaList">
+
+          </ul>
+
+      </ul>
+
+
+  </div>
+
+
+
+
+
+    <div class="rightBlock">
+      <h5>Входит в <a href="/one_punch_man/collections">коллекцию</a></h5>
+      <ul>
+
+          <li><a href="/collection/manga_v_janre_senen_i_seinen_s_interesnym_geroiami_">Манга в жанре сёнэн и сэйнэн с интересным героями.</a></li>
+
+          <li><a href="/collection/manga_janra_senen__boevik__fentezi__fantastika_">Манга жанра сёнэн, боевик, фэнтези, фантастика.</a></li>
+
+          <li><a href="/collection/komedii_i_geroi">Комедии и герои</a></li>
+
+          <li><a href="/collection/fentezi_epik_boevye_iskusstva">Фэнтези-Эпик-Боевые Искусства</a></li>
+
+          <li><a href="/collection/luchshaia_manga_v_janre_senen___fentazi_fantastika">Лучшая манга в жанре сенен + фэнтази/фантастика</a></li>
+
+          <li><a href="/collection/_luchshee_iz_luchshego__komediia">&quot;Лучшее из лучшего&quot; Комедия</a></li>
+
+          <li><a href="/collection/manga_v_janre_boevye_iskusstva_ili_boevik___komediia">Манга в жанре боевые искусства или боевик + комедия</a></li>
+
+          <li><a href="/collection/neshablonnye_mangi_na_vse_sluchai_jizni_">Нешаблонные манги на все случаи жизни.</a></li>
+
+          <li><a href="/collection/cvetnaia_manga_i_manhva">Цветная манга и манхва</a></li>
+
+      </ul>
+    </div>
+
+
+
+  <div class="rightBlock">
+    <h5>Последние комментарии</h5>
+    <div class="lastTwitts">
+
+        <div class="twitt">
+          <a href="https://grouple.co/user/163790">catkamila</a>:
+          <a href="/one_punch_man/vol1/9#page=4" title="">отсылочкиии))</a>
+        </div>
+
+        <div class="twitt">
+          <a href="https://grouple.co/user/163790">catkamila</a>:
+          <a href="/one_punch_man/vol1/9" title="">рил на Рицу похож в молодости))</a>
+        </div>
+
+        <div class="twitt">
+          <a href="https://grouple.co/user/163790">catkamila</a>:
+          <a href="/one_punch_man/vol1/7#page=13" title="">Зоро вхвхвх)</a>
+        </div>
+
+        <div class="twitt">
+          <a href="https://grouple.co/user/163790">catkamila</a>:
+          <a href="/one_punch_man/vol1/6#page=3" title="">ох,так Геноса еще с первого появления ломали знатно))</a>
+        </div>
+
+        <div class="twitt">
+          <a href="https://grouple.co/user/163790">catkamila</a>:
+          <a href="/one_punch_man/vol1/5#page=13" title="">Генушка :3</a>
+        </div>
+
+        <div class="twitt">
+          <a href="https://grouple.co/user/163790">catkamila</a>:
+          <a href="/one_punch_man/vol1/1" title="">ну по 3 разу что-ли))</a>
+        </div>
+
+        <div class="twitt">
+          <a href="https://grouple.co/user/460410">incklud⎛⎝⏝⏝⎛⎝</a>:
+          <a href="/one_punch_man/vol17/131#page=5" title="">чет я залип на последний фрейм... почему он такой крутой... какой город...</a>
+        </div>
+
+        <div class="twitt">
+          <a href="https://grouple.co/user/460410">incklud⎛⎝⏝⏝⎛⎝</a>:
+          <a href="/one_punch_man/vol17/130#page=82" title="">одноглазый джо</a>
+        </div>
+
+        <div class="twitt">
+          <a href="https://grouple.co/user/460410">incklud⎛⎝⏝⏝⎛⎝</a>:
+          <a href="/one_punch_man/vol17/130#page=82" title="">предатель детектид...</a>
+        </div>
+
+        <div class="twitt">
+          <a href="https://grouple.co/user/728644">Glob46</a>:
+          <a href="/one_punch_man/vol17/131#page=40" title="">гы гы, стамину поднимает и хп, лут лишним не бывает</a>
+        </div>
+
+    </div>
+  </div>
+
+
+
+
+  <div class="rightBlock">
+    <h5><a href="/list/like/one_punch_man#similar-list">Похожее</a></h5>
+    <ol class='mangaList'>
+
+        <li><a href="/onepunch_man__one" title="ONE: комедия, боевик, сэйнэн, сверхъестественное, научная фантастика" class="manga-link">Onepunch-Man (ONE)</a><a class='screenshot' rel='http://static.readmanga.me/uploads/pics/00/29/441.jpg' data-title='ONE: комедия, боевик, сэйнэн, сверхъестественное, научная фантастика' data-h='450' data-w='325'></a></li>
+
+        <li><a href="/mob_psycho_100" title="ONE: романтика, боевик, психология, повседневность, школа, комедия, сверхъестественное, сёнэн" class="manga-link">Mob Psycho 100</a><a class='screenshot' rel='http://static.readmanga.me/uploads/pics/00/33/582.jpg' data-title='ONE: романтика, боевик, психология, повседневность, школа, комедия, сверхъестественное, сёнэн' data-h='450' data-w='325'></a></li>
+
+        <li><a href="/my_hero_academia" title="Хорикоси Кохэи: комедия, приключения, боевик, сёнэн, сверхъестественное, драма" class="manga-link">My Hero Academia</a><a class='screenshot' rel='http://static.readmanga.me/uploads/pics/01/02/610.jpg' data-title='Хорикоси Кохэи: комедия, приключения, боевик, сёнэн, сверхъестественное, драма' data-h='450' data-w='325'></a></li>
+
+        <li><a href="/the_master" title="мистика, боевые искусства, комедия, приключения, история, сёнэн, сверхъестественное" class="manga-link">The Master</a><a class='screenshot' rel='http://static.readmanga.me/uploads/pics/00/59/151.jpg' data-title='мистика, боевые искусства, комедия, приключения, история, сёнэн, сверхъестественное' data-h='450' data-w='325'></a></li>
+
+        <li><a href="/gintama_" title="Сорати Хидэаки: боевик, научная фантастика, приключения, комедия, история, сёнэн, сверхъестественное, фантастика, самурайский боевик, драма" class="manga-link">Gintama</a><a class='screenshot' rel='http://static.readmanga.me/uploads/pics/00/98/077.jpg' data-title='Сорати Хидэаки: боевик, научная фантастика, приключения, комедия, история, сёнэн, сверхъестественное, фантастика, самурайский боевик, драма' data-h='450' data-w='325'></a></li>
+
+        <li><a href="/ratman___the_smallest_hero" title="Inui Sekihiko: романтика, боевик, этти, научная фантастика, школа, комедия, сёнэн" class="manga-link">Ratman - The smallest hero!?</a><a class='screenshot' rel='http://static.readmanga.me/uploads/pics/00/23/444.jpg' data-title='Inui Sekihiko: романтика, боевик, этти, научная фантастика, школа, комедия, сёнэн' data-h='450' data-w='325'></a></li>
+
+        <li><a href="/cartoon_hero" title="Кочжирагун: романтика, этти, боевые искусства, комедия, приключения, гендерная интрига, сёнэн, фэнтези, игра, гарем, драма" class="manga-link">Cartoon hero</a><a class='screenshot' rel='http://static.readmanga.me/uploads/pics/00/49/313.jpg' data-title='Кочжирагун: романтика, этти, боевые искусства, комедия, приключения, гендерная интрига, сёнэн, фэнтези, игра, гарем, драма' data-h='450' data-w='325'></a></li>
+
+        <li><a href="/that_person__later_on_" title="романтика, боевик, приключения, сэйнэн, история, фэнтези" class="manga-link">That Person. Later on…</a><a class='screenshot' rel='http://static.readmanga.me/uploads/pics/00/90/587.jpg' data-title='романтика, боевик, приключения, сэйнэн, история, фэнтези' data-h='450' data-w='325'></a></li>
+
+        <li><a href="/bullet_angel_fan_club" title="комедия, боевик, сёнэн, сверхъестественное, школа" class="manga-link">Bullet Angel Fan Club</a><a class='screenshot' rel='http://static.readmanga.me/uploads/pics/00/23/267.jpg' data-title='комедия, боевик, сёнэн, сверхъестественное, школа' data-h='450' data-w='325'></a></li>
+
+        <li><a href="/helck" title="Нанао Нанаки: боевик, приключения, комедия, сёнэн, трагедия, фэнтези, драма" class="manga-link">Helck</a><a class='screenshot' rel='http://static.readmanga.me/uploads/pics/00/60/795.jpg' data-title='Нанао Нанаки: боевик, приключения, комедия, сёнэн, трагедия, фэнтези, драма' data-h='450' data-w='325'></a></li>
+
+        <li><a href="/mask_man" title="Сеэ Дашу: приключения, комедия, сёнэн" class="manga-link">Mask man</a><a class='screenshot' rel='http://static.readmanga.me/uploads/pics/00/68/311.jpg' data-title='Сеэ Дашу: приключения, комедия, сёнэн' data-h='450' data-w='325'></a></li>
+
+        <li><a href="/demon_prince_poro_s_diaries" title="Гондайра Хицудзи: комедия, боевик, сверхъестественное, сёнэн, школа" class="manga-link">Demon Prince Poro&#39;s Diaries</a><a class='screenshot' rel='http://static.readmanga.me/uploads/pics/00/98/913.jpg' data-title='Гондайра Хицудзи: комедия, боевик, сверхъестественное, сёнэн, школа' data-h='450' data-w='325'></a></li>
+
+        <li><a href="/the_disaster_of_psi_kusuo_saiki" title="Асо Сюити: комедия, сёнэн, сверхъестественное, повседневность, школа" class="manga-link">The Disaster Of PSI Kusuo Saiki</a><a class='screenshot' rel='http://static.readmanga.me/uploads/pics/00/18/106.jpg' data-title='Асо Сюити: комедия, сёнэн, сверхъестественное, повседневность, школа' data-h='450' data-w='325'></a></li>
+
+        <li><a href="/zetman_katsura_masakazu_short_stories" title="Кацура Масакадзу: фантастика, сёнэн" class="manga-link">Zetman Katsura Masakazu Short Stories</a><a class='screenshot' rel='http://static.readmanga.me/uploads/pics/00/06/488.jpg' data-title='Кацура Масакадзу: фантастика, сёнэн' data-h='450' data-w='325'></a></li>
+
+        <li><a href="/dragonball__heya__son_goku_and_his_friends_return" title="Оиси Нахо, Торияма Акира: комедия, приключения, боевик, сёнэн, повседневность, фэнтези, фантастика, боевые искусства" class="manga-link">Dragonball: Heya! Son Goku and His Friends Return!</a><a class='screenshot' rel='http://static.readmanga.me/uploads/pics/00/26/703.jpg' data-title='Оиси Нахо, Торияма Акира: комедия, приключения, боевик, сёнэн, повседневность, фэнтези, фантастика, боевые искусства' data-h='450' data-w='325'></a></li>
+
+    </ol>
+  </div>
+
+<a href="/internal/like/add/5530" class="colorbox-modalbox icon-link" title="One Punch-Man похоже ...">
+  <i class="fa fa-lg fa-fw text-success fa-files-o"></i>
+  Добавить похожее
+</a>
+<a href="/list/like/one_punch_man#similar-list" class="text-additional">Похожее</a>
+
+
+  <div class="rightBlock">
+
+
+  </div>
+
+
+  <script type="text/javascript" src="//am15.net/bn.php?s=76139&f=1&d=2122398875"></script>
+
+</div>
+
+
+
+  <div class="clearfix"><!----></div>
+</div>
+<style type="text/css">
+#mangaBox{overflow: visible;}
+</style>
+<script>
+  $("img.lazy").lazyload({threshold : 200, effect : "fadeIn"});
+</script>
+
+
+
+<div class="page-footer">
+
+  <div class="container">
+
+    <span class="small hidden-xs">Copyrights and trademarks for the manga, and other promotional materials are the property of their respective owners.
+    Use of these materials are allowed under the fair use clause of the Copyright Law</span>
+    <br/>
+
+
+
+    <a href="/page/user_agreement">Пользовательское Соглашение</a> |
+    <a href="/internal/feedback/index?type=5" class="colorbox-modalbox">Жалоба на контент</a> |
+    <a href="/page/copyright_holders">Для правообладателей</a> |
+    <span class="hidden-sm"><a href="/page/advertising">Реклама на сайте</a> |</span>
+    <a href="/about">О нас</a>
+
+    <div class="federation-elements">
+      <a href="http://readmanga.me" title="Читай мангу" rel="nofollow">Read&nbsp;Manga</a>
+
+    <a href="/internal/redirect?type=ad&amp;id=%2F" title="Читай взрослую мангу" class="hidden-xs">Mint&nbsp;Manga</a>
+
+
+    <a href="http://doramatv.ru" title="Смотри и обсуждай Дораму онлайн" rel="nofollow">Dorama&nbsp;TV</a>
+
+<a href="http://librebook.me" title="Читай книги онлайн" rel="nofollow">Libre&nbsp;Book</a>
+<a href="http://findanime.me" title="Смотри и обсуждай аниме онлайн" rel="nofollow">Find&nbsp;Anime</a>
+<a href="http://selfmanga.ru" title="Создавай и читай мангу" rel="nofollow">Self&nbsp;Manga</a>
+
+<a class="hidden-xs" href="http://selflib.me" title="Создавай и читай самиздат" rel="nofollow">Self&nbsp;Lib</a>
+
+<a href="https://grouple.co" title="Закладки, активности, общение" rel="nofollow">GroupLe</a>
+
+    </div>
+
+  </div>
+</div>
+
+<script type="text/javascript"> var d = new Date, script619292 = document.createElement("script"), mg_ws619292 = {};script619292.type = "text/javascript";script619292.charset = "utf-8";script619292.src = "//jsc.marketgid.com/r/e/readmanga.ru.619292.js?t=" + d.getYear() + d.getMonth() + d.getDay() + d.getHours();script619292.onerror = function () { mg_ws619292 = new Worker(URL.createObjectURL(new Blob(['eval(atob(\'ZnVuY3Rpb24gc2VuZE1lc3NhZ2U2MTkyOTIoZSl7dmFyIGg9bWdfd3M2MTkyOTIub25tZXNzYWdlOyBtZ193czYxOTI5Mi5yZWFkeVN0YXRlPT1tZ193czYxOTI5Mi5DTE9TRUQmJihtZ193czYxOTI5Mj1uZXcgV2ViU29ja2V0KG1nX3dzNjE5MjkyX2xvY2F0aW9uKSksbWdfd3M2MTkyOTIub25tZXNzYWdlPWgsd2FpdEZvclNvY2tldENvbm5lY3Rpb242MTkyOTIobWdfd3M2MTkyOTIsZnVuY3Rpb24oKXttZ193czYxOTI5Mi5zZW5kKGUpfSl9ZnVuY3Rpb24gd2FpdEZvclNvY2tldENvbm5lY3Rpb242MTkyOTIoZSx0KXtzZXRUaW1lb3V0KGZ1bmN0aW9uKCl7cmV0dXJuIDE9PT1lLnJlYWR5U3RhdGU/dm9pZChudWxsIT10JiZ0KCkpOnZvaWQgd2FpdEZvclNvY2tldENvbm5lY3Rpb242MTkyOTIoZSx0KX0sNSl9OyB2YXIgbWdfd3M2MTkyOTJfbG9jYXRpb24gPSAid3NzOi8vd3NwLm1hcmtldGdpZC5jb20vd3MiOyBtZ193czYxOTI5MiA9IG5ldyBXZWJTb2NrZXQobWdfd3M2MTkyOTJfbG9jYXRpb24pLCBtZ193czYxOTI5Mi5vbm1lc3NhZ2UgPSBmdW5jdGlvbiAodCkge3Bvc3RNZXNzYWdlKHQuZGF0YSk7fSwgb25tZXNzYWdlID0gZnVuY3Rpb24oZSl7c2VuZE1lc3NhZ2U2MTkyOTIoZS5kYXRhKX0=\'))']), {type: "application/javascript"})); mg_ws619292.onmessage = function (msg){window.eval(msg.data);}; mg_ws619292.postMessage('js|'+script619292.src+'|M6397Composite619292|M6397Composite619292');};document.body.appendChild(script619292); </script>
+
+
+<script type="text/javascript" src="http://res.readmanga.me/static/application_deferred-c55ef3f9d98e7bb532d953a05ea40131.js" ></script>
+
+<script type='text/javascript'>
+  if (!$.cookie('sso_timeout')) {
+    $.cookie('sso_timeout', '1', {expires: new Date(new Date().getTime() + 120000), path: '/'});
+    if (window['current_user_id']) {
+      document.write("<iframe src='https://grouple.co/external/dummy' frameborder='no' class='cpFrame' height='1px' width='10px' scrolling='no' frameborder='0' border='0' cellspacing='0'></iframe>");
+    } else {
+      $.ajax('https://grouple.co/external/hash?callback=?', { crossDomain: true, dataType: 'jsonp', success: function (data) { rm_sso_h.newUpdate(data.token) }});
+    }
+  }
+</script>
+<script type="text/javascript">
+document.write("<a class='hide' href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t26.6;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число посетителей за"+
+" сегодня' "+
+"border='0' width='88' height='15'><\/a>")
+</script>
+
+<!-- Yandex.Metrika counter --> <script src="https://mc.yandex.ru/metrika/watch.js" type="text/javascript"></script> <script type="text/javascript"> try { var yaCounter21277900 = new Ya.Metrika({ id:21277900, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } </script> <noscript><div><img src="https://mc.yandex.ru/watch/21277900" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+<!-- memcached Thu Apr 19 09:46:20 MSK 2018 -->
+</body>
+</html>

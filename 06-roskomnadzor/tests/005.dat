@@ -1,0 +1,720 @@
+moodle.muctr.ru
+
+<!DOCTYPE html>
+
+<html  dir="ltr" lang="ru" xml:lang="ru">
+<head>
+    <title>Учебный портал РХТУ им. Д.И. Менделеева</title>
+    <link rel="shortcut icon" href="https://moodle.muctr.ru/theme/image.php/boost/theme/1523545210/favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Учебный портал РХТУ им. Д.И. Менделеева" />
+<link rel="stylesheet" type="text/css" href="https://moodle.muctr.ru/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://moodle.muctr.ru/theme/styles.php/boost/1523545210_1/all" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/moodle.muctr.ru","sesskey":"LFaKZa67Sj","themerev":"1523545210","slasharguments":1,"theme":"boost","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1523545210","admin":"admin","svgicons":true,"usertimezone":"\u0415\u0432\u0440\u043e\u043f\u0430\/\u041c\u043e\u0441\u043a\u0432\u0430","contextid":2};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/moodle.muctr.ru\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/moodle.muctr.ru\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/moodle.muctr.ru\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/moodle.muctr.ru\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/moodle.muctr.ru\/theme\/yui_combo.php?m\/1523545210\/","combine":true,"comboBase":"https:\/\/moodle.muctr.ru\/theme\/yui_combo.php?","ext":false,"root":"m\/1523545210\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_bigbluebuttonbn-broker":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-rooms":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-imports":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-modform":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-recordings":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-randomquestion":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-quizquestionbank":{"requires":["base","event","node","io","io-form","yui-later","moodle-question-qbankmanager","moodle-core-notification-dialogue"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/moodle.muctr.ru\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/moodle.muctr.ru\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1523545210\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/moodle.muctr.ru\/lib\/javascript.php\/1523545210\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/moodle.muctr.ru\/lib\/javascript.php\/1523545210\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.2\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+<script type="text/javascript"
+  src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script><meta name="description" content="Добро пожаловать!
+Учебный портал создан для онлайн-поддержки курсов, читаемых в Российском химико-технологическом университете имени Дмитрия Ивановича Менделеева.
+Сейчас Вы просматриваете наш сайт как гость. Для получения доступа к учебным материалам необходимо зарегистрироваться в системе и войти под своим именем.
+Если что-то не получается,— пожалуйста, обратитесь к разделу «Помощь пользователям сайта»." />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body  id="page-site-index" class="format-site course path-site safari dir-ltr lang-ru yui-skin-sam yui3-skin-sam moodle-muctr-ru pagelayout-frontpage course-1 context-2 drawer-open-left">
+
+<div id="page-wrapper">
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Перейти к основному содержанию</a>
+</div><script type="text/javascript" src="https://moodle.muctr.ru/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script type="text/javascript" src="https://moodle.muctr.ru/lib/javascript.php/1523545210/lib/javascript-static.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+    <header role="banner" class="pos-f-t navbar navbar-full navbar-light bg-faded navbar-static-top moodle-has-zindex">
+
+        <div class="container-fluid navbar-nav">
+
+            <div data-region="drawer-toggle">
+                <button aria-expanded="true" aria-controls="nav-drawer" type="button" class="btn pull-xs-left m-r-1 btn-secondary" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="icon fa fa-bars fa-fw " aria-hidden="true"  aria-label=""></i><span class="sr-only">Боковая панель</span></button>
+            </div>
+
+            <a href="https://moodle.muctr.ru" class="navbar-brand
+                    hidden-sm-down
+                    ">
+                <span class="site-name hidden-sm-down">Moodle@Muctr</span>
+            </a>
+
+            <!-- user_menu -->
+            <div class="usermenu"><span class="login">Вы используете гостевой доступ (<a href="https://moodle.muctr.ru/login/index.php">Вход</a>)</span></div>
+
+            <!-- navbar_plugin_output -->
+
+
+            <!-- search_box -->
+            <span class="hidden-md-down">
+
+            </span>
+
+            <nav class="nav navbar-nav hidden-md-down">
+                <!-- custom_menu -->
+                <a class="nav-item nav-link" href="http://moodle.muctr.ru/course/view.php?id=24" title="Помощь">Помощь</a><div class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-5ad99632b16cc5ad99632ab7256" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+        Сообщество
+    </a>
+    <div class="dropdown-menu" aria-labelledby="drop-down-5ad99632b16cc5ad99632ab7256">
+                <a class="dropdown-item" href="http://docs.moodle.org/archive/ru" title="Документация Moodle на русском языке">Документация Moodle на русском языке</a>
+                <a class="dropdown-item" href="http://moodle.org/course/view.php?id=25" title="Глобальный русскоязычный форум">Глобальный русскоязычный форум</a>
+                <a class="dropdown-item" href="http://docs.moodle.org" title="Документация">Документация</a>
+                <a class="dropdown-item" href="http://moodle.org/support" title="Бесплатная поддержка Moodle">Бесплатная поддержка Moodle</a>
+                <a class="dropdown-item" href="http://moodle.org/development" title="Разработка Moodle">Разработка Moodle</a>
+                <a class="dropdown-item" href="http://moodle.org/news" title="Новости Moodle">Новости Moodle</a>
+    </div>
+</div><div class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-5ad99632b18d05ad99632ab7257" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+        Русский ‎(ru)‎
+    </a>
+    <div class="dropdown-menu" aria-labelledby="drop-down-5ad99632b18d05ad99632ab7257">
+                <a class="dropdown-item" href="https://moodle.muctr.ru/?lang=ru" title="Русский ‎(ru)‎">Русский ‎(ru)‎</a>
+                <a class="dropdown-item" href="https://moodle.muctr.ru/?lang=en" title="English ‎(en)‎">English ‎(en)‎</a>
+    </div>
+</div>
+                <!-- page_heading_menu -->
+
+            </nav>
+        </div>
+    </header>
+
+
+    <div id="page" class="container-fluid">
+        <header id="page-header" class="row"><div class="col-xs-12 p-a-1"><div class="card"><div class="card-block"><div class="pull-xs-right context-header-settings-menu"></div><div class="pull-xs-left"><div class="page-context-header"><div class="page-header-headings"><h1>Учебный портал РХТУ им. Д.И. Менделеева</h1></div></div></div><div id="course-header"></div></div></div></div></header>
+
+        <div id="page-content" class="row">
+            <div id="region-main-box" class="col-xs-12">
+                <section id="region-main" class="has-blocks">
+                    <div class="card card-block">
+                    <span class="notifications" id="user-notifications"></span>
+                    <div role="main"><span id="maincontent"></span><div class="box mdl-align p-y-1"><form action="https://moodle.muctr.ru/course/search.php" id="coursesearch" method="get" class="form-inline">
+    <fieldset class="coursesearchbox invisiblefieldset">
+        <label for="shortsearchbox">Поиск курса</label>
+        <input id="shortsearchbox" name="search" type="text" size="12" value="" class="form-control">
+        <button class="btn btn-secondary" type="submit">Применить</button>
+    </fieldset>
+</form></div><br /><a class="skip skip-block" href="#skipcourses">Пропустить курсы</a><div id="frontpage-category-combo"><h2>Курсы</h2><div class="course_category_tree clearfix "><div class="collapsible-actions"><a class="collapseexpand collapse-all" href="#">Свернуть всё</a></div><div class="content"><div class="subcategories"><div class="category loaded with_children" data-categoryid="5" data-depth="1" data-showcourses="10" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://moodle.muctr.ru/course/index.php?categoryid=5">Поддержка</a></h3></div><div class="content"><div class="courses frontpage-category-combo"><div class="coursebox clearfix odd first last collapsed" data-courseid="24" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=24">В помощь разработчикам курсов и преподавателям</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=24"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-unlock-alt fa-fw " aria-hidden="true" title="Гостевой доступ" aria-label="Гостевой доступ"></i><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div></div></div></div><div class="category loaded with_children" data-categoryid="16" data-depth="1" data-showcourses="10" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://moodle.muctr.ru/course/index.php?categoryid=16">Курсы кафедры логистики и экономической информатики</a></h3></div><div class="content"><div class="courses "><div class="coursebox clearfix odd first collapsed" data-courseid="165" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=165">Исследование операций</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=165"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="154" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=154">Методы оптимизации</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=154"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="149" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=149">Компьютерный анализ и моделирование ЦП НГХК</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=149"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="113" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=113">Эффективность и надежность химических производств</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=113"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="127" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=127">Информационные системы в логистике</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=127"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="128" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=128">Исследование операций [архивный курс]</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=128"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="134" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=134">Управление запасами</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=134"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="138" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=138">Итоговая аттестация и выпускная квалификационная работа</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=138"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="146" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=146">[Архивный курс 2016 года] Методы оптимизации ХТС</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=146"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even last collapsed" data-courseid="129" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=129">Библиотека</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=129"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-unlock-alt fa-fw " aria-hidden="true" title="Гостевой доступ" aria-label="Гостевой доступ"></i></div></div><div class="content"></div></div></div></div></div><div class="category loaded with_children" data-categoryid="3" data-depth="1" data-showcourses="10" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://moodle.muctr.ru/course/index.php?categoryid=3">Курсы кафедры ИКТ</a></h3></div><div class="content"><div class="courses "><div class="coursebox clearfix odd first collapsed" data-courseid="152" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=152">Операционные системы</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=152"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="151" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=151">Технологии обработки информации</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=151"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="142" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=142">Моделирование в AutoCad</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=142"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="141" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=141">Web-программирование</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=141"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-unlock-alt fa-fw " aria-hidden="true" title="Гостевой доступ" aria-label="Гостевой доступ"></i><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="140" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=140">Системная и программная инженерия</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=140"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="133" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=133">Практика студентов</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=133"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="131" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=131">Защита информации</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=131"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="115" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=115">Основы компьютерных сетей</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=115"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="42" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=42">Дипломникам</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=42"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-unlock-alt fa-fw " aria-hidden="true" title="Гостевой доступ" aria-label="Гостевой доступ"></i><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="38" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=38">Корпоративные сети и системы</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=38"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="37" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=37">Методы синергетики в химии и химической технологии</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=37"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-unlock-alt fa-fw " aria-hidden="true" title="Гостевой доступ" aria-label="Гостевой доступ"></i><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="36" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=36">Управление данными (Базы данных)</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=36"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="34" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=34">Язык программирования  С++</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=34"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="30" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=30">Общая  и неорганическая химия</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=30"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="27" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=27">Информационные технологии в химии</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=27"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-unlock-alt fa-fw " aria-hidden="true" title="Гостевой доступ" aria-label="Гостевой доступ"></i><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="19" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=19">Компьютерное моделирование химико-технологических процессов</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=19"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="18" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=18">Численные методы решения уравнений математической физики и химии</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=18"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-unlock-alt fa-fw " aria-hidden="true" title="Гостевой доступ" aria-label="Гостевой доступ"></i><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="10" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=10">Защита интеллектуальной собственности</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=10"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="8" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=8">Мультимедиа технологии</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=8"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even last collapsed" data-courseid="7" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=7">Методы и средства проектирования информационных систем и технологий</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=7"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="paging paging-morelink"><a href="https://moodle.muctr.ru/course/index.php?browse=courses&amp;page=1&amp;categoryid=3">Показать еще</a></div></div></div></div><div class="category loaded with_children" data-categoryid="8" data-depth="1" data-showcourses="10" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://moodle.muctr.ru/course/index.php?categoryid=8">Курсы кафедры Информатики и компьютерного проектирования</a></h3></div><div class="content"><div class="courses "><div class="coursebox clearfix odd first last collapsed" data-courseid="33" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=33">Компьютерное моделирование химико-технологических процессов</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=33"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div></div></div></div><div class="category loaded with_children" data-categoryid="6" data-depth="1" data-showcourses="10" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://moodle.muctr.ru/course/index.php?categoryid=6">Курсы кафедры БЖД</a></h3></div><div class="content"><div class="courses "><div class="coursebox clearfix odd first collapsed" data-courseid="95" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=95">Пожарная безопасность</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=95"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even last collapsed" data-courseid="26" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=26">Охрана труда на производстве и в учебном процессе </a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=26"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Для гостевого доступа требуется пароль" aria-label="Для гостевого доступа требуется пароль"></i><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div></div></div></div><div class="category loaded with_children" data-categoryid="15" data-depth="1" data-showcourses="10" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://moodle.muctr.ru/course/index.php?categoryid=15">Курсы кафедры Кибернетики химико-технологических процессов</a></h3></div><div class="content"><div class="courses "><div class="coursebox clearfix odd first collapsed" data-courseid="168" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=168">Планирование эксперимента в химической фармацевтической технологиях и биотехнологии</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=168"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="161" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=161">Теория информации</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=161"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div></div><div class="content"></div></div><div class="coursebox clearfix odd last collapsed" data-courseid="159" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=159">Макрокинетика</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=159"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div></div><div class="content"></div></div></div></div></div><div class="category loaded with_children" data-categoryid="12" data-depth="1" data-showcourses="10" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://moodle.muctr.ru/course/index.php?categoryid=12">Курсы кафедры химической технологии пластмасс (ХТП)</a></h3></div><div class="content"><div class="courses "><div class="coursebox clearfix odd first last collapsed" data-courseid="103" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=103">Физика и физическая химия полимеров</a></div><div class="moreinfo"></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div></div></div></div><div class="category loaded with_children" data-categoryid="13" data-depth="1" data-showcourses="10" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://moodle.muctr.ru/course/index.php?categoryid=13">Курсы кафедры биотехнологии</a></h3></div><div class="content"><div class="courses "><div class="coursebox clearfix odd first last collapsed" data-courseid="104" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=104">Основы проектирования и оборудование биотехнологических производств</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=104"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div></div></div></div><div class="category loaded" data-categoryid="23" data-depth="1" data-showcourses="10" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://moodle.muctr.ru/course/index.php?categoryid=23">Курсы кафедры ПАХТ</a></h3></div><div class="content"></div></div><div class="category loaded with_children" data-categoryid="22" data-depth="1" data-showcourses="10" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://moodle.muctr.ru/course/index.php?categoryid=22">Курсы кафедры инновационных материалов и защиты от коррозии</a></h3></div><div class="content"><div class="courses "><div class="coursebox clearfix odd first collapsed" data-courseid="172" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=172">Коррозионный мониторинг оборудования химических производств</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=172"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div></div><div class="content"></div></div><div class="coursebox clearfix even last collapsed" data-courseid="155" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=155">Коррозия металлов</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=155"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div></div><div class="content"></div></div></div></div></div><div class="category loaded with_children" data-categoryid="14" data-depth="1" data-showcourses="10" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://moodle.muctr.ru/course/index.php?categoryid=14">Курсы кафедры Квантовой химии</a></h3></div><div class="content"><div class="courses "><div class="coursebox clearfix odd first last collapsed" data-courseid="99" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=99">Конформационный анализ</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=99"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div></div></div></div><div class="category loaded with_children" data-categoryid="19" data-depth="1" data-showcourses="10" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://moodle.muctr.ru/course/index.php?categoryid=19">УМК "Неорганическая химия"</a></h3></div><div class="content"><div class="courses "><div class="coursebox clearfix odd first last collapsed" data-courseid="144" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=144">Практикум по общей и неорганической химии</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=144"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-unlock-alt fa-fw " aria-hidden="true" title="Гостевой доступ" aria-label="Гостевой доступ"></i><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div></div></div></div><div class="category loaded with_children" data-categoryid="9" data-depth="1" data-showcourses="10" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://moodle.muctr.ru/course/index.php?categoryid=9">УМК Функциональные наноматериалы и высокочистые вещества</a></h3></div><div class="content"><div class="courses "><div class="coursebox clearfix odd first collapsed" data-courseid="90" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=90">Коллоидная химия и дисперсные системы</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=90"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="89" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=89">Технология функциональных материалов для электроники</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=89"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="88" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=88">Современные процессы глубокой очистки веществ</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=88"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="87" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=87">Тепло- и массоперенос в материалах и процессах</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=87"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="83" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=83">УМК</a></div><div class="moreinfo"></div><div class="enrolmenticons"><i class="icon fa fa-unlock-alt fa-fw " aria-hidden="true" title="Гостевой доступ" aria-label="Гостевой доступ"></i><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="81" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=81">	      Физико-химия и технология высокочистых веществ</a></div><div class="moreinfo"></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="80" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=80">Процессы получения наночастиц и наноматериалов</a></div><div class="moreinfo"></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="79" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=79">Магнитные наноматериалы</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=79"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="78" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=78">Компьютерное моделирование наноразмерных частиц</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=78"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="77" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=77">Керамические функциональные наноматериалы</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=77"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="75" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=75">Биологические наноструктуры</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=75"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="74" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=74">Сканирующая зондовая микроскопия для исследования свойств наноматериалов </a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=74"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="73" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=73">Химия и физика наноструктурированных полимеров </a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=73"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="72" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=72">Физико–химические методы анализа</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=72"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="71" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=71">Функциональные нанокомпозиционные материалы и покрытия</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=71"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="70" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=70">Специальные методы исследования функциональных  наноматериалов </a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=70"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="69" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=69">Функциональные порошковые наноматериалы </a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=69"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="68" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=68">Методы и приборы для структурного анализа функциональных наноматериалов</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=68"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="67" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=67">Наноматериалы и наноструктуры</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=67"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even last collapsed" data-courseid="66" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=66">Наноструктурированные стекломатериалы и их применение в современной технике</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=66"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="paging paging-morelink"><a href="https://moodle.muctr.ru/course/index.php?browse=courses&amp;page=1&amp;categoryid=9">Показать еще</a></div></div></div></div><div class="category loaded with_children" data-categoryid="17" data-depth="1" data-showcourses="10" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://moodle.muctr.ru/course/index.php?categoryid=17">Программа перспективной технологии высшего нефтегазового образования</a></h3></div><div class="content"><div class="courses "><div class="coursebox clearfix odd first collapsed" data-courseid="126" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=126">Научно-популярная версия кноп</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=126"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="116" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=116">Модуль 1.1 Синергетика нефтяных дисперсных систем</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=116"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="117" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=117">Модуль 1.2	Современные методы экспериментального исследования нефти: от добычи до переработки</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=117"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="118" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=118">Модуль 2.1 Георадиолокация флюидосодержащих структур</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=118"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="119" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=119">Модуль 2.2 Нелинейные акустические методы исследования флюидосодержащих структур</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=119"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="120" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=120">Модуль 2.3 Поверхностные явления в системе:  пласт и насыщающие его флюиды. Структурная смачиваемость нефтегазовых пластовых систем</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=120"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="121" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=121">Модуль 3.1 Физикохимия твердых композиционных материалов</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=121"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="122" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=122">Модуль 3.2 Прямые методы исследования кернов методом рентгеновской томографии</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=122"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div></div><div class="content"></div></div><div class="coursebox clearfix odd collapsed" data-courseid="123" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=123">Модуль 3.3 Конструкционные материалы и защитные покрытия со специальными свойствами</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=123"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div></div><div class="content"></div></div><div class="coursebox clearfix even collapsed" data-courseid="124" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=124">Модуль 3.4 Коррозионный мониторинг в нефтегазовой отрасли</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=124"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div></div><div class="content"></div></div><div class="coursebox clearfix odd last collapsed" data-courseid="125" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=125">Модуль 3.5 Сертификация в нефтегазовой отрасли</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=125"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div></div><div class="content"></div></div></div></div></div><div class="category loaded with_children" data-categoryid="2" data-depth="1" data-showcourses="10" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://moodle.muctr.ru/course/index.php?categoryid=2">Курсы повышения квалификации</a></h3></div><div class="content"><div class="courses "><div class="coursebox clearfix odd first last collapsed" data-courseid="39" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=39">Информационные технологии смешанного и дистанционного обучения. Применение системы Moodle.</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=39"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-key fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div></div></div></div><div class="category loaded with_children" data-categoryid="21" data-depth="1" data-showcourses="10" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://moodle.muctr.ru/course/index.php?categoryid=21">Занятия для абитуриентов</a></h3></div><div class="content"><div class="courses "><div class="coursebox clearfix odd first last collapsed" data-courseid="153" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=153">14 февраля, 16.00. Вода – самое загадочное вещество на планете, обладающее обычными и необычными свойствами</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=153"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div></div><div class="content"></div></div></div></div></div><div class="category loaded with_children" data-categoryid="24" data-depth="1" data-showcourses="10" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://moodle.muctr.ru/course/index.php?categoryid=24">Курсы кафедры Физического воспитания</a></h3></div><div class="content"><div class="courses "><div class="coursebox clearfix odd first last collapsed" data-courseid="162" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=162">Физическая культура для студентов заочно-дистанционного обучения</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=162"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div></div><div class="content"></div></div></div></div></div><div class="category loaded with_children" data-categoryid="25" data-depth="1" data-showcourses="10" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://moodle.muctr.ru/course/index.php?categoryid=25">Курсы кафедра экономической теории</a></h3></div><div class="content"><div class="courses "><div class="coursebox clearfix odd first collapsed" data-courseid="166" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=166">Мировая экономика</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=166"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div><div class="coursebox clearfix even last collapsed" data-courseid="163" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=163">Основы менеджмента и маркетинга</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=163"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div></div><div class="content"></div></div></div></div></div><div class="category loaded with_children" data-categoryid="26" data-depth="1" data-showcourses="10" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://moodle.muctr.ru/course/index.php?categoryid=26">Курсы кафедры физики</a></h3></div><div class="content"><div class="courses "><div class="coursebox clearfix odd first last collapsed" data-courseid="167" data-type="1"><div class="info"><div class="coursename"><a class="" href="https://moodle.muctr.ru/course/view.php?id=167">Физика</a></div><div class="moreinfo"><a title="Описание" href="https://moodle.muctr.ru/course/info.php?id=167"><i class="icon fa fa-info fa-fw " aria-hidden="true" title="Описание" aria-label="Описание"></i></a></div><div class="enrolmenticons"><i class="icon fa fa-sign-in fa-fw " aria-hidden="true" title="Самостоятельная запись" aria-label="Самостоятельная запись"></i></div></div><div class="content"></div></div></div></div></div><div class="category loaded" data-categoryid="27" data-depth="1" data-showcourses="10" data-type="0"><div class="info"><h3 class="categoryname"><a href="https://moodle.muctr.ru/course/index.php?categoryid=27">Курсы кафедры Химии и технологии  органического синтеза</a></h3></div><div class="content"></div></div><div class="paging paging-morelink"><a href="https://moodle.muctr.ru/course/index.php?browse=categories&amp;page=1&amp;categoryid=0">Показать еще</a></div></div></div></div></div><span class="skip-block-to" id="skipcourses"></span><br /></div>
+
+
+                    </div>
+                </section>
+                <section data-region="blocks-column" class="hidden-print">
+                    <aside id="block-region-side-pre" class="block-region" data-blockregion="side-pre" data-droptarget="1"><aside id="inst3"
+     class=" block block_course_summary  card m-b-1"
+     role="complementary"
+     data-block="course_summary"
+        aria-label="Описание курса/сайта"
+>
+
+    <div class="card-block">
+
+
+
+        <div class="card-text content">
+            <div class="no-overflow"><p><span style="font-weight: bold;">Добро пожаловать!</span></p>
+<p>Учебный портал создан для онлайн-поддержки курсов, читаемых в Российском химико-технологическом университете имени Дмитрия Ивановича Менделеева.</p>
+<p>Сейчас Вы просматриваете наш сайт как гость. Для получения доступа к учебным материалам необходимо <a href="http://moodle.muctr.ru/login/signup.php">зарегистрироваться</a> в системе и <a href="http://moodle.muctr.ru/login/index.php">войти</a> под своим именем.</p>
+<p>Если что-то не получается,— пожалуйста, обратитесь к разделу «<a href="http://moodle.muctr.ru/course/view.php?id=24">Помощь пользователям сайта</a>».</p></div>
+            <div class="footer"></div>
+
+        </div>
+
+    </div>
+
+</aside><a href="#sb-2" class="sr-only sr-only-focusable">Пропустить Вход</a>
+
+<aside id="inst26"
+     class=" block block_login  card m-b-1"
+     role="complementary"
+     data-block="login"
+          aria-labelledby="instance-26-header"
+     >
+
+    <div class="card-block">
+
+
+            <h3 id="instance-26-header" class="card-title">Вход</h3>
+
+        <div class="card-text content">
+
+<form class="loginform" id="login" method="post" action="https://moodle.muctr.ru/login/index.php"><div class="form-group"><label for="login_username">Логин</label><input type="text" name="username" id="login_username" class="form-control" value="" /></div><div class="form-group"><label for="login_password">Пароль</label><input type="password" name="password" id="login_password" class="form-control" value="" /></div><div class="form-check"><label class="form-check-label"><input type="checkbox" name="rememberusername" id="rememberusername"
+                        class="form-check-input" value="1" /> Запомнить логин</label></div><div class="form-group"><input type="submit" class="btn btn-primary btn-block" value="Вход" /></div></form>
+<div><a href="https://moodle.muctr.ru/login/signup.php">Создать учетную запись</a></div><div><a href="https://moodle.muctr.ru/login/forgot_password.php">Забыли пароль?</a></div>
+            <div class="footer"></div>
+
+        </div>
+
+    </div>
+
+</aside>
+
+  <span id="sb-2"></span><a href="#sb-3" class="sr-only sr-only-focusable">Пропустить Календарь</a>
+
+<aside id="inst4"
+     class=" block block_calendar_month  card m-b-1"
+     role="complementary"
+     data-block="calendar_month"
+          aria-labelledby="instance-4-header"
+     >
+
+    <div class="card-block">
+
+
+            <h3 id="instance-4-header" class="card-title">Календарь</h3>
+
+        <div class="card-text content">
+            <div id="calendar-month-2018-April-5ad99632ab68c5ad99632ab7251"  data-template="core_calendar/month_mini"  data-includenavigation="true">
+    <div id="month-mini-2018-April-5ad99632ab68c5ad99632ab7251" class="calendarwrapper" data-courseid="1" data-categoryid="0" data-month="4" data-year="2018" data-view="month">
+        <span class="overlay-icon-container hidden" data-region="overlay-icon-container">
+            <span class="loading-icon"><img class="icon " alt="Загрузка" title="Загрузка" src="https://moodle.muctr.ru/theme/image.php/boost/core/1523545210/y/loading" /></span>
+        </span>
+        <table class="minicalendar calendartable">
+            <caption class="calendar-controls">
+                    <a href="#" class="arrow_link previous" title="Previous month" data-year="2018" data-month="3">
+                        <span class="arrow">&#x25C4;</span>
+                    </a>
+                    <span class="hide"> | </span>
+                    <span class="current">
+                        <a href="https://moodle.muctr.ru/calendar/view.php?view=month&time=1524209202" title="Этот месяц">Апрель 2018</a>
+                    </span>
+                    <span class="hide"> | </span>
+                    <a href="#" class="arrow_link next" title="Следующий месяц" data-year="2018" data-month="5">
+                        <span class="arrow">&#x25BA;</span>
+                    </a>
+            </caption>
+            <thead>
+              <tr>
+                    <th class="header text-xs-center" scope="col">
+                        <abbr title="Понедельник">Пн</abbr>
+                    </th>
+                    <th class="header text-xs-center" scope="col">
+                        <abbr title="Вторник">Вт</abbr>
+                    </th>
+                    <th class="header text-xs-center" scope="col">
+                        <abbr title="Среда">Ср</abbr>
+                    </th>
+                    <th class="header text-xs-center" scope="col">
+                        <abbr title="Четверг">Чт</abbr>
+                    </th>
+                    <th class="header text-xs-center" scope="col">
+                        <abbr title="Пятница">Пт</abbr>
+                    </th>
+                    <th class="header text-xs-center" scope="col">
+                        <abbr title="Суббота">Сб</abbr>
+                    </th>
+                    <th class="header text-xs-center" scope="col">
+                        <abbr title="Воскресенье">Вс</abbr>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-region="month-view-week">
+                        <td class="dayblank">&nbsp;</td>
+                        <td class="dayblank">&nbsp;</td>
+                        <td class="dayblank">&nbsp;</td>
+                        <td class="dayblank">&nbsp;</td>
+                        <td class="dayblank">&nbsp;</td>
+                        <td class="dayblank">&nbsp;</td>
+                        <td class="day text-center weekend" data-day-timestamp="1522530000">
+                                1
+                            </td>
+                </tr>
+                <tr data-region="month-view-week">
+                        <td class="day text-center" data-day-timestamp="1522616400">
+                                2
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1522702800">
+                                3
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1522789200">
+                                4
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1522875600">
+                                5
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1522962000">
+                                6
+                            </td>
+                        <td class="day text-center weekend" data-day-timestamp="1523048400">
+                                7
+                            </td>
+                        <td class="day text-center weekend" data-day-timestamp="1523134800">
+                                8
+                            </td>
+                </tr>
+                <tr data-region="month-view-week">
+                        <td class="day text-center" data-day-timestamp="1523221200">
+                                9
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1523307600">
+                                10
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1523394000">
+                                11
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1523480400">
+                                12
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1523566800">
+                                13
+                            </td>
+                        <td class="day text-center weekend" data-day-timestamp="1523653200">
+                                14
+                            </td>
+                        <td class="day text-center weekend" data-day-timestamp="1523739600">
+                                15
+                            </td>
+                </tr>
+                <tr data-region="month-view-week">
+                        <td class="day text-center" data-day-timestamp="1523826000">
+                                16
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1523912400">
+                                17
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1523998800">
+                                18
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1524085200">
+                                19
+                            </td>
+                        <td class="day text-center today" data-day-timestamp="1524171600">
+                                    <a  id="calendar-day-popover-link-1-2018-109-5ad99632ab68c5ad99632ab7251" href="https://moodle.muctr.ru/calendar/view.php?view=day&amp;time=1524171600" data-container="body" data-toggle="popover" data-html="true" data-trigger="hover" data-placement="top" data-title="Today Пятница 20 Апрель" data-alternate="Нет событий">20</a>
+    <div class="hidden">
+
+    </div>
+                            </td>
+                        <td class="day text-center weekend" data-day-timestamp="1524258000">
+                                21
+                            </td>
+                        <td class="day text-center weekend" data-day-timestamp="1524344400">
+                                22
+                            </td>
+                </tr>
+                <tr data-region="month-view-week">
+                        <td class="day text-center" data-day-timestamp="1524430800">
+                                23
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1524517200">
+                                24
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1524603600">
+                                25
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1524690000">
+                                26
+                            </td>
+                        <td class="day text-center" data-day-timestamp="1524776400">
+                                27
+                            </td>
+                        <td class="day text-center weekend" data-day-timestamp="1524862800">
+                                28
+                            </td>
+                        <td class="day text-center weekend" data-day-timestamp="1524949200">
+                                29
+                            </td>
+                </tr>
+                <tr data-region="month-view-week">
+                        <td class="day text-center" data-day-timestamp="1525035600">
+                                30
+                            </td>
+                        <td class="dayblank">&nbsp;</td>
+                        <td class="dayblank">&nbsp;</td>
+                        <td class="dayblank">&nbsp;</td>
+                        <td class="dayblank">&nbsp;</td>
+                        <td class="dayblank">&nbsp;</td>
+                        <td class="dayblank">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+            <div class="footer"></div>
+
+        </div>
+
+    </div>
+
+</aside>
+
+  <span id="sb-3"></span><a href="#sb-4" class="sr-only sr-only-focusable">Пропустить Предстоящие события</a>
+
+<aside id="inst28"
+     class=" block block_calendar_upcoming  card m-b-1"
+     role="complementary"
+     data-block="calendar_upcoming"
+          aria-labelledby="instance-28-header"
+     >
+
+    <div class="card-block">
+
+
+            <h3 id="instance-28-header" class="card-title">Предстоящие события</h3>
+
+        <div class="card-text content">
+            <div id="calendar-upcoming-block-5ad99632adb2c5ad99632ab7252" data-template="core_calendar/upcoming_mini">
+    <div class="card-text content calendarwrapper" id="month-upcoming-mini-5ad99632adb2c5ad99632ab7252" data-context-id="0" data-courseid="1" data-categoryid="0">
+        <span class="overlay-icon-container hidden" data-region="overlay-icon-container">
+            <span class="loading-icon"><img class="icon " alt="Загрузка" title="Загрузка" src="https://moodle.muctr.ru/theme/image.php/boost/core/1523545210/y/loading" /></span>
+        </span>
+            Нет предстоящих событий
+    </div>
+</div>
+            <div class="footer"><div class="gotocal"><a href="https://moodle.muctr.ru/calendar/view.php?view=upcoming">Перейти к календарю...</a></div></div>
+
+        </div>
+
+    </div>
+
+</aside>
+
+  <span id="sb-4"></span><a href="#sb-5" class="sr-only sr-only-focusable">Пропустить Пользователи на сайте</a>
+
+<aside id="inst1498"
+     class=" block block_online_users  card m-b-1"
+     role="complementary"
+     data-block="online_users"
+          aria-labelledby="instance-1498-header"
+     >
+
+    <div class="card-block">
+
+
+            <h3 id="instance-1498-header" class="card-title">Пользователи на сайте</h3>
+
+        <div class="card-text content">
+            <div class="info">(последние 5 минут: 1)</div><ul class='list'>
+<li class="listentry"><div class="user"><a href="https://moodle.muctr.ru/user/view.php?id=4&amp;course=1" title="1 мин. 40 сек."><img src="https://moodle.muctr.ru/pluginfile.php/46/user/icon/boost/f2?rev=30177" alt="" title="" class="userpicture" width="16" height="16" />[A] Глеб Заходякин</a></div></li>
+</ul><div class="clearer"><!-- --></div>
+            <div class="footer"></div>
+
+        </div>
+
+    </div>
+
+</aside>
+
+  <span id="sb-5"></span></aside>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="nav-drawer" data-region="drawer" class="hidden-print moodle-has-zindex " aria-hidden="false" tabindex="-1">
+        <nav class="list-group">
+            <a class="list-group-item list-group-item-action font-weight-bold" href="https://moodle.muctr.ru/" data-key="home" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" >
+                <div class="m-l-0">
+                        В начало
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://moodle.muctr.ru/calendar/view.php?view=month" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                <div class="m-l-0">
+                        Календарь
+                </div>
+            </a>
+        </nav>
+    </div>
+</div>
+<footer id="page-footer" class="p-y-1 bg-inverse">
+    <div class="container">
+        <div id="course-footer"></div>
+
+
+        <div class="logininfo">Вы используете гостевой доступ (<a href="https://moodle.muctr.ru/login/index.php">Вход</a>)</div>
+        <div class="tool_usertours-resettourcontainer"></div>
+        <div class="sitelink"><a title="Moodle" href="http://moodle.org/"><img src="https://moodle.muctr.ru/theme/image.php/boost/core/1523545210/moodlelogo" alt="Логотип Moodle" /></a></div>
+        <nav class="nav navbar-nav hidden-lg-up">
+                <ul class="list-unstyled p-t-1">
+                                    <li><a href="http://moodle.muctr.ru/course/view.php?id=24" title="Помощь">Помощь</a></li>
+                                    <li><a href="http://moodle.org" title="Сообщество">Сообщество</a></li>
+                                <li>
+                                    <ul class="list-unstyled m-l-1">
+                                                        <li><a href="http://docs.moodle.org/archive/ru" title="Документация Moodle на русском языке">Документация Moodle на русском языке</a></li>
+                                                        <li><a href="http://moodle.org/course/view.php?id=25" title="Глобальный русскоязычный форум">Глобальный русскоязычный форум</a></li>
+                                                        <li><a href="http://docs.moodle.org" title="Документация">Документация</a></li>
+                                                        <li><a href="http://moodle.org/support" title="Бесплатная поддержка Moodle">Бесплатная поддержка Moodle</a></li>
+                                                        <li><a href="http://moodle.org/development" title="Разработка Moodle">Разработка Moodle</a></li>
+                                                    <li>
+                                                        <ul class="list-unstyled m-l-1">
+                                                                            <li><a href="http://tracker.moodle.org" title="Трекер Moodle">Трекер Moodle</a></li>
+                                                        </ul>
+                                                    </li>
+                                                        <li><a href="http://moodle.org/news" title="Новости Moodle">Новости Moodle</a></li>
+                                    </ul>
+                                </li>
+                                    <li><a href="#" title="Язык">Русский ‎(ru)‎</a></li>
+                                <li>
+                                    <ul class="list-unstyled m-l-1">
+                                                        <li><a href="https://moodle.muctr.ru/?lang=ru" title="Русский ‎(ru)‎">Русский ‎(ru)‎</a></li>
+                                                        <li><a href="https://moodle.muctr.ru/?lang=en" title="English ‎(en)‎">English ‎(en)‎</a></li>
+                                    </ul>
+                                </li>
+                </ul>
+        </nav>
+        <a href="https://download.moodle.org/mobile?version=2017111302.04&amp;lang=ru&amp;iosappid=633359593&amp;androidappid=com.moodle.moodlemobile">Get the mobile app</a>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34895451-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://moodle.muctr.ru/lib/requirejs.php/1523545210/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://moodle.muctr.ru/lib/javascript.php/1523545210/lib/jquery/jquery-3.2.1.min',
+        jqueryui: 'https://moodle.muctr.ru/lib/javascript.php/1523545210/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://moodle.muctr.ru/lib/javascript.php/1523545210/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="https://moodle.muctr.ru/lib/javascript.php/1523545210/lib/requirejs/require.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://moodle.muctr.ru/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage("ru",{
+ "Play": "Воспроизвести",
+ "Pause": "Приостановить",
+ "Current Time": "Текущее время",
+ "Duration Time": "Продолжительность",
+ "Remaining Time": "Оставшееся время",
+ "Stream Type": "Тип потока",
+ "LIVE": "ОНЛАЙН",
+ "Loaded": "Загрузка",
+ "Progress": "Прогресс",
+ "Fullscreen": "Полноэкранный режим",
+ "Non-Fullscreen": "Неполноэкранный режим",
+ "Mute": "Без звука",
+ "Unmute": "Со звуком",
+ "Playback Rate": "Скорость воспроизведения",
+ "Subtitles": "Субтитры",
+ "subtitles off": "Субтитры выкл.",
+ "Captions": "Подписи",
+ "captions off": "Подписи выкл.",
+ "Chapters": "Главы",
+ "Close Modal Dialog": "Закрыть модальное окно",
+ "Descriptions": "Описания",
+ "descriptions off": "описания выкл.",
+ "Audio Track": "Звуковая дорожка",
+ "You aborted the media playback": "Вы прервали воспроизведение видео",
+ "A network error caused the media download to fail part-way.": "Ошибка сети вызвала сбой во время загрузки видео.",
+ "The media could not be loaded, either because the server or network failed or because the format is not supported.": "Невозможно загрузить видео из-за сетевого или серверного сбоя либо формат не поддерживается.",
+ "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "Воспроизведение видео было приостановлено из-за повреждения либо в связи с тем, что видео использует функции, неподдерживаемые вашим браузером.",
+ "No compatible source was found for this media.": "Совместимые источники для этого видео отсутствуют.",
+ "The media is encrypted and we do not have the keys to decrypt it.": "Видео в зашифрованном виде, и у нас нет ключей для расшифровки.",
+ "Play Video": "Воспроизвести видео",
+ "Close": "Закрыть",
+ "Modal Window": "Модальное окно",
+ "This is a modal window": "Это модальное окно.",
+ "This modal can be closed by pressing the Escape key or activating the close button.": "Модальное окно можно закрыть нажав Esc или кнопку закрытия окна.",
+ ", opens captions settings dialog": ", откроется диалог настройки подписей",
+ ", opens subtitles settings dialog": ", откроется диалог настройки субтитров",
+ ", opens descriptions settings dialog": ", откроется диалог настройки описаний",
+ ", selected": ", выбрано"
+});
+
+    });
+});;
+
+require(['jquery'], function($) {
+    require(['theme_boost/popover'], function() {
+        var target = $("#calendar-day-popover-link-1-2018-109-5ad99632ab68c5ad99632ab7251");
+        target.popover({
+            content: function() {
+                var source = target.next().find("> *:not('.hidden')");
+                var content = $('<div>');
+
+                if (source.length) {
+                    content.html(source.clone(false));
+                } else {
+                    content.html(target.data('alternate'));
+                }
+
+                return content.html();
+            }
+        });
+    });
+});
+;
+
+require([
+    'jquery',
+    'core_calendar/selectors',
+    'core_calendar/events',
+], function(
+    $,
+    CalendarSelectors,
+    CalendarEvents
+) {
+
+    $('body').on(CalendarEvents.filterChanged, function(e, data) {
+        M.util.js_pending("month-mini-5ad99632ab68c5ad99632ab7251-filterChanged");
+        // A filter value has been changed.
+        // Find all matching cells in the popover data, and hide them.
+        $("#month-mini-2018-April-5ad99632ab68c5ad99632ab7251")
+            .find(CalendarSelectors.popoverType[data.type])
+            .toggleClass('hidden', !!data.hidden);
+        M.util.js_complete("month-mini-5ad99632ab68c5ad99632ab7251-filterChanged");
+    });
+});
+;
+
+require(['jquery', 'core_calendar/calendar_mini'], function($, CalendarMini) {
+    CalendarMini.init($("#calendar-month-2018-April-5ad99632ab68c5ad99632ab7251"));
+});
+;
+
+require([
+    'jquery',
+    'core_calendar/selectors',
+    'core_calendar/events',
+], function(
+    $,
+    CalendarSelectors,
+    CalendarEvents
+) {
+    var root = $('#month-upcoming-mini-5ad99632adb2c5ad99632ab7252');
+
+    $('body').on(CalendarEvents.filterChanged, function(e, data) {
+        M.util.js_pending("month-upcoming-mini-5ad99632adb2c5ad99632ab7252-filterChanged");
+
+        // A filter value has been changed.
+        // Find all matching cells in the popover data, and hide them.
+        var target = $("#month-upcoming-mini-5ad99632adb2c5ad99632ab7252").find(CalendarSelectors.eventType[data.type]);
+
+        var transitionPromise = $.Deferred();
+        if (data.hidden) {
+            transitionPromise.then(function() {
+                return target.slideUp('fast').promise();
+            });
+        } else {
+            transitionPromise.then(function() {
+                return target.slideDown('fast').promise();
+            });
+        }
+
+        transitionPromise.then(function() {
+            M.util.js_complete("month-upcoming-mini-5ad99632adb2c5ad99632ab7252-filterChanged");
+
+            return;
+        });
+
+        transitionPromise.resolve();
+    });
+});
+;
+
+require(['jquery', 'core_calendar/calendar_view'], function($, CalendarView) {
+    CalendarView.init($("#calendar-upcoming-block-5ad99632adb2c5ad99632ab7252"), 'upcoming');
+});
+;
+
+require(['jquery'], function($) {
+    $('#single_select5ad99632ab7255').change(function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f5ad99632ab7254').submit();
+        }
+    });
+});
+;
+
+require(['jquery'], function($) {
+    $('#single_select5ad99632ab7259').change(function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f5ad99632ab7258').submit();
+        }
+    });
+});
+;
+
+require(['theme_boost/loader']);
+require(['theme_boost/drawer'], function(mod) {
+    mod.init();
+});
+;
+require(["core/notification"], function(amd) { amd.init(2, []); });;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });
+});
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0435","name":"\u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435","error":"\u041e\u0448\u0438\u0431\u043a\u0430","info":"\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f","yes":"\u0414\u0430","no":"\u041d\u0435\u0442","ok":"OK","cancel":"\u041e\u0442\u043c\u0435\u043d\u0430","collapseall":"\u0421\u0432\u0435\u0440\u043d\u0443\u0442\u044c \u0432\u0441\u0451","expandall":"\u0420\u0430\u0437\u0432\u0435\u0440\u043d\u0443\u0442\u044c \u0432\u0441\u0451","confirm":"\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u044c","areyousure":"\u0412\u044b \u0443\u0432\u0435\u0440\u0435\u043d\u044b?","closebuttontitle":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c","unknownerror":"\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u0430\u044f \u043e\u0448\u0438\u0431\u043a\u0430"},"repository":{"type":"\u0422\u0438\u043f","size":"\u0420\u0430\u0437\u043c\u0435\u0440","invalidjson":"\u041d\u0435\u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u0430\u044f \u0441\u0442\u0440\u043e\u043a\u0430 JSON","nofilesattached":"\u041d\u0435 \u043f\u0440\u0438\u043a\u0440\u0435\u043f\u043b\u0435\u043d \u043d\u0438 \u043e\u0434\u0438\u043d \u0444\u0430\u0439\u043b","filepicker":"\u0412\u044b\u0431\u043e\u0440 \u0444\u0430\u0439\u043b\u0430","logout":"\u0412\u044b\u0445\u043e\u0434","nofilesavailable":"\u041d\u0435\u0442 \u043d\u0438 \u043e\u0434\u043d\u043e\u0433\u043e \u0444\u0430\u0439\u043b\u0430","norepositoriesavailable":"\u041a \u0441\u043e\u0436\u0430\u043b\u0435\u043d\u0438\u044e, \u043d\u0438 \u043e\u0434\u043d\u043e \u0438\u0437 \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0445 \u0445\u0440\u0430\u043d\u0438\u043b\u0438\u0449 \u043d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0432\u0435\u0440\u043d\u0443\u0442\u044c \u0444\u0430\u0439\u043b \u0432 \u0442\u0440\u0435\u0431\u0443\u0435\u043c\u043e\u043c \u0444\u043e\u0440\u043c\u0430\u0442\u0435","fileexistsdialogheader":"\u0424\u0430\u0439\u043b \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442","fileexistsdialog_editor":"\u0424\u0430\u0439\u043b \u0441 \u0442\u0430\u043a\u0438\u043c \u0438\u043c\u0435\u043d\u0435\u043c \u0443\u0436\u0435 \u0431\u044b\u043b \u043f\u0440\u0438\u043a\u0440\u0435\u043f\u043b\u0435\u043d \u043a \u0442\u0435\u043a\u0441\u0442\u0443, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0412\u044b \u0440\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u0443\u0435\u0442\u0435.","fileexistsdialog_filemanager":"\u0424\u0430\u0439\u043b \u0441 \u0442\u0430\u043a\u0438\u043c \u0438\u043c\u0435\u043d\u0435\u043c \u0443\u0436\u0435 \u0431\u044b\u043b \u043f\u0440\u0438\u043a\u0440\u0435\u043f\u043b\u0435\u043d","renameto":"\u041f\u0435\u0440\u0435\u0438\u043c\u0435\u043d\u043e\u0432\u0430\u0442\u044c \u0432 \"{$a}\"","referencesexist":"\u041d\u0430 \u044d\u0442\u043e\u0442 \u0444\u0430\u0439\u043b \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043e {$a} \u0441\u0441\u044b\u043b\u043e\u043a","select":"\u0412\u044b\u0431\u0440\u0430\u0442\u044c"},"admin":{"confirmdeletecomments":"\u0412\u044b \u0443\u0432\u0435\u0440\u0435\u043d\u044b \u0432 \u0442\u043e\u043c, \u0447\u0442\u043e \u0441\u043e\u0431\u0438\u0440\u0430\u0435\u0442\u0435\u0441\u044c \u0443\u0434\u0430\u043b\u0438\u0442\u044c \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438?","confirmation":"\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u0435"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {Y.use("moodle-filter_glossary-autolinker",function() {M.filter_glossary.init_filter_autolinking({"courseid":0});
+});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"ru"});
+});
+M.util.help_popups.setup(Y);
+Y.use("moodle-course-categoryexpander",function() {Y.Moodle.course.categoryexpander.init();
+});
+ M.util.js_pending('random5ad99632ab72510'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random5ad99632ab72510'); });
+})();
+//]]>
+</script>
+
+    </div>
+</footer>
+
+</body>
+</html>

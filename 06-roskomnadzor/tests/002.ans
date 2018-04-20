@@ -1,0 +1,10 @@
+/
+/accounts/logout
+/admin
+/change/:2
+/change/password
+/change/profile
+/registration
+/services/pass/:2
+/services/pass
+/services/pass/security

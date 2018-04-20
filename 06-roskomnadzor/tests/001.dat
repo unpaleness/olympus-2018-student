@@ -1,0 +1,49 @@
+test.com
+<!DOCTYPE html>
+<html  dir="ltr" lang="ru" xml:lang="ru">
+    <head></head>
+    <body>
+        <li class="-item _current">
+            <a id="nav-questions" href="" class="test-class">Test</a>
+        </li>
+        <li class="-item">
+            <a id="nav-jobs" href="https://test.com/jobs?med=site-ui&amp;ref=jobs-tab" class="test-class">Test</a>
+        </li>
+        <li class="-item">
+            <a id="nav-jobs" href="/jobs/latest?med=site-ui&amp;ref=jobs-tab" class="test-class">Test</a>
+        </li>
+        <li class="-item">
+            <a id="nav-jobs" href="http://test.com/jobs/latest/far?med=site-ui&amp;ref=jobs-tab" class="test-class">Test</a>
+        </li>
+        <li class="-item">
+            <a id="nav-jobs" href="/jobs/faf?med=site-ui&amp;ref=jobs-tab" class="test-class">Test</a>
+        </li>
+        <li class="-item">
+            <a id="nav-jobs" href="/jobs/beb?med=site-ui&amp;ref=jobs-tab" class="test-class">Test</a>
+        </li>
+        <li class="-item">
+            <a id="nav-jobs" href="https://www.test.com/jobs/beb/meb?med=site-ui&amp;ref=jobs-tab" class="test-class">Test</a>
+        </li>
+        <li class="-item">
+            <a id="nav-jobs" href="/jobs/beb/fef/kek/1/?med=site-ui&amp;ref=jobs-tab" class="test-class">Test</a>
+        </li>
+        <li class="-item">
+            <a id="nav-jobs" href="/jobs/beb/fef/kek/2/?med=site-ui&amp;ref=jobs-tab" class="test-class">Test</a>
+        </li>
+        <li class="-item">
+            <a id="nav-jobs" href="/jobs/beb/fef/kek/3/?med=site-ui&amp;ref=jobs-tab" class="test-class">Test</a>
+        </li>
+        <li class="-item">
+            <a id="nav-tags" href="/tags" class="test-class">Test</a>
+        </li>
+        <li class="-item">
+            <a id="nav-users" href="/users" class="test-class">Test</a>
+        </li>
+        <li class="-item">
+            <a id="nav-tags" href="/services/pass/" class="test-class">Test</a>
+        </li>
+        <li class="-item">
+            <a id="nav-users" href="/services/pass/security/" class="test-class">Test</a>
+        </li>
+    </body>
+</html>

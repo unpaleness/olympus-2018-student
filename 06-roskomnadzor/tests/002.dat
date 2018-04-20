@@ -1,0 +1,593 @@
+accounts.muctr.ru
+<!DOCTYPE html>
+<html lang="ru">
+<title>Система регистрации сотрудников университета</title>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/static/img/favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/static/css/core_style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="/static/libs/bootstrap-datetimepicker.min.css">
+	<link rel="stylesheet" type="text/css" href='/static/libs/select2.min.css'>
+	<link rel="stylesheet" type="text/css" href='/static/libs/select2-bootstrap.min.css'>
+	<link rel="stylesheet" type="text/css" href="/static/css/django-formset-add.css">
+
+
+</head>
+
+<body>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">
+                    <img alt="РХТУ" src="/static/img/muctr-sm-logo.png">
+                </a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+
+                <ul class="nav navbar-nav">
+                    <li><a href="/registration/">Регистрация</a></li>
+                    <li><a href="https://muctr.ru" target="_blank">Официальный сайт</a></li>
+                    <li><a href="http://it.muctr.ru/wiki/index.php/%D0%A1%D0%B5%D1%80%D0%B2%D0%B8%D1%81_%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%BE%D0%B9_%D0%BF%D0%BE%D1%87%D1%82%D1%8B" target="_blank">База знаний</a></li>
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="">
+                                    Услуги
+                                    <span class="caret"></span>
+                                </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="https://mail.muctr.ru" target="_blank">Почта</a>
+                                </li>
+
+                                <li>
+                                    <a href="/services/pass/">Заказ пропуска</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="/services/pass/security/">Проверка пропусков</a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li class="dropdown text-right">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="">
+                                mpyisin
+                                <span class="caret"></span>
+                            </a>
+                        <ul class="dropdown-menu text-right">
+
+                            <li class="text-right">
+                                <a href="/admin/">Администрирование</a>
+                            </li>
+
+                            <li class="text-right">
+                                <a href="/change/password/">Поменять пароль</a>
+                            </li>
+                            <li class="text-right">
+                                <a href="/change/profile/">Изменить данные</a>
+                            </li>
+                            <li class="text-right">
+                                <a href="/accounts/logout/">Выйти</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <div class="container-header">
+        <div class="container">
+            <div class="page-header">
+                <h1><i class="fa fa-"></i>Система регистрации сотрудников университета</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+
+	<style type="text/css">
+		.form-inline label{
+			box-sizing: border-box;
+			vertical-align: middle;
+			height: 34px;
+		}
+	</style>
+
+		<div class="col-md-8 col-md-offset-2 col-sm-12 centered">
+
+				<div id="error_msg" class="error bg-danger">
+
+				</div>
+
+
+			<form id='all-form' role="form" action="." method="POST">
+				<input type='hidden' name='csrfmiddlewaretoken' value='XRjkG9NR1aKYCVqO7i7khCXbLJdffwhOccbVqDacHBOR86YbwoMmlLLF35wO4tDq' />
+
+
+<div id="div_id_userdetail-lastname" class="form-group"> <label for="id_userdetail-lastname" class="control-label  requiredField">
+                Фамилия<span class="asteriskField">*</span> </label> <div class="controls "> <input class="textinput textInput form-control" id="id_userdetail-lastname" maxlength="100" name="userdetail-lastname" type="text" required /> </div> </div> <div id="div_id_userdetail-name" class="form-group"> <label for="id_userdetail-name" class="control-label  requiredField">
+                Имя<span class="asteriskField">*</span> </label> <div class="controls "> <input class="textinput textInput form-control" id="id_userdetail-name" maxlength="100" name="userdetail-name" type="text" required /> </div> </div> <div id="div_id_userdetail-midname" class="form-group"> <label for="id_userdetail-midname" class="control-label  requiredField">
+                Отчество<span class="asteriskField">*</span> </label> <div class="controls "> <input class="textinput textInput form-control" id="id_userdetail-midname" maxlength="100" name="userdetail-midname" type="text" required /> </div> </div> <div id="div_id_userdetail-department" class="form-group"> <label for="id_userdetail-department" class="control-label  requiredField">
+                Подразделения<span class="asteriskField">*</span> </label> <div class="controls "> <select multiple="multiple" class="selectmultiple form-control" id="id_userdetail-department" name="userdetail-department" required>
+<option value="102">Административное управление</option>
+<option value="206">Административно-хозяйственный отдел комплекса на Шелепихе</option>
+<option value="200">Административно-хозяйственный отдел Тушинского комплекса</option>
+<option value="105">Архив</option>
+<option value="240">Банковская группа</option>
+<option value="143">Вечерняя математическая школа</option>
+<option value="142">Вечерняя химическая школа</option>
+<option value="108">Второй отдел</option>
+<option value="88">Высший колледж рационального природопользования</option>
+<option value="84">Высший химический колледж Российской Академии наук</option>
+<option value="210">Гараж</option>
+<option value="22">Гуманитарный факультет</option>
+<option value="113">Дежурно-диспетчерская служба</option>
+<option value="23">Деканат гуманитарного факультета</option>
+<option value="59">Деканат инженерного химико-технологического факультета</option>
+<option value="76">Деканат института материалов современной энергетики и нанотехнологии</option>
+<option value="83">Деканат института химии и проблем устойчивого развития</option>
+<option value="91">Деканат института экономики и менеджмента</option>
+<option value="213">Деканат по работе с иностранными учащимися</option>
+<option value="72">Деканат факультета биотехнологии и промышленной экологии</option>
+<option value="2">Деканат факультета естественных наук</option>
+<option value="12">Деканат факультета инженерной химии</option>
+<option value="67">Деканат факультета информационных технологий и управления</option>
+<option value="42">Деканат факультета нефтегазохимии и полимерных материалов</option>
+<option value="32">Деканат факультета технологии неорганических веществ и высокотемпературных материалов</option>
+<option value="52">Деканат факультета химико-фармацевтических технологий и биомедицинских препаратов</option>
+<option value="248">Зам. руководителя по безопасности и режиму</option>
+<option value="250">Зам. руководителя по делам ГО и ЧС</option>
+<option value="114">Защитное сооружение ГО (убежище ГО)</option>
+<option value="222">Здравпункт в Миусском комплексе (отдел социальной политики)</option>
+<option value="223">Здравпункт в Тушинском комплексе (отдел социальной политики)</option>
+<option value="188">Издательский центр</option>
+<option value="58">Инженерный химико-технологический факультет</option>
+<option value="75">Институт материалов современной энергетики и нанотехнологии - ИФХ  (на правах факультета)</option>
+<option value="137">Институт профессионального развития (на правах управления)</option>
+<option value="82">Институт химии и проблем устойчивого развития (на правах факультета)</option>
+<option value="90">Институт экономики и менеджмента (на правах факультета)</option>
+<option value="118">Информационно-библиографический отдел</option>
+<option value="115">Информационно-библиотечный центр</option>
+<option value="163">Испытательный центр &quot;Химтест&quot;</option>
+<option value="230">Исследовательский центр «РХТУ-СКОЛТЕХ»</option>
+<option value="30">Кабинет гуманитарных знаний</option>
+<option value="3">Кафедра аналитической химии</option>
+<option value="74">Кафедра биотехнологии</option>
+<option value="4">Кафедра высшей математики</option>
+<option value="97">Кафедра государственно-правовых дисциплин </option>
+<option value="95">Кафедра гражданского, авторского и экологического права</option>
+<option value="13">Кафедра инновационных материалов и защиты от коррозии</option>
+<option value="29">Кафедра иностранных языков</option>
+<option value="21">Кафедра информатики и компьютерного проектирования</option>
+<option value="70">Кафедра информационных компьютерных технологий</option>
+<option value="24">Кафедра истории и политологии</option>
+<option value="5">Кафедра квантовой химии</option>
+<option value="68">Кафедра кибернетики химико-технологических процессов</option>
+<option value="6">Кафедра коллоидной химии</option>
+<option value="69">Кафедра компьютерно-интегрированных систем в химической технологии</option>
+<option value="96">Кафедра криминалистики и уголовного права </option>
+<option value="20">Кафедра логистики и экономической информатики</option>
+<option value="19">Кафедра мембранной технологии</option>
+<option value="93">Кафедра менеджмента и маркетинга</option>
+<option value="17">Кафедра механики</option>
+<option value="80">Кафедра наноматериалов и нанотехнологии</option>
+<option value="7">Кафедра общей и неорганической химии</option>
+<option value="36">Кафедра общей технологии силикатов</option>
+<option value="14">Кафедра общей химической технологии</option>
+<option value="8">Кафедра органической химии</option>
+<option value="73">Кафедра промышленной экологии</option>
+<option value="15">Кафедра процессов и аппаратов химической технологии</option>
+<option value="28">Кафедра психологии</option>
+<option value="26">Кафедра русского языка</option>
+<option value="86">Кафедра социологии</option>
+<option value="18">Кафедра стандартизации и инженерно-компьютерной графики</option>
+<option value="79">Кафедра технологии изотопов и водородной энергетики</option>
+<option value="33">Кафедра технологии неорганических веществ и электрохимических процессов</option>
+<option value="48">Кафедра технологии переработки пластмасс</option>
+<option value="78">Кафедра технологии редких элементов и наноматериалов на их основе</option>
+<option value="44">Кафедра технологии тонкого органического синтеза и химии красителей</option>
+<option value="53">Кафедра технологии химико-фармацевтических и косметических средств</option>
+<option value="62">Кафедра техносферной  безопасности </option>
+<option value="253">Кафедра техносферной безопасности</option>
+<option value="9">Кафедра физики</option>
+<option value="27">Кафедра физического воспитания</option>
+<option value="10">Кафедра физической химии</option>
+<option value="25">Кафедра философии</option>
+<option value="77">Кафедра химии высоких энергий и радиоэкологии</option>
+<option value="54">Кафедра химии и технологии биомедицинских препаратов</option>
+<option value="61">Кафедра химии и технологии высокомолекулярных соединений</option>
+<option value="35">Кафедра химии и технологии кристаллов</option>
+<option value="60">Кафедра химии и технологии органических соединений азота</option>
+<option value="56">Кафедра химии и технологии органического синтеза</option>
+<option value="37">Кафедра химической технологии керамики и огнеупоров</option>
+<option value="38">Кафедра химической технологии композиционных и вяжущих материалов</option>
+<option value="43">Кафедра химической технологии основного органического и нефтехимического синтеза</option>
+<option value="46">Кафедра химической технологии пластических масс</option>
+<option value="47">Кафедра химической технологии полимерных композиционных лакокрасочных материалов и покрытий</option>
+<option value="39">Кафедра химической технологии стекла и ситаллов</option>
+<option value="45">Кафедра химической технологии углеродных материалов</option>
+<option value="92">Кафедра экономической теории</option>
+<option value="55">Кафедра экспертизы в допинг- и наркоконтроле</option>
+<option value="16">Кафедра электротехники и электроники</option>
+<option value="85">Кафедра ЮНЕСКО &quot;Зелёная химия для устойчивого развития&quot;</option>
+<option value="218">Клуб РХТУ</option>
+<option value="177">Комбинат питания</option>
+<option value="208">Комплекс Лефортово (ЦАО)</option>
+<option value="205">Комплекс на Шелепихе (СЗАО)</option>
+<option value="238">Лаборатория лазерного наноструктурирования стекла</option>
+<option value="57">Лаборатория &quot;Сорбент&quot;</option>
+<option value="125">Международная лаборатория функциональных материалов на основе стекла им. П.Д. Саркисова</option>
+<option value="126">Международный центр лазерных технологий</option>
+<option value="159"> Научная лаборатория «Новые электрохимические технологии и материалы»</option>
+<option value="81">Научно-аналитический центр</option>
+<option value="239">Научно-исследовательская лаборатория «Электроактивные материалы и электрохимическая энергетика»</option>
+<option value="231">Научно-образовательный кластер имени Г. А. Ягодина</option>
+<option value="185">Научно-образовательный центр « Высокопроизводительные и параллельные вычисления</option>
+<option value="161">Научно-образовательный центр &quot;Интел-ОММ&quot;</option>
+<option value="162">Научно-образовательный центр &quot;Катализ в химической технологии&quot;</option>
+<option value="40">Научно-образовательный центр «Перспективные материалы и технологии»</option>
+<option value="158">Научно-образовательный центр «Электрохимические процессы и электродные материалы»</option>
+<option value="160">Научно-технологический центр &quot;Марганец&quot;</option>
+<option value="229">Новомосковский институт (филиал) федерального государственного бюджетного образовательного учреждения высшего профессионального образования &quot;Российский химико-технологический университет имени Д.И. Менделеева&quot;</option>
+<option value="224">Общественные структуры университета</option>
+<option value="104">Общий отдел</option>
+<option value="221">Оздоровительно-спортивный лагерь, база отдыха &quot;Менделеевец&quot; (Миусский комплекс)</option>
+<option value="132">Организационно-методический отдел</option>
+<option value="146">Отдел аспирантуры и докторантуры</option>
+<option value="119">Отдел библиотечного обслуживания Миусского комплекса</option>
+<option value="120">Отдел библиотечного обслуживания Тушинского  комплекса</option>
+<option value="136">Отделение очно-заочного и заочного обучения</option>
+<option value="153">Отдел защиты информации</option>
+<option value="183">Отдел информационных систем</option>
+<option value="103">Отдел кадров</option>
+<option value="117">Отдел каталогизации</option>
+<option value="116">Отдел комплектования</option>
+<option value="175">Отдел контрактной службы</option>
+<option value="176">Отдел материально-технического снабжения</option>
+<option value="243">Отдел менеджмента качества и образовательных программ</option>
+<option value="216">Отдел молодёжной политики</option>
+<option value="169">Отдел оплаты труда</option>
+<option value="217">Отдел организации воспитательной работы и психологической поддержки  студентов</option>
+<option value="138">Отдел организации обучения на контрактной основе</option>
+<option value="109">Отдел охраны труда и техники безопасности</option>
+<option value="134">Отдел планирования учебного процесса</option>
+<option value="139">Отдел повышения квалификации и переподготовки</option>
+<option value="170">Отдел по учёту материальных ценностей</option>
+<option value="168">Отдел расчётов, учёта и отчётности</option>
+<option value="184">Отдел сетевых технологий</option>
+<option value="122">Отдел социальной политики</option>
+<option value="203">Отдел технических средств обучения Тушинского комплекса</option>
+<option value="182">Отдел технического обслуживания</option>
+<option value="128">Отдел управления федеральной собственностью</option>
+<option value="172">Отдел финансового планирования НИР</option>
+<option value="173">Отдел финансового планирования по разделу &quot;Образование&quot;</option>
+<option value="201">Отдел эксплуатации Тушинского комплекса</option>
+<option value="202">Охрана Тушинского комплекса</option>
+<option value="107">Первый отдел</option>
+<option value="171">Планово-финансовое управление</option>
+<option value="214">Подготовительное отделение</option>
+<option value="192">Поректор по административно-хозяйственной работе</option>
+<option value="106">Приёмная комиссия</option>
+<option value="215">Проректор по воспитательной работе и молодёжной политике</option>
+<option value="145">Проректор по научной и инновационной деятельности</option>
+<option value="130">Проректор по учебной работе</option>
+<option value="225">Профсоюзный комитет сотрудников</option>
+<option value="226">Профсоюзный комитет студентов</option>
+<option value="189">Редакционно-издательский отдел</option>
+<option value="191">Редакция журнала &quot;Техника и технология силикатов&quot;</option>
+<option value="121">Рекламно-выставочный центр</option>
+<option value="99">Ректор</option>
+<option value="100">Ректорат</option>
+<option value="220">Санаторий-профилакторий РХТУ им. Д.И. Менделеева (отдел социальной политики)</option>
+<option value="101">Секретариат учёного совета университета</option>
+<option value="111">Служба безопасности</option>
+<option value="156">Служба драгметаллов</option>
+<option value="154">Служба международного научно-технического сотрудничества</option>
+<option value="144">Служба по профориентационной работе</option>
+<option value="207">Служба проректора по административно-хозяйственной работе</option>
+<option value="247">Служба проректора по научной и инновационной деятельности</option>
+<option value="110">Служба радиационной безопасности</option>
+<option value="140">Служба содействия занятости выпускников РХТУ</option>
+<option value="241">Служба финансового мониторинга и внутреннего контроля</option>
+<option value="228">Совет ветеранов войны и труда</option>
+<option value="165">Совет директоров малых инновационных предприятий</option>
+<option value="164">Совет молодых учёных университета</option>
+<option value="219">Структуры университета выполняющие социальные функции</option>
+<option value="204">Студенческий городок</option>
+<option value="227">Студенческий совет университета</option>
+<option value="246">Студенческое трансферное агентство разработок и технологий «С.Т.А.Р.Т.»</option>
+<option value="157">Технопарк &quot;Экохимбизнес-2000+&quot;</option>
+<option value="190">Типография</option>
+<option value="199">Тушинский комплекс (СЗАО)</option>
+<option value="167">Управление бухгалтерского учёта и финансового контроля</option>
+<option value="174">Управление закупок и централизованного снабжения</option>
+<option value="147">Управление инноваций</option>
+<option value="180">Управление информационных технологий</option>
+<option value="252">Управление международных проектов и программ</option>
+<option value="212">Управление международных связей</option>
+<option value="149">Управление научных исследований</option>
+<option value="251">Управление повышения квалификации и профессиональной переподготовки</option>
+<option value="131">Учебное управление</option>
+<option value="245">Учебно-методический центр РХТУ им. Д.И. Менделеева по Красноярскому краю им. Г.А. Ягодина</option>
+<option value="124">Учебно-методическое объединение ВУЗов химико-технологического профиля</option>
+<option value="64">Учебно-научный и исследовательский центр по техносферной безопасности</option>
+<option value="49">Учебно-научный центр магистерской подготовки &quot;Биоматериалы&quot;</option>
+<option value="50">Учебно-производственный инновационный центр &quot;Полимер&quot;</option>
+<option value="71">Факультет биотехнологии и промышленной экологии</option>
+<option value="1">Факультет естественных наук</option>
+<option value="11">Факультет инженерной химии</option>
+<option value="66">Факультет информационных технологий и управления</option>
+<option value="41">Факультет нефтегазохимии и полимерных материалов</option>
+<option value="31">Факультет технологии неорганических веществ и высокотемпературных материалов</option>
+<option value="51">Факультет химико-фармацевтических технологий и биомедицинских препаратов</option>
+<option value="237">Физкультурно-оздоровительный центр «РХТУ-Спорт»</option>
+<option value="235">Филиал кафедры информатики и компьютерного проектирования на базе группы компаний ООО «НТП Трубопровод» и ЗАО ИПН</option>
+<option value="234">Филиал кафедры логистики и экономической информатики г. Калуга</option>
+<option value="141">Центр довузовской подготовки </option>
+<option value="123">Центр истории РХТУ им. Д.И. Менделеева и химической технологии</option>
+<option value="152">Центр коллективного пользования имени Д.И. Менделеева</option>
+<option value="236">Центр лингвистического образования</option>
+<option value="244">Центр по работе с одарёнными детьми</option>
+<option value="112">Штаб по делам гражданской обороны и чрезвычайных ситуаций</option>
+<option value="98">Юридическое бюро (юридическая клиника)</option>
+<option value="94">Юридическое отделение</option>
+</select> </div> </div> <div id="div_id_userdetail-restore" class="form-group"> <label for="id_userdetail-restore" class="control-label ">
+                Почта уведомлений
+            </label> <div class="controls "> <input class="emailinput form-control" id="id_userdetail-restore" maxlength="254" name="userdetail-restore" type="email" /> </div> </div> <div id="div_id_userdetail-date" class="form-group"> <label for="id_userdetail-date" class="control-label  requiredField">
+                Дата рождения<span class="asteriskField">*</span> </label> <div class="controls "> <div class="input-group date" id="id_userdetail-date_pickers"> <input class="form-control datetimepicker form-control" id="id_userdetail-date" name="userdetail-date" required="True" type="text"/> <span class="input-group-addon"> <span class="glyphicon glyphicon-calendar"></span> </span> </div> <script>
+      $(function(){
+        $("#id_userdetail-date_pickers:has(input:not([readonly],[disabled]))").datetimepicker({"format": "DD.MM.YYYY", "pickTime": false});
+      });
+    </script> </div> </div>
+
+
+
+
+<div id="div_id_username" class="form-group"> <label for="id_username" class="control-label  requiredField">
+                Желаемый адрес почты<span class="asteriskField">*</span> </label> <div class="controls "> <input class="textinput textInput form-control" id="id_username" name="username" type="text" required /> </div> </div> <div id="div_id_password" class="form-group"> <label for="id_password" class="control-label  requiredField">
+                Пароль<span class="asteriskField">*</span> </label> <div class="controls "> <input class="textinput textInput form-control" id="id_password" name="password" type="password" required /> </div> </div> <div id="div_id_password_repite" class="form-group"> <label for="id_password_repite" class="control-label  requiredField">
+                Повторите пароль<span class="asteriskField">*</span> </label> <div class="controls "> <input class="textinput textInput form-control" id="id_password_repite" name="password_repite" type="password" required /> </div> </div>
+
+
+
+				<!---->
+				<div id="phone-formset" class='row data-formset'>
+					<input id="id_phone-TOTAL_FORMS" name="phone-TOTAL_FORMS" type="hidden" value="1" /><input id="id_phone-INITIAL_FORMS" name="phone-INITIAL_FORMS" type="hidden" value="0" /><input id="id_phone-MIN_NUM_FORMS" name="phone-MIN_NUM_FORMS" type="hidden" value="0" /><input id="id_phone-MAX_NUM_FORMS" name="phone-MAX_NUM_FORMS" type="hidden" value="1000" />
+
+					<div class="col-md-12 data-formset-body">
+
+
+
+
+<input type='hidden' name='csrfmiddlewaretoken' value='XRjkG9NR1aKYCVqO7i7khCXbLJdffwhOccbVqDacHBOR86YbwoMmlLLF35wO4tDq' /> <div
+    class="form-inline form-group data-formset-form" > <label class="col-md-2 control-label ">Номер телефона:</label> <div id="div_id_phone-0-code" class="form-group"> <label for="id_phone-0-code" class="sr-only requiredField">
+                Код
+            </label> <select class="phone-code-select form-control" id="id_phone-0-code" name="phone-0-code" placeholder="Код">
+<option value="" selected="selected">---------</option>
+<option value="499">499</option>
+<option value="495">495</option>
+</select> </div> <div id="div_id_phone-0-number" class="form-group"> <label for="id_phone-0-number" class="sr-only requiredField">
+                Номер
+            </label> <input class="phone-number-input textinput textInput form-control" id="id_phone-0-number" maxlength="7" name="phone-0-number" placeholder="Номер" type="text" /> </div> <div id="div_id_phone-0-internal" class="form-group"> <label for="id_phone-0-internal" class="sr-only">
+                Добавочный
+            </label> <input class="phone-internal-input textinput textInput form-control" id="id_phone-0-internal" maxlength="10" name="phone-0-internal" placeholder="Добавочный" type="text" /> </div> <input type="button"
+    name=""
+    value="x"
+
+        class="btn data-formset-delete col-md-1 btn-default pull-right"
+        id="button-id-"
+
+
+    />
+
+</div>
+
+
+					</div>
+					<button class='btn btn-default data-formset-add col-md-3 pull-right' type='button'>Добавить телефон</button>
+				</div>
+
+
+				<!---->
+				<div id="location-formset" class='row data-formset'>
+					<input id="id_location-TOTAL_FORMS" name="location-TOTAL_FORMS" type="hidden" value="1" /><input id="id_location-INITIAL_FORMS" name="location-INITIAL_FORMS" type="hidden" value="0" /><input id="id_location-MIN_NUM_FORMS" name="location-MIN_NUM_FORMS" type="hidden" value="0" /><input id="id_location-MAX_NUM_FORMS" name="location-MAX_NUM_FORMS" type="hidden" value="1000" />
+
+					<div class="col-md-12 data-formset-body">
+
+
+
+
+<input type='hidden' name='csrfmiddlewaretoken' value='XRjkG9NR1aKYCVqO7i7khCXbLJdffwhOccbVqDacHBOR86YbwoMmlLLF35wO4tDq' /> <div
+    class="form-inline form-group data-formset-form" > <label class="col-md-2 control-label ">Кабинет:</label> <div id="div_id_location-0-campus" class="form-group"> <label for="id_location-0-campus" class="sr-only requiredField">
+                Комплекс
+            </label> <select class="location-campus-select form-control" id="id_location-0-campus" name="location-0-campus" placeholder="Комплекс">
+<option value="" selected="selected">---------</option>
+<option value="MIU">Миусский</option>
+<option value="TUS">Тушинский</option>
+<option value="SHP">Шелепиха</option>
+</select> </div> <div id="div_id_location-0-building" class="form-group"> <label for="id_location-0-building" class="sr-only requiredField">
+                Корпус
+            </label> <select class="location-building-select form-control" id="id_location-0-building" name="location-0-building" placeholder="Корпус">
+<option value="" selected="selected">---------</option>
+<option value="Главный">Главный</option>
+<option value="Типография">Типография</option>
+<option value="Красный">Красный</option>
+<option value="Серый">Серый</option>
+<option value="ИБЦ">ИБЦ</option>
+<option value="Проходная">Проходная</option>
+<option value="Гизавгар">Гл. инж., зав. гаражом</option>
+<option value="ФизХим">ФизХим</option>
+<option value="ИХТ">ИХТ</option>
+<option value="Силикаты">Силикаты</option>
+<option value="УЛК">УЛК</option>
+</select> </div> <div id="div_id_location-0-room" class="form-group"> <label for="id_location-0-room" class="sr-only requiredField">
+                Кабинет
+            </label> <input class="location-room-input textinput textInput form-control" id="id_location-0-room" maxlength="5" name="location-0-room" placeholder="Кабинет" type="text" /> </div> <input type="button"
+    name=""
+    value="x"
+
+        class="btn data-formset-delete col-md-1 btn-default"
+        id="button-id-"
+
+
+    />
+
+</div>
+
+
+					</div>
+					<button class='btn btn-default data-formset-add col-md-3 pull-right' type='button'>Добавить кабинет</button>
+				</div>
+
+				<div class="accept-personal-data row form-group">
+					<div class="checkbox-accept-pd col-md-12 checkbox">
+						<label>
+							<input type="checkbox">
+							Согласен(а) на сбор, обработку,
+							использование, хранение, распространение (передачу) и публикацию моих персональных
+							данных в порядке, установленном <a href="http://ivo.garant.ru/#/document/12148567/entry/0:3"
+							target="_blank">Федеральным законом от 27 июля 2006 г. №152-ФЗ “О персональных данных”</a>, в том числе в сети «Интернет».
+						</label>
+					</div>
+				</div>
+				<div id="info" class="info bg-warning">
+					Внимание!<br/>
+					При регистрации происходит проверка на подлинность. Убедительно просим проверить правильность заполнения следующих полей:<br/>
+					Фамилия Имя Отчество<br/>
+					Подразделение<br/>
+					Дата рождения<br/>
+				</div>
+				<button id='button-send' class="col-md-offset-2 col-md-8 btn btn-success" type="button">Зарегистрироваться</button>
+			</form>
+			<div id="phone-formset-empty-form" class="data-formset-empty-form">
+
+
+<input type='hidden' name='csrfmiddlewaretoken' value='XRjkG9NR1aKYCVqO7i7khCXbLJdffwhOccbVqDacHBOR86YbwoMmlLLF35wO4tDq' /> <div
+    class="form-inline form-group data-formset-form" > <label class="col-md-2 control-label ">Номер телефона:</label> <div id="div_id_phone-__prefix__-code" class="form-group"> <label for="id_phone-__prefix__-code" class="sr-only requiredField">
+                Код
+            </label> <select class="phone-code-select form-control" id="id_phone-__prefix__-code" name="phone-__prefix__-code" placeholder="Код">
+<option value="" selected="selected">---------</option>
+<option value="499">499</option>
+<option value="495">495</option>
+</select> </div> <div id="div_id_phone-__prefix__-number" class="form-group"> <label for="id_phone-__prefix__-number" class="sr-only requiredField">
+                Номер
+            </label> <input class="phone-number-input textinput textInput form-control" id="id_phone-__prefix__-number" maxlength="7" name="phone-__prefix__-number" placeholder="Номер" type="text" /> </div> <div id="div_id_phone-__prefix__-internal" class="form-group"> <label for="id_phone-__prefix__-internal" class="sr-only">
+                Добавочный
+            </label> <input class="phone-internal-input textinput textInput form-control" id="id_phone-__prefix__-internal" maxlength="10" name="phone-__prefix__-internal" placeholder="Добавочный" type="text" /> </div> <input type="button"
+    name=""
+    value="x"
+
+        class="btn data-formset-delete col-md-1 btn-default pull-right"
+        id="button-id-"
+
+
+    />
+
+</div>
+
+		    </div>
+		    <div id="location-formset-empty-form" class="data-formset-empty-form">
+
+
+<input type='hidden' name='csrfmiddlewaretoken' value='XRjkG9NR1aKYCVqO7i7khCXbLJdffwhOccbVqDacHBOR86YbwoMmlLLF35wO4tDq' /> <div
+    class="form-inline form-group data-formset-form" > <label class="col-md-2 control-label ">Кабинет:</label> <div id="div_id_location-__prefix__-campus" class="form-group"> <label for="id_location-__prefix__-campus" class="sr-only requiredField">
+                Комплекс
+            </label> <select class="location-campus-select form-control" id="id_location-__prefix__-campus" name="location-__prefix__-campus" placeholder="Комплекс">
+<option value="" selected="selected">---------</option>
+<option value="MIU">Миусский</option>
+<option value="TUS">Тушинский</option>
+<option value="SHP">Шелепиха</option>
+</select> </div> <div id="div_id_location-__prefix__-building" class="form-group"> <label for="id_location-__prefix__-building" class="sr-only requiredField">
+                Корпус
+            </label> <select class="location-building-select form-control" id="id_location-__prefix__-building" name="location-__prefix__-building" placeholder="Корпус">
+<option value="" selected="selected">---------</option>
+<option value="Главный">Главный</option>
+<option value="Типография">Типография</option>
+<option value="Красный">Красный</option>
+<option value="Серый">Серый</option>
+<option value="ИБЦ">ИБЦ</option>
+<option value="Проходная">Проходная</option>
+<option value="Гизавгар">Гл. инж., зав. гаражом</option>
+<option value="ФизХим">ФизХим</option>
+<option value="ИХТ">ИХТ</option>
+<option value="Силикаты">Силикаты</option>
+<option value="УЛК">УЛК</option>
+</select> </div> <div id="div_id_location-__prefix__-room" class="form-group"> <label for="id_location-__prefix__-room" class="sr-only requiredField">
+                Кабинет
+            </label> <input class="location-room-input textinput textInput form-control" id="id_location-__prefix__-room" maxlength="5" name="location-__prefix__-room" placeholder="Кабинет" type="text" /> </div> <input type="button"
+    name=""
+    value="x"
+
+        class="btn data-formset-delete col-md-1 btn-default"
+        id="button-id-"
+
+
+    />
+
+</div>
+
+    		</div>
+		</div>
+
+
+
+
+    </div>
+    <!-- /.container -->
+    <div class="footer">
+        <div class="container text-center" style="margin-bottom: 10px;">
+            <div class="col-md-4">
+                <p class="text-muted">Сайт Системы регистрации сотрудников университета</p>
+            </div>
+            <div class="col-md-4">
+                <p class="text-muted">Москва 2018</p>
+            </div>
+            <div class="col-md-4">
+                <p class="text-muted">
+                    <i class="fa fa-flask"></i> Разработано в РХТУ им. Д.И. Менделеева
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="/static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/static/js/script.js"></script>
+
+
+
+	<script type="text/javascript" src="/static/libs/moment.js"></script>
+	<script type="text/javascript" src="/static/libs/moment-ru-locales.js"></script>
+	<script type="text/javascript" src="/static/libs/bootstrap-datetimepicker.min.js"></script>
+	<script type="text/javascript" src="/static/libs/select2.min.js"></script>
+	<script type="text/javascript" src="/static/js/django-formset-add.js"></script>
+	<script type="text/javascript" src="/static/js/translit.js"></script>
+	<script type="text/javascript" src="/static/js/login_check.js"></script>
+	<script type="text/javascript" src="/static/js/passwords.js"></script>
+	<script type="text/javascript" src="/static/js/error_msgs.js"></script>
+</body>
+</html>

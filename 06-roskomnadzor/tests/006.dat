@@ -1,0 +1,781 @@
+eios.muctr.ru
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <title>Единая информационно-образовательная среда</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href="/static/css/sticky-footer-navbar.css" rel="stylesheet">
+    <link href="/static/css/style.css" rel="stylesheet">
+
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">
+            <img alt="РХТУ" src="/static/img/logo.png">
+          </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class=""><a href="/">Портал</a></li>
+
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Учащиеся <i class="fa fa-angle-down"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/students/S/">Специалисты</a></li>
+                    <li><a href="/students/B/">Бакалавры</a></li>
+                    <li><a href="/students/M/">Магистры</a></li>
+                    <li><a href="/students/G/">Аспиранты</a></li>
+                  </ul>
+                </li>
+
+
+
+                <li class=""><a href="/workers/">Сотрудники</a></li>
+
+
+
+                <li class=""><a href="/users/">Пользователи</a></li>
+
+              <li class=""><a href="/feedback/">Обратная связь</a></li>
+            <!-- <li><a href="#">Новости <span class="badge">11</span></a></li> -->
+            <!-- <li><a href="#">Сообщения <span class="badge">7</span></a></li> -->
+          </ul>
+          <ul class="nav navbar-nav pull-right">
+            <li>
+              <a href="/profile/223/">
+                <i class="fa fa-star" title="администратор"></i>
+
+
+                mpyisin
+              </a>
+            </li>
+
+              <li><a href="/admin/"> <i class="fa fa-cog"></i> </a></li>
+
+            <!-- <li><a href="#" title="Написать в службу поддержки"> <i class="fa fa-question"></i></a></li> -->
+            <li>
+              <a href="/accounts/logout/">Выход
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div class="container-header">
+      <div class="container">
+        <div class="page-header">
+          <h1><i class="fa fa-user"></i> Личный кабинет</h1>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="container-fluid container-main">
+
+
+<div class="row profile-main">
+    <div class="col-md-2 profile-menu-bar">
+        <div class="row">
+            <div class="col-md-12 profile-photo">
+
+                    <div class="no-photo-container">
+                        <span class="fa-stack">
+                          <i class="fa fa-camera fa-stack-1x"></i>
+                          <i class="fa fa-ban fa-stack-2x text-danger"></i>
+                        </span>
+                        <p>Нет фото</p>
+                    </div>
+
+
+                    <p class="name">
+                        Пысин М.Д.
+                    </p>
+
+
+
+
+
+                    <a href="
+
+                            /profile/223/update/
+
+                    " class="profile update">Редактировать</a>
+
+            </div>
+        </div>
+        <div class="row">
+            <ul class="profile-nav" data-spy="affix" data-offset-top="275">
+
+<li class="">
+    <a href="/profile/223/"><i class="fa fa-user"></i>Личная карточка</a>
+</li>
+
+
+        <li id="collapsed" class="">
+    <a data-toggle="collapse" data-parent="#collapsed" href="#education_dashboard" ><i class="fa fa-graduation-cap"></i>Управление учебным процессом</a>
+    <ul id="education_dashboard" class="profile-nav panel-collapse collapse" data-spy="affix" data-offset-top="275">
+        <li class="active">
+            <a href="/dashboard/dean/training/list/">Список направление подготовки</a>
+        </li>
+        <li class="">
+            <a href="/dashboard/dean/studie/list/">Список профилей подготовки</a>
+        </li>
+        <li class="">
+            <a href="/dashboard/dean/subject/list/">Список предметов</a>
+        </li>
+        <li class="">
+            <a href="/dashboard/dean/group/list/">Список групп</a>
+        </li>
+    </ul>
+</li>
+
+
+    <li class="">
+        <a href="/profile/223/query/list/"><i class="fa fa-group"></i>Запросы в подразделеения</a>
+    </li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-10">
+        <div class="row profile-bar">
+            <div class="col-md-9">
+                <ul class="custom-breadcrumb">
+
+                        <li><a href="#">Личный кабинет</a></li>
+                        <!-- <li><a href="#">Показатели</a></li>
+                        <li><a href="#">Общий рейтинг</a></li>
+                        <li><a href="#">Все курсы</a></li> -->
+
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <form role="search" action="/search/">
+                    <div class="form-group">
+                        <input id="search-input"  name="q" type="text" class="form-control" placeholder="Поиск" value="">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+                    <div class="row">
+                        <div class="col-md-12 profile-content">
+                            <div class="row content-block">
+                                <div class="col-md-12">
+                                    <h2> Уважаемые пользователи, в систему ЕИОС внесены изменения.</h2>
+                                    <p> На данный момент введено обновление в котором Профиль подготовки  жестко привязан к Направлению подготовки, а так же все предметы привязаны к профилям подготовки.<br/>
+                                        У профилей подготовки появились поля основной рабочей программы и учебного плана, а у каждой дисциплины подключенной к профилю подготовки поле рабочей программы дисциплины. <br/>
+
+                                        На данный момент этой информации нет в системе, поэтому необходимо внести эти данные в систему.<br/>
+                                        В ближайшее время функция внесения этих данных будет доступна всем пользователям, имеющим статус декана в системе.<br/>
+                                        Пользователи, имеющие административный доступ могут самостоятельно внести данные по направлениям подготовки, профилям обучения и дисциплинам, относящихся к их факультетам.  Остальным пользователям убедительная просьба, либо предоставить эти данные через форму обратной связи, либо дождаться появления функции заполнения этих данных для деканов.<br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+        <div class="row">
+            <div class="col-md-12 profile-content">
+
+
+
+<div class="row content-block">
+	<div class="col-md-12">
+        <div class="row">
+            <div class="col-md-8">
+                <h2 id="header">Список Направлений подготовки</h2>
+            </div>
+            <div class="col-md-4">
+                <a class="btn btn-success pull-right" href="/dashboard/dean/training/create/" style="margin-top: 30px">Добавить направление подготовки</a>
+            </div>
+        </div>
+
+
+		<div class="row">
+			<div class="col-md-12">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <td>№</td>
+                            <td>Код</td>
+                            <td>Название</td>
+                            <td>Действие</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                            <tr>
+                                <td>1</td>
+                                <td>04.06.01</td>
+                                <td><a href="/dashboard/dean/training/1/studie/list/">Химические науки</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/1/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>2</td>
+                                <td>05.06.01</td>
+                                <td><a href="/dashboard/dean/training/2/studie/list/">Науки о Земле</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/2/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>3</td>
+                                <td>06.06.01</td>
+                                <td><a href="/dashboard/dean/training/3/studie/list/">Биологические науки</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/3/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>4</td>
+                                <td>09.06.01</td>
+                                <td><a href="/dashboard/dean/training/4/studie/list/">Информатика и вычислительная техника</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/4/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>5</td>
+                                <td>11.06.01</td>
+                                <td><a href="/dashboard/dean/training/5/studie/list/">Электроника, радиотехника и системы связи</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/5/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>6</td>
+                                <td>18.06.01</td>
+                                <td><a href="/dashboard/dean/training/6/studie/list/">Химическая технология</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/6/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>7</td>
+                                <td>19.06.01</td>
+                                <td><a href="/dashboard/dean/training/7/studie/list/">Биотехнология и промышленная экология</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/7/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>8</td>
+                                <td>20.06.01</td>
+                                <td><a href="/dashboard/dean/training/8/studie/list/">Техносферная безопасность</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/8/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>9</td>
+                                <td>28.06.01</td>
+                                <td><a href="/dashboard/dean/training/9/studie/list/">Нанотехнологии и наноматериалы</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/9/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>10</td>
+                                <td>38.06.01</td>
+                                <td><a href="/dashboard/dean/training/10/studie/list/">Экономика</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/10/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>11</td>
+                                <td>39.06.01</td>
+                                <td><a href="/dashboard/dean/training/11/studie/list/">Социология</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/11/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>12</td>
+                                <td>04.04.01</td>
+                                <td><a href="/dashboard/dean/training/12/studie/list/">Химия</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/12/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>13</td>
+                                <td>05.04.06</td>
+                                <td><a href="/dashboard/dean/training/13/studie/list/">Экология и природопользование</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/13/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>14</td>
+                                <td>09.04.02</td>
+                                <td><a href="/dashboard/dean/training/14/studie/list/">Информационные системы и технологии</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/14/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>15</td>
+                                <td>18.04.01</td>
+                                <td><a href="/dashboard/dean/training/15/studie/list/">Химическая технология</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/15/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>16</td>
+                                <td>18.04.02</td>
+                                <td><a href="/dashboard/dean/training/16/studie/list/">Энерго- и ресурсосберегающие процессы в химической технологии, нефтехимии и биотехнологии</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/16/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>17</td>
+                                <td>19.04.01</td>
+                                <td><a href="/dashboard/dean/training/17/studie/list/">Биотехнология</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/17/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>18</td>
+                                <td>20.04.01</td>
+                                <td><a href="/dashboard/dean/training/18/studie/list/">Техносферная безопасность</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/18/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>19</td>
+                                <td>22.04.01</td>
+                                <td><a href="/dashboard/dean/training/19/studie/list/">Материаловедение и технологии материалов</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/19/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>20</td>
+                                <td>27.04.01</td>
+                                <td><a href="/dashboard/dean/training/20/studie/list/">Стандартизация и метрология</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/20/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>21</td>
+                                <td>27.04.06</td>
+                                <td><a href="/dashboard/dean/training/21/studie/list/">Организация и управление наукоемкими производствами</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/21/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>22</td>
+                                <td>28.04.03</td>
+                                <td><a href="/dashboard/dean/training/22/studie/list/">Наноматериалы</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/22/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>23</td>
+                                <td>38.04.02</td>
+                                <td><a href="/dashboard/dean/training/23/studie/list/">Менеджмент (на контрактной основе)</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/23/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>24</td>
+                                <td>38.04.04</td>
+                                <td><a href="/dashboard/dean/training/24/studie/list/">Государственное и муниципальное управление (на контрактной основе)</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/24/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>25</td>
+                                <td>39.04.01</td>
+                                <td><a href="/dashboard/dean/training/25/studie/list/">Социология (на контрактной основе)</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/25/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>26</td>
+                                <td>45.04.02</td>
+                                <td><a href="/dashboard/dean/training/26/studie/list/">Лингвистика (на контрактной основе)</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/26/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>27</td>
+                                <td>18.03.01</td>
+                                <td><a href="/dashboard/dean/training/27/studie/list/">Химическая технология</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/27/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>28</td>
+                                <td>29.03.04</td>
+                                <td><a href="/dashboard/dean/training/28/studie/list/">Технология художественной обработки материалов</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/28/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>29</td>
+                                <td>04.05.01</td>
+                                <td><a href="/dashboard/dean/training/29/studie/list/">Фундаментальная и прикладная химия</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/29/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>30</td>
+                                <td>18.03.02</td>
+                                <td><a href="/dashboard/dean/training/31/studie/list/">Энерго- и ресурсосберегающие процессы в химической технологии, нефтехимии и биотехнологии</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/31/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>31</td>
+                                <td>22.03.01</td>
+                                <td><a href="/dashboard/dean/training/32/studie/list/">Материаловедение и технологии материалов</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/32/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>32</td>
+                                <td>18.05.02</td>
+                                <td><a href="/dashboard/dean/training/33/studie/list/">Химическая технология материалов современной энергетики</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/33/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>33</td>
+                                <td>28.03.03</td>
+                                <td><a href="/dashboard/dean/training/34/studie/list/">Наноматериалы</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/34/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>34</td>
+                                <td>18.05.01</td>
+                                <td><a href="/dashboard/dean/training/35/studie/list/">Химическая технология энергонасыщенных материалов и изделий</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/35/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>35</td>
+                                <td>20.03.01</td>
+                                <td><a href="/dashboard/dean/training/36/studie/list/">Техносферная безопасность</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/36/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>36</td>
+                                <td>28.03.02</td>
+                                <td><a href="/dashboard/dean/training/37/studie/list/">Наноинженерия</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/37/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>37</td>
+                                <td>09.03.01</td>
+                                <td><a href="/dashboard/dean/training/38/studie/list/">Информатика и вычислительная техника</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/38/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>38</td>
+                                <td>09.03.02</td>
+                                <td><a href="/dashboard/dean/training/39/studie/list/">Информационные системы и технологии</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/39/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>39</td>
+                                <td>27.03.01</td>
+                                <td><a href="/dashboard/dean/training/41/studie/list/">Стандартизация и метрология</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/41/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>40</td>
+                                <td>27.04.06</td>
+                                <td><a href="/dashboard/dean/training/64/studie/list/">Организация и управление наукоёмкими производствами</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/64/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>41</td>
+                                <td>38.03.02</td>
+                                <td><a href="/dashboard/dean/training/62/studie/list/">Менеджмент</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/62/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>42</td>
+                                <td>38.04.02</td>
+                                <td><a href="/dashboard/dean/training/63/studie/list/">Менеджмент</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/63/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>43</td>
+                                <td>19.03.01</td>
+                                <td><a href="/dashboard/dean/training/44/studie/list/">Биотехнология</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/44/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>44</td>
+                                <td>40.03.01</td>
+                                <td><a href="/dashboard/dean/training/45/studie/list/">Юриспруденция (на контрактной основе)</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/45/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>45</td>
+                                <td>40.05.01</td>
+                                <td><a href="/dashboard/dean/training/46/studie/list/">Правовое обеспечение национальной безопасности (на контрактной основе)</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/46/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>46</td>
+                                <td>38.03.02</td>
+                                <td><a href="/dashboard/dean/training/47/studie/list/">Менеджмент (на контрактной основе)</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/47/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>47</td>
+                                <td>45.03.02</td>
+                                <td><a href="/dashboard/dean/training/48/studie/list/">Лингвистика (очно-заочная форма обучения на контрактной основе)</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/48/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>48</td>
+                                <td>04.03.01</td>
+                                <td><a href="/dashboard/dean/training/49/studie/list/">Химия</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/49/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>49</td>
+                                <td>05.03.06</td>
+                                <td><a href="/dashboard/dean/training/50/studie/list/">Экология и природопользование</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/50/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>50</td>
+                                <td>39.03.01</td>
+                                <td><a href="/dashboard/dean/training/51/studie/list/">Социология (на контрактной основе)</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/51/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>51</td>
+                                <td>05.17.03</td>
+                                <td><a href="/dashboard/dean/training/61/studie/list/">Технология электрохимических процессов и защита от коррозии</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/61/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>52</td>
+                                <td>18.06.01</td>
+                                <td><a href="/dashboard/dean/training/60/studie/list/">Химическая технолгия</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/60/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>53</td>
+                                <td>45.04.02</td>
+                                <td><a href="/dashboard/dean/training/59/studie/list/">Лингвистика</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/59/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>54</td>
+                                <td>45.03.02</td>
+                                <td><a href="/dashboard/dean/training/58/studie/list/">Лингвистика</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/58/">Изменить</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>55</td>
+                                <td>11.06.01</td>
+                                <td><a href="/dashboard/dean/training/57/studie/list/">Электроника, радиотехника и системы связи</a></td>
+                                <td>
+                                    <a class="btn btn-default" href="/dashboard/dean/training/update/57/">Изменить</a>
+                                </td>
+                            </tr>
+
+                    </tbody>
+                </table>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+  </div>
+    <footer class="footer">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-6">
+                <p class="text-muted">Смежные рессурсы:</p>
+                <ul>
+                    <li class="text-muted"><a href="https://lib.muctr.ru/">Информационно библиотечный центр</a></li>
+                </ul>
+            </div>
+          </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-6">
+              <p class="text-muted">Единая Информационно-Образовательная Среда (ЕИОС) v.0.1.0</p>
+            </div>
+            <div class="col-md-4 col-sm-2 col-xs-2 text-center">
+              <p class="text-muted">Москва 2015</p>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+              <p class="text-muted"><i class="fa fa-flask"></i> Разработано в РХТУ им. Д.И. Менделеева</p>
+            </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+  </body>
+</html>

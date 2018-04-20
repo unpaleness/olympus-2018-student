@@ -1,0 +1,499 @@
+lib.muctr.ru
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Информационно-библиотечный центр РХТУ им. Д.И. Менделеева</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link type="text/css" rel="stylesheet" media="all" href="/assets/105/styles/common.css"/>
+        <script type="text/javascript" src="/assets/105/scripts/common.js"></script>
+    <!-- 14 -->    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-35598524-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+<!-- /14 --><!-- 15 --><!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter17716855 = new Ya.Metrika({id:17716855,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/17716855" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<!-- /15 --></head>
+<body>
+
+<script>
+    var isOperaMini = (navigator.userAgent.indexOf('Opera Mini') > -1);
+    if (isOperaMini) {
+        document.write('<link type="text/css" rel="stylesheet" media="all" href="/assets/105/css/opera_mini.css"/>');
+        document.write('<div class="alert alert-danger">Вы используете браузер Opera Mini. В нем наш сайт может работать некорректно. Рекомендуем использовать другие браузеры. </div>');
+    }
+</script>
+
+<div id="html">
+        <div id="header" class="row hidden-xs">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <a href="/"><img src="/assets/images/logo.png" border="0" alt="Информационно- библиотечный центр имени С.И. Сулименко" title="Информационно- библиотечный центр имени С.И. Сулименко" class="img-responsive"></a>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" align="right">
+            <div class="row icon_row" align="right">
+                <div class="icon col-lg-2 col-md-2 col-sm-2">
+                    <a href="/"><img src="/assets/images/home.gif" border="0" alt="Главная" title="На главную страницу"></a>
+                </div>
+                <div class="icon col-lg-2 col-md-2 col-sm-2">
+                    <a href="/library_search/BOOK"><img src="/assets/images/ibc_cat.gif" border="0" alt="Каталог" title="Поиск по каталогу"></a>
+                </div>
+                <div class="icon col-lg-2 col-md-2 col-sm-2">
+                    <a href="/obratnaya-svyaz"><img src="/assets/images/ibc_mail.gif" border="0" alt="Сообщение" title="Обратная связь"></a>
+                </div>
+                <div class="icon col-lg-2 col-md-2 col-sm-2">
+                    <a href="/version_visually_impaired"><img src="/assets/images/eye.gif" border="0" alt="Версия для слабовидящих" title="Версия для слабовидящих"></a>
+                </div>
+                <div class="muctr_logo col-lg-4 col-md-4 col-sm-4">
+                    <a href="https://www.muctr.ru" target="_blank"><img src="/assets/images/muctr_logo.png" border="0" alt="РХТУ им. Д.И. Менделеева" title="РХТУ им. Д.И. Менделеева"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div class="row">
+            <div id="sidebar" class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
+                <!-- 12 --><div class="sidebar-nav">
+    <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/" class="visible-xs navbar-brand"><img src="/assets/images/logo.png" border="0" alt="Информационно- библиотечный центр имени С.И. Сулименко" title="Информационно- библиотечный центр имени С.И. Сулименко"></a>
+        </div>
+        <div class="navbar-collapse collapse sidebar-navbar-collapse">
+            <ul class="nav navbar-nav">
+                                        <li>
+                            <a href="/library_search/BOOK" title="Электронный каталог">Электронный каталог</a>
+                                                    </li>
+                                                            <li>
+                            <a href="/library_search/TRUD">Труды сотрудников РХТУ</a>
+                        </li>
+                                                            <li>
+                            <a href="/library_search/GRWORKS">Выпускные работы</a>
+                        </li>
+                                                            <li>
+                            <a href="/library_search/NIR" title="Базы данных ИБЦ">Базы данных ИБЦ</a>
+                                                    </li>
+                                                            <li>
+                            <a href="/elektronnye-informacionnye-resursy" title="Электронные ресурсы">Электронные ресурсы</a>
+                                                    </li>
+                                                            <li>
+                            <a href="/edd">Доставка документов (ЭДД)</a>
+                        </li>
+                                                            <li>
+                            <a href="/page/14" title="Подразделения ИБЦ">Подразделения ИБЦ</a>
+                                                    </li>
+                                                            <li>
+                            <a href="/ibc-segodnya" title="Общая информация">Общая информация</a>
+                                                    </li>
+                                                            <li>
+                            <a href="/obratnaya-svyaz">Обратная связь</a>
+                        </li>
+                                                            <li>
+                            <a href="/kontaktnaya-informaciya">Контактная информация</a>
+                        </li>
+                                                </ul>
+        </div>
+    </div>
+</div>
+
+<!-- /12 --><!-- 35 --><div class="hidden-lg hidden-md">
+<div class="reader_menu">
+    <h4>Кабинет читателя <span class="glyphicon glyphicon-book"></span></h4>
+    <div class="reader_authorization_form">
+<form action="/reader/login" method="post">
+    <div class="form-group">
+        <label class="sr-only">Фамилия</label>
+        <input type="text" name="family" maxlength="50" class="form-control input-sm" placeholder="Введите фамилию">
+    </div>
+
+    <div class="row">
+        <div class="col-lg-7 col-md-7 col-xs-8 col-sm-7 library_card_number_col">
+            <div class="form-group">
+                <label class="sr-only">Номер билета абонента</label>
+                <input type="text" name="library_card_number" maxlength="9" class="form-control input-sm" placeholder="Номер билета">
+            </div>
+        </div>
+        <div class="col-lg-5 col-md-5 col-xs-4 col-sm-5 btn_col">
+            <div class="form-group">
+                <input type="submit" value="Войти" class="btn btn-default btn-sm">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
+            <div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="save_access" value="1" checked> Запомнить
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6 more"><a href="/lichnyy-kabinet-chitatelya-lkch">Подробнее</a></div>
+    </div>
+</form>
+</div>
+</div>
+
+</div><!-- /35 --><!-- 25 --><div class="promote_block hidden-xs">
+                <h4><span class="glyphicon glyphicon-info-sign"></span> Информация для кафедр</h4>
+<ul class="nav nav-stacked nav-pills nav-promote">
+            <li ><a href="/departaments_publications">Размещение электронных научно - образовательных ресурсов кафедр</a></li>
+            <li ><a href="/proceedings">Информация о публикациях сотрудников в 2017 году</a></li>
+            <li ><a href="/page/139">Прием методических пособий в фонд ИБЦ</a></li>
+            <li ><a href="/page/169">Приобретение новых изданий для фонда ИБЦ</a></li>
+            <li ><a href="/book_providing">Книгообеспеченность</a></li>
+            <li ><a href="/indeksy-nauchnogo-citirovaniya">Индексы научного цитирования</a></li>
+    </ul></div><!-- /25 --><!-- 26 --><div class="promote_block hidden-xs">
+                <h4><span class="glyphicon glyphicon-info-sign"></span> Информация для читателей</h4>
+<ul class="nav nav-stacked nav-pills nav-promote">
+            <li ><a href="/oformlenie-na-obsluzhivanie">Оформление на обслуживание</a></li>
+            <li ><a href="/lichnyy-kabinet-chitatelya-lkch">Личный кабинет читателя</a></li>
+            <li ><a href="/poryadok-poiska-literatury-i-oformleniya-zakaza">Порядок поиска литературы и оформления заказа</a></li>
+            <li ><a href="/poryadok-podpisaniya-obhodnogo-lista-v-ibc">Порядок подписания обходного листа в ИБЦ</a></li>
+            <li ><a href="/priem-dissertaciy-v-fond-ibc">Прием диссертаций в фонд ИБЦ</a></li>
+            <li ><a href="/poryadok-zameny-uteryannoy-literatury">Порядок  замены утерянной литературы</a></li>
+            <li ><a href="/preyskurant-platnyh-uslug-ibc-s-04102013">Прейскурант платных услуг</a></li>
+    </ul></div><!-- /26 --><!-- 8 --><div class="promote_block hidden-xs">
+<h4><span class="glyphicon glyphicon-list"></span> Опрос</h4>
+
+<div>Нужен ли Фонд художественной литературы в РХТУ им. Д.И. Менделеева?</div>
+
+<form action="/poll/71/vote" method="post">
+
+            <div class="radio">
+            <label>
+                <input type="radio" name="poll_question_id"
+                       value="225">Да, нужен            </label>
+        </div>
+                <div class="radio">
+            <label>
+                <input type="radio" name="poll_question_id"
+                       value="226">Да, нужен при наличии электронных книг            </label>
+        </div>
+                <div class="radio">
+            <label>
+                <input type="radio" name="poll_question_id"
+                       value="227">Нет, все есть в электронном виде            </label>
+        </div>
+                <div class="radio">
+            <label>
+                <input type="radio" name="poll_question_id"
+                       value="228">Затрудняюсь с ответом            </label>
+        </div>
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-6">
+                <input type="submit" value="Голосовать" class="btn btn-default btn-sm">
+            </div>
+            <div class="col-md-6 text-right">
+                <a href="/poll/71">Результаты</a>
+            </div>
+        </div>
+    </div>
+</form>
+</div><!-- /8 --><!-- 5 -->                            <div class="promote_block hidden-xs">
+                                <h4><a href="/culimenko-svetlana-isidorovna">СУЛИМЕНКО С.И.</a></h4>
+
+                                <div align="center">
+                                    <a href="/culimenko-svetlana-isidorovna"><img alt="Сулименко Светлана Исидоровна" src="/files/images/articles/sulimenko_si100.jpg"/></a>
+                                </div>
+                                <div><a href="/culimenko-svetlana-isidorovna"> </a></div>
+                            </div>
+<!-- /5 --><!-- 9 -->            <div id="vk_block" class="hidden-xs">
+                <script type="text/javascript" src="https://vk.com/js/api/openapi.js?49"></script>
+                <!-- VK Widget -->
+                <div id="vk_groups"></div>
+                <script type="text/javascript">
+                    VK.Widgets.Group("vk_groups", {mode: 1, width: "auto", height: "100"}, 30258556);
+                </script>
+            </div>
+<!-- /9 -->            </div>
+            <div id="content" class="col-lg-8 col-md-6 col-sm-6 col-xs-12">
+                <ol class="breadcrumb">
+    <li><a href="/">Главная</a></li></ol>
+
+
+                <!-- 22 --><h1>Новости. Объявления</h1>
+<hr />
+    <div class="list_news">
+        <div class="news_data">26.02.2018</div>
+        <div class="news_title">
+            <a href="/news/vnimanie-bd41f38">Внимание!</a>
+        </div>
+        <div class="row">
+                        <div class="col-md-12">Возобновлены услуги по копированию и распечатке текста.<br />
+Обращаться в читальный зал учебной литературы (ЧЗУЛ) (ИБЦ МК, 3 эт., комн. №21)</div>
+        </div>
+    </div>
+    <div class="list_news">
+        <div class="news_data">24.01.2018</div>
+        <div class="news_title">
+            <a href="/news/zhurnaly-otkrytogo-dostupa-izdatelstva-elsevier">Журналы открытого доступа издательства Elsevier</a>
+        </div>
+        <div class="row">
+                            <div class="col-md-3 news_image"><img src="/files/images/cache/120_auto/content/news/aef910547363aa0982742ab1e25118005a71bfd32c51b927032740.png" alt="" title="Журналы открытого доступа издательства Elsevier" class="img-responsive"></div>
+                        <div class="col-md-9">Предоставляется доступ к журналам открытого доступа издательства Elsevier</div>
+        </div>
+    </div>
+    <div class="list_news">
+        <div class="news_data">02.12.2015</div>
+        <div class="news_title">
+            <a href="/news/american-chemical-society">American Chemical Society</a>
+        </div>
+        <div class="row">
+                            <div class="col-md-3 news_image"><img src="/files/images/cache/120_auto/content/news/cc8a412e81d783eed43350708b7b1fda565eb4b714e60083407994.png" alt="" title="American Chemical Society" class="img-responsive"></div>
+                        <div class="col-md-9">Открыт доступ к стандартной коллекции журналов Core+ <a href="http://pubs.acs.org/" target="_blank">American Chemical Society</a>.</div>
+        </div>
+    </div>
+    <div class="list_news">
+        <div class="news_data">02.12.2015</div>
+        <div class="news_title">
+            <a href="/news/izdatelstvo-amerikanskogo-instituta-fiziki-aip">Издательство Американского института физики (AIP)</a>
+        </div>
+        <div class="row">
+                            <div class="col-md-3 news_image"><img src="/files/images/cache/120_auto/content/news/159a0ad8024d40feb031a4aa2b0af821565eb66ba2e40617664282.png" alt="" title="Издательство Американского института физики (AIP)" class="img-responsive"></div>
+                        <div class="col-md-9">Открыт доступ к журналам издательства <a href="http://scitation.aip.org/" target="_blank">Американского института физики (AIP)</a>.</div>
+        </div>
+    </div>
+    <div class="list_news">
+        <div class="news_data">20.12.2016</div>
+        <div class="news_title">
+            <a href="/news/royal-society-chemistry-korolevskoe-himicheskoe-obshchestvo">Royal Society of Chemistry (Королевское химическое общество)</a>
+        </div>
+        <div class="row">
+                            <div class="col-md-3 news_image"><img src="/files/images/cache/120_auto/content/news/408733f6f46206e1e7fd007a0a68604b5858d9fe19960471760065.jpg" alt="" title="Royal Society of Chemistry (Королевское химическое общество)" class="img-responsive"></div>
+                        <div class="col-md-9">Открыт доступ к коллекции из 44 журналов Royal Society of Chemistry (Королевского химического общества).</div>
+        </div>
+    </div>
+    <div class="list_news">
+        <div class="news_data">22.08.2017</div>
+        <div class="news_title">
+            <a href="/news/zhurnal-science">Журнал Science</a>
+        </div>
+        <div class="row">
+                            <div class="col-md-3 news_image"><img src="/files/images/cache/120_auto/content/news/a52bce0d42cccf31546a8a8679db2b00565eacbc4c450210615294.png" alt="" title="Журнал Science" class="img-responsive"></div>
+                        <div class="col-md-9">Открыт доступ к <a href="http://www.sciencemag.org/" target="_blank">журналу Science</a>.</div>
+        </div>
+    </div>
+    <div class="list_news">
+        <div class="news_data">01.04.2016</div>
+        <div class="news_title">
+            <a href="/news/zhurnaly-izdatelstva-springer">Журналы издательства SpringerNature</a>
+        </div>
+        <div class="row">
+                            <div class="col-md-3 news_image"><img src="/files/images/cache/120_auto/content/news/a60cc5024b3a25dedf18b13dd809e9965a5f2432c5b48994151712.png" alt="" title="Журналы издательства SpringerNature" class="img-responsive"></div>
+                        <div class="col-md-9">Открыт доступ к журналам издательства&nbsp;Springer Nature.</div>
+        </div>
+    </div>
+    <div class="list_news">
+        <div class="news_data">09.01.2018</div>
+        <div class="news_title">
+            <a href="/news/polnotekstovoy-kollekcii-baze-dannyh-elektronnyh-knig-izdatelstva-springer-nature">Электронные книги издательства SpringerNature</a>
+        </div>
+        <div class="row">
+                            <div class="col-md-3 news_image"><img src="/files/images/cache/120_auto/content/news/a60cc5024b3a25dedf18b13dd809e9965a549c9524860915170802.png" alt="" title="Электронные книги издательства SpringerNature" class="img-responsive"></div>
+                        <div class="col-md-9">С 25 декабря 2017 года предоставлен доступ к Полнотекстовой коллекции электронных книг <a href="http://link.springer.com/" target="_blank">издательства&nbsp;Springer Nature</a>.</div>
+        </div>
+    </div>
+    <div class="list_news">
+        <div class="news_data">21.12.2017</div>
+        <div class="news_title">
+            <a href="/news/kollekciya-zhurnalov-mdpi-ag">Коллекция журналов MDPI AG</a>
+        </div>
+        <div class="row">
+                            <div class="col-md-3 news_image"><img src="/files/images/cache/120_auto/content/news/dacfad0ca86ac0ec30befe55e3430fde5a3b9f41e38a0334664987.png" alt="" title="Коллекция журналов MDPI AG" class="img-responsive"></div>
+                        <div class="col-md-9">Предоставляется доступ <a href="http://www.mdpi.com/" target="_blank">к коллекции журналов издательства&nbsp;MDPI AG</a></div>
+        </div>
+    </div>
+<p class="text-right"><a href="/news"><span class="btn btn-default">Архив новостей</span></a></p>
+<hr /><!-- /22 -->
+
+
+<div></div>
+
+                            </div>
+
+            <div id="right" class="col-lg-2 col-md-3 col-sm-12 col-xs-12">
+                <!-- 1 --><div class="hidden-xs hidden-sm">
+<div class="reader_menu">
+    <h4>Кабинет читателя <span class="glyphicon glyphicon-book"></span></h4>
+    <div class="reader_authorization_form">
+<form action="/reader/login" method="post">
+    <div class="form-group">
+        <label class="sr-only">Фамилия</label>
+        <input type="text" name="family" maxlength="50" class="form-control input-sm" placeholder="Введите фамилию">
+    </div>
+
+    <div class="row">
+        <div class="col-lg-7 col-md-7 col-xs-8 col-sm-7 library_card_number_col">
+            <div class="form-group">
+                <label class="sr-only">Номер билета абонента</label>
+                <input type="text" name="library_card_number" maxlength="9" class="form-control input-sm" placeholder="Номер билета">
+            </div>
+        </div>
+        <div class="col-lg-5 col-md-5 col-xs-4 col-sm-5 btn_col">
+            <div class="form-group">
+                <input type="submit" value="Войти" class="btn btn-default btn-sm">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6">
+            <div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="save_access" value="1" checked> Запомнить
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-xs-6 col-sm-6 more"><a href="/lichnyy-kabinet-chitatelya-lkch">Подробнее</a></div>
+    </div>
+</form>
+</div>
+</div>
+
+</div><!-- /1 --><!-- 2 -->                    <div class="promote_block">
+                        <h4><span class="glyphicon glyphicon-book"></span> Электронная библиотека</h4>
+
+                        <p>
+                            <img src="/files/images/elibrary.png" width="195" height="85" border="0" alt="Электронная библиотека" title="Электронная библиотека">
+                        </p>
+
+                        <ul class="nav nav-stacked nav-pills nav-promote">
+                            <li><a href="/library_search/BOOK?action=search&TE=1">Учебная литература</a></li>
+                            <li><a href="/library_search/CATAL?action=search&TE=1">Научная литература</a></li>
+                            <li><a href="/library_search/DISS?action=search&TE=1">Авторефераты диссертаций</a></li>
+                            <li><a href="/library_search/GRWORKS">Выпускные работы</a></li>
+                            <li><a href="/page/186">Как пользоваться ЭБ</a></li>
+                        </ul>
+                    </div>
+<!-- /2 --><!-- 3 -->                    <div class="promote_block">
+                        <h4><span class="glyphicon glyphicon-search"></span> Поиск ГОСТов</h4>
+
+                        <div class="ct_elbook_gost" title="Поиск ГОСТов">
+                            <a href="/zakaz-gostov-i-ntd-iz-elektronnoy-normativno-tehnicheskoy-biblioteki-i-otpravka-dokumenta-po-e-mail">Поиск по базе данных ГОСТов</a></div>
+                    </div>
+<!-- /3 --><!-- 4 --><div class="promote_block visible-xs">
+<h4><span class="glyphicon glyphicon-list"></span> Опрос</h4>
+
+<div>Нужен ли Фонд художественной литературы в РХТУ им. Д.И. Менделеева?</div>
+
+<form action="/poll/71/vote" method="post">
+
+            <div class="radio">
+            <label>
+                <input type="radio" name="poll_question_id"
+                       value="225">Да, нужен            </label>
+        </div>
+                <div class="radio">
+            <label>
+                <input type="radio" name="poll_question_id"
+                       value="226">Да, нужен при наличии электронных книг            </label>
+        </div>
+                <div class="radio">
+            <label>
+                <input type="radio" name="poll_question_id"
+                       value="227">Нет, все есть в электронном виде            </label>
+        </div>
+                <div class="radio">
+            <label>
+                <input type="radio" name="poll_question_id"
+                       value="228">Затрудняюсь с ответом            </label>
+        </div>
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col-md-6">
+                <input type="submit" value="Голосовать" class="btn btn-default btn-sm">
+            </div>
+            <div class="col-md-6 text-right">
+                <a href="/poll/71">Результаты</a>
+            </div>
+        </div>
+    </div>
+</form>
+</div><!-- /4 --><!-- 36 --><div class="promote_block">
+<a href="http://e.lanbook.com/" target="_blank"><img src="/files/images/lan.jpg" class="img-responsive"></a>
+</div><!-- /36 --><!-- 7 -->                    <div class="promote_block">
+                        <h4><span class="glyphicon glyphicon-star"></span> Новые поступления в ИБЦ</h4>
+
+                        <p>
+                            <img src="/files/images/newbooks.jpg" width="195" height="57" border="0" alt="Новые поступления" title="Новые поступления">
+                        </p>
+                        <div><span class="record_num">1. </span> Электрохимическая технология чистых металлов [Текст] : методическое пособие, 2018. - 32 с.
+</div><hr><div><span class="record_num">2. </span> Композиционные материалы. Классификация, особенности свойств, применение и технология получения [Текст] : учебное пособие / Е. Н. Субчева, 2017. - 128 с.
+</div><hr><div><span class="record_num">3. </span> Вычислительные эксперименты в области построения экотехнологий [Текст] : методические рекомендации : учебно-методическое пособие / сост. В. А. Налетов, 2018. - 48 с.
+</div><hr><div><span class="record_num">4. </span> Налетов, В.А. Вычислительный эксперимент в задачах химической технологии и наноинженерии [Текст] : учебное пособие / В. А. Налетов, 2018. - 124 с.
+</div>                        <p class="padding_top_20">
+                            <a href="/new_arrivals/CATAL">Все &laquo;Новые поступления&raquo;</a>
+                        </p>
+                    </div>
+<!-- /7 -->            </div>
+        </div>
+    </div>
+
+    <div id="footer" class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">&copy; Информационно-библиотечный центр РХТУ им. Д.И. Менделеева, 2018</div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><ul class="list-inline">
+            <li>
+            <a href="/obratnaya-svyaz">Обратная связь</a>
+        </li>
+            <li>
+            <a href="/kontaktnaya-informaciya">Контактная информация</a>
+        </li>
+    </ul>
+</div>
+    </div>
+</div>
+
+</body>
+</html>

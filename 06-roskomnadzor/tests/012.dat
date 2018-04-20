@@ -1,0 +1,1438 @@
+muctr.ru
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Российский химико-технологический университет им. Д.И. Менделеева | Главная</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="/bitrix/templates/modern_blue_s1/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#1f497d"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Serif+Caption:400,400italic&amp;subset=latin,cyrillic"
+          rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="РХТУ, университет, учеба, наука, вуз, высшее, химическое, образование, технология, Абитуриент 2018, куда пойти учиться в 2018 году, как выбрать специальность, ВУЗ, вуз, Российский химико-технологический университет, Российский химико-технологический университет им. Д.И. Менделеева, менделеевка, универ, высшее образование, второе высшее, образование, химия, технология, технологии, наука, поступление, технический университет, сайт университета, университет официальный сайт, государственный технический университет, российские университеты, университет имени, университеты москвы, российский государственный университет, сайт государственного университета, технологический университет, университеты России, лучшие вузы Москвы, лучшие вузы России, вузы России" />
+<meta name="description" content="Официальный сайт Российского химико-технологического университета им. Д.И. Менделеева" />
+<link href="/bitrix/cache/css/s1/modern_blue_s1/kernel_main/kernel_main.css?152214633726563" type="text/css" rel="stylesheet" />
+<link href="/bitrix/cache/css/s1/modern_blue_s1/template_486ac12fb94ba239e913b82435e983ed/template_486ac12fb94ba239e913b82435e983ed.css?1521218510208543" type="text/css" data-template-style="true" rel="stylesheet" />
+<script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1524209081','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'aa8607be3c3e0dc1777d50c60d809c62'});</script>
+
+
+<script type="text/javascript"  src="/bitrix/cache/js/s1/modern_blue_s1/kernel_main/kernel_main.js?1522912479291800"></script>
+<script type="text/javascript"  src="/bitrix/cache/js/s1/modern_blue_s1/kernel_twim.recaptchafree/kernel_twim.recaptchafree.js?15196260044685"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=onloadRecaptchafree&render=explicit&hl=ru"></script>
+<script type="text/javascript">BX.setJSList(['/bitrix/js/main/core/core.js','/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/json/json2.min.js','/bitrix/js/main/core/core_ls.js','/bitrix/js/main/session.js','/bitrix/js/main/core/core_window.js','/bitrix/js/main/core/core_popup.js','/bitrix/js/main/core/core_date.js','/bitrix/js/main/utils.js','/bitrix/js/twim.recaptchafree/script.js','/bitrix/templates/modern_blue_s1/js/jquery.formstyler.min.js','/bitrix/templates/modern_blue_s1/js/jquery.magnificpopup.min.js','/bitrix/templates/modern_blue_s1/js/jquery.cookie.min.js','/bitrix/templates/modern_blue_s1/js/jquery.matchHeight-min.js','/bitrix/templates/modern_blue_s1/js/jquery.mobileNav.js','/bitrix/templates/modern_blue_s1/js/owl.carousel.min.js','/bitrix/templates/modern_blue_s1/js/perfect-scrollbar.jquery.min.js','/bitrix/templates/modern_blue_s1/js/main.js','/bitrix/templates/modern_blue_s1/js/special_version.js','/bitrix/components/bitrix/search.title/script.js']); </script>
+<script type="text/javascript">BX.setCSSList(['/bitrix/js/main/core/css/core.css','/bitrix/js/main/core/css/core_popup.css','/bitrix/js/main/core/css/core_date.css','/bitrix/templates/modern_blue_s1/components/bitrix/search.title/modern_search/style.css','/bitrix/templates/modern_blue_s1/template_styles.css','/bitrix/templates/modern_blue_s1/special_version.css']); </script>
+<script type="text/javascript">
+					(function () {
+						"use strict";
+
+						var counter = function ()
+						{
+							var cookie = (function (name) {
+								var parts = ("; " + document.cookie).split("; " + name + "=");
+								if (parts.length == 2) {
+									try {return JSON.parse(decodeURIComponent(parts.pop().split(";").shift()));}
+									catch (e) {}
+								}
+							})("BITRIX_CONVERSION_CONTEXT_s1");
+
+							if (cookie && cookie.EXPIRE >= BX.message("SERVER_TIME"))
+								return;
+
+							var request = new XMLHttpRequest();
+							request.open("POST", "/bitrix/tools/conversion/ajax_counter.php", true);
+							request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+							request.send(
+								"SITE_ID="+encodeURIComponent("s1")+
+								"&sessid="+encodeURIComponent(BX.bitrix_sessid())+
+								"&HTTP_REFERER="+encodeURIComponent(document.referrer)
+							);
+						};
+
+						if (window.frameRequestStart === true)
+							BX.addCustomEvent("onFrameDataReceived", counter);
+						else
+							BX.ready(counter);
+					})();
+				</script>
+
+
+
+<script type="text/javascript"  src="/bitrix/cache/js/s1/modern_blue_s1/template_a042f1073416bfc62c5c34762d411a0e/template_a042f1073416bfc62c5c34762d411a0e.js?1523390312130981"></script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "c292531c0ff720ebff65df3081bb6606"]); _ba.push(["host", "muctr.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+                                        </head>
+<body>
+<div class="mb-hide"></div>
+<div class="body-wrapper clearfix">
+    <div class="special-settings">
+        <div class="container special-panel-container">
+            <div class="content">
+                <div class="aa-block aaFontsize">
+                    <div class="fl-l">Размер:</div>
+                    <a class="aaFontsize-small" data-aa-fontsize="small" href="#"
+                       title="Уменьшенный размер шрифта">A</a>
+                    <a class="aaFontsize-normal a-current" href="#" data-aa-fontsize="normal"
+                       title="Нормальный размер шрифта">A</a>
+                    <a class="aaFontsize-big" data-aa-fontsize="big" href="#" title="Увеличенный размер шрифта">A</a>
+                </div>
+                <div class="aa-block aaColor">
+                    Цвет:
+                    <a class="aaColor-black a-current" data-aa-color="black" href="#"
+                       title="Черным по белому"><span>C</span></a>
+                    <a class="aaColor-yellow" data-aa-color="yellow" href="#"
+                       title="Желтым по черному"><span>C</span></a>
+                    <a class="aaColor-blue" data-aa-color="blue" href="#" title="Синим по голубому"><span>C</span></a>
+                </div>
+                <div class="aa-block aaImage">
+                    Изображения
+                    <span class="aaImage-wrapper">
+                     <a class="aaImage-on a-current" data-aa-image="on" href="#">Вкл.</a>
+                     <a class="aaImage-off" data-aa-image="off" href="#">Выкл.</a>
+                     </span>
+                </div>
+                <span class="aa-block"><a href="/?set-aa=normal" data-aa-off><i class="fa fa-arrow-left"></i> Обычная версия сайта</a></span>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="container container-top-header">
+            <div class="content">
+                <div class="col col-mb-12">
+                     <span class="mb-hide">
+                     <div class="calendar fl-l">
+						 <a href="/notifies/calendar/">
+                             <i class="btn-calendar fa fa-calendar"></i>Пятница, 20 Апреля 2018                         </a>
+						 </div>
+						 <a class="fl-l" href="/students/schedule/"><i
+                                        class="btn-list-desktop fa fa-list-alt"></i>Расписание</a>
+                         	<div class="search-block fl-r">
+		<div class="search-button" tabindex="1"><i style="color:white" class="fa fa-search"></i></div>
+		<div class="container container-search">
+			<div class="content">
+				<div class="col col-mb-12" id="searchTitle">
+					<form action="/search/">
+						<div class="search-form-block">
+							<i style="color:white" class="icon-search-white fa fa-search"></i>
+							<div class="search-close-button" tabindex="1"><i class="icon icon-close"></i></div>
+							<div class="ov-h">
+								<input id="title-search-input" class="search-input" type="text" name="q" autocomplete="off">
+							</div>
+						</div>
+					</form>
+					<div class="search-suggestions mb-hide">
+					</div>
+				</div> <!-- .col col-mb-12 -->
+			</div> <!-- .content -->
+		</div> <!-- .container container-search -->
+	</div>
+<script>
+
+function JCTitleSearchModern(arParams)
+{
+	var _this = this;
+
+	this.arParams = {
+		'AJAX_PAGE': arParams.AJAX_PAGE,
+		'CONTAINER_ID': arParams.CONTAINER_ID,
+		'INPUT_ID': arParams.INPUT_ID,
+		'MIN_QUERY_LEN': parseInt(arParams.MIN_QUERY_LEN)
+	};
+	if(arParams.WAIT_IMAGE)
+		this.arParams.WAIT_IMAGE = arParams.WAIT_IMAGE;
+	if(arParams.MIN_QUERY_LEN <= 0)
+		arParams.MIN_QUERY_LEN = 1;
+
+	this.cache = [];
+	this.cache_key = null;
+
+	this.startText = '';
+	this.currentRow = -1;
+	this.RESULT = null;
+	this.CONTAINER = null;
+	this.INPUT = null;
+	this.WAIT = null;
+
+	this.ShowResult = function(result)
+	{
+		var suggestions = document.getElementsByClassName('search-suggestions');
+		suggestions[0].innerHTML = result;
+	}
+
+	this.onKeyPress = function(keyCode)
+	{
+		var tbl = BX.findChild(_this.RESULT, {'tag':'div','class':'search-result'}, true);
+		if(!tbl)
+			return false;
+
+		var cnt = tbl.rows.length;
+
+		switch (keyCode)
+		{
+			case 27: // escape key - close search div
+				_this.RESULT.style.display = 'none';
+				_this.currentRow = -1;
+				_this.UnSelectAll();
+				return true;
+
+			case 40: // down key - navigate down on search results
+				if(_this.RESULT.style.display == 'none')
+					_this.RESULT.style.display = 'block';
+
+				var first = -1;
+				for(var i = 0; i < cnt; i++)
+				{
+					if(!BX.findChild(tbl.rows[i], {'class':'title-search-separator'}, true))
+					{
+						if(first == -1)
+							first = i;
+
+						if(_this.currentRow < i)
+						{
+							_this.currentRow = i;
+							break;
+						}
+						else if(tbl.rows[i].className == 'title-search-selected')
+						{
+							tbl.rows[i].className = '';
+						}
+					}
+				}
+
+				if(i == cnt && _this.currentRow != i)
+					_this.currentRow = first;
+
+				tbl.rows[_this.currentRow].className = 'title-search-selected';
+				return true;
+
+			case 38: // up key - navigate up on search results
+				if(_this.RESULT.style.display == 'none')
+					_this.RESULT.style.display = 'block';
+
+				var last = -1;
+				for(var i = cnt-1; i >= 0; i--)
+				{
+					if(!BX.findChild(tbl.rows[i], {'class':'title-search-separator'}, true))
+					{
+						if(last == -1)
+							last = i;
+
+						if(_this.currentRow > i)
+						{
+							_this.currentRow = i;
+							break;
+						}
+						else if(tbl.rows[i].className == 'title-search-selected')
+						{
+							tbl.rows[i].className = '';
+						}
+					}
+				}
+
+				if(i < 0 && _this.currentRow != i)
+					_this.currentRow = last;
+
+				tbl.rows[_this.currentRow].className = 'title-search-selected';
+				return true;
+
+			case 13: // enter key - choose current search result
+				if(_this.RESULT.style.display == 'block')
+				{
+					for(var i = 0; i < cnt; i++)
+					{
+						if(_this.currentRow == i)
+						{
+							if(!BX.findChild(tbl.rows[i], {'class':'title-search-separator'}, true))
+							{
+								var a = BX.findChild(tbl.rows[i], {'tag':'a'}, true);
+								if(a)
+								{
+									window.location = a.href;
+									return true;
+								}
+							}
+						}
+					}
+				}
+				return false;
+		}
+
+		return false;
+	}
+
+	this.onTimeout = function()
+	{
+		_this.onChange(function(){
+			setTimeout(_this.onTimeout, 500);
+		});
+	}
+
+	this.onChange = function(callback)
+	{
+		if(_this.INPUT.value != _this.oldValue && _this.INPUT.value != _this.startText)
+		{
+			_this.oldValue = _this.INPUT.value;
+			if(_this.INPUT.value.length >= _this.arParams.MIN_QUERY_LEN)
+			{
+				_this.cache_key = _this.arParams.INPUT_ID + '|' + _this.INPUT.value;
+				if(_this.cache[_this.cache_key] == null)
+				{
+					if(_this.WAIT)
+					{
+						var pos = BX.pos(_this.INPUT);
+						var height = (pos.bottom - pos.top)-2;
+						_this.WAIT.style.top = (pos.top+1) + 'px';
+						_this.WAIT.style.height = height + 'px';
+						_this.WAIT.style.width = height + 'px';
+						_this.WAIT.style.left = (pos.right - height + 2) + 'px';
+						_this.WAIT.style.display = 'block';
+					}
+
+					BX.ajax.post(
+						_this.arParams.AJAX_PAGE,
+						{
+							'ajax_call':'y',
+							'INPUT_ID':_this.arParams.INPUT_ID,
+							'q':_this.INPUT.value,
+							'l':_this.arParams.MIN_QUERY_LEN
+						},
+						function(result)
+						{
+							_this.cache[_this.cache_key] = result;
+							_this.ShowResult(result);
+							_this.currentRow = -1;
+							_this.EnableMouseEvents();
+							if(_this.WAIT)
+								_this.WAIT.style.display = 'none';
+							if (!!callback)
+								callback();
+						}
+					);
+					return;
+				}
+				else
+				{
+					_this.ShowResult(_this.cache[_this.cache_key]);
+					_this.currentRow = -1;
+					_this.EnableMouseEvents();
+				}
+			}
+			else
+			{
+				_this.RESULT.style.display = 'none';
+				_this.currentRow = -1;
+				_this.UnSelectAll();
+			}
+		}
+		if (!!callback)
+			callback();
+	}
+
+	this.UnSelectAll = function()
+	{
+		var tbl = BX.findChild(_this.RESULT, {'tag':'div','class':'search-result'}, true);
+		if(tbl)
+		{
+			var cnt = tbl.rows.length;
+			for(var i = 0; i < cnt; i++)
+				tbl.rows[i].className = '';
+		}
+	}
+
+	this.EnableMouseEvents = function()
+	{
+		var tbl = BX.findChild(_this.RESULT, {'tag':'div','class':'search-result'}, true);
+		if(tbl)
+		{
+			var cnt = tbl.rows.length;
+			for(var i = 0; i < cnt; i++)
+				if(!BX.findChild(tbl.rows[i], {'class':'title-search-separator'}, true))
+				{
+					tbl.rows[i].id = 'row_' + i;
+					tbl.rows[i].onmouseover = function (e) {
+						if(_this.currentRow != this.id.substr(4))
+						{
+							_this.UnSelectAll();
+							this.className = 'title-search-selected';
+							_this.currentRow = this.id.substr(4);
+						}
+					};
+					tbl.rows[i].onmouseout = function (e) {
+						this.className = '';
+						_this.currentRow = -1;
+					};
+				}
+		}
+	}
+
+	this.onFocusLost = function(hide)
+	{
+		setTimeout(function(){_this.RESULT.style.display = 'none';}, 250);
+	}
+
+	this.onFocusGain = function()
+	{
+		if(_this.RESULT.innerHTML.length)
+			_this.ShowResult();
+	}
+
+	this.onKeyDown = function(e)
+	{
+		if(!e)
+			e = window.event;
+
+		if (_this.RESULT.style.display == 'block')
+		{
+			if(_this.onKeyPress(e.keyCode))
+				return BX.PreventDefault(e);
+		}
+	}
+
+	this.Init = function()
+	{
+		this.CONTAINER = document.getElementById(this.arParams.CONTAINER_ID);
+		this.RESULT = document.body.appendChild(document.createElement("DIV"));
+		this.RESULT.className = 'search-suggestions';
+		this.INPUT = document.getElementById(this.arParams.INPUT_ID);
+		this.startText = this.oldValue = this.INPUT.value;
+		BX.bind(this.INPUT, 'focus', function() {_this.onFocusGain()});
+		BX.bind(this.INPUT, 'blur', function() {_this.onFocusLost()});
+
+		if(BX.browser.IsSafari() || BX.browser.IsIE())
+			this.INPUT.onkeydown = this.onKeyDown;
+		else
+			this.INPUT.onkeypress = this.onKeyDown;
+
+		if(this.arParams.WAIT_IMAGE)
+		{
+			this.WAIT = document.body.appendChild(document.createElement("DIV"));
+			this.WAIT.style.backgroundImage = "url('" + this.arParams.WAIT_IMAGE + "')";
+			if(!BX.browser.IsIE())
+				this.WAIT.style.backgroundRepeat = 'none';
+			this.WAIT.style.display = 'none';
+			this.WAIT.style.position = 'absolute';
+			this.WAIT.style.zIndex = '1100';
+		}
+
+		BX.bind(this.INPUT, 'bxchange', function() {_this.onChange()});
+	}
+
+	BX.ready(function (){_this.Init(arParams)});
+
+}
+
+	BX.ready(function(){
+		new JCTitleSearchModern({
+			'AJAX_PAGE' : '/',
+			'CONTAINER_ID': 'searchTitle',
+			'INPUT_ID': 'title-search-input',
+			'MIN_QUERY_LEN': 2
+		});
+	});
+</script>                         <a class="fl-r" href="https://muctr.ru/en/" title="RUS/ENG">
+                     	<i class="fa fa-language"></i>
+                     </a>
+                     <span class="aa-hide" itemprop="Copy">
+                         <a class="fl-r" href="/?set-aa=special" data-aa-on title="Версия для слабовидящих">
+                             <i class="fa fa-blind"></i>
+                             <span class="hide">Версия для слабовидящих</span>
+                         </a>
+                     </span>
+                     </span>
+                    <span class="tablet-hide dt-hide ld-hide">
+						<div class="calendar fl-l">
+						 <a id="time_span1" href="/notifies/calendar/">
+							<i class="btn-calendar fa fa-calendar"></i>
+                         </a>
+						 </div>
+						<a class="fl-l" href="/students/schedule/">
+							<i class="btn-list-mobile fa fa-list-alt"></i>
+						</a>
+						<a class="fl-l btn-rector-election" href="/university/rector_election/">
+							<i class="btn-list-mobile fa fa-check-square-o"></i>
+						</a>
+                        <div class="btn-search mr50">
+                           	<div class="search-block fl-r">
+		<div class="search-button" tabindex="1"><i style="color:white" class="fa fa-search"></i></div>
+		<div class="container container-search">
+			<div class="content">
+				<div class="col col-mb-12" id="searchTitle">
+					<form action="/search/index.php">
+						<div class="search-form-block">
+							<i style="color:white" class="icon-search-white fa fa-search"></i>
+							<div class="search-close-button" tabindex="1"><i class="icon icon-close"></i></div>
+							<div class="ov-h">
+								<input id="title-search-input" class="search-input" type="text" name="q" autocomplete="off">
+							</div>
+						</div>
+					</form>
+					<div class="search-suggestions mb-hide">
+					</div>
+				</div> <!-- .col col-mb-12 -->
+			</div> <!-- .content -->
+		</div> <!-- .container container-search -->
+	</div>
+<script>
+
+function JCTitleSearchModern(arParams)
+{
+	var _this = this;
+
+	this.arParams = {
+		'AJAX_PAGE': arParams.AJAX_PAGE,
+		'CONTAINER_ID': arParams.CONTAINER_ID,
+		'INPUT_ID': arParams.INPUT_ID,
+		'MIN_QUERY_LEN': parseInt(arParams.MIN_QUERY_LEN)
+	};
+	if(arParams.WAIT_IMAGE)
+		this.arParams.WAIT_IMAGE = arParams.WAIT_IMAGE;
+	if(arParams.MIN_QUERY_LEN <= 0)
+		arParams.MIN_QUERY_LEN = 1;
+
+	this.cache = [];
+	this.cache_key = null;
+
+	this.startText = '';
+	this.currentRow = -1;
+	this.RESULT = null;
+	this.CONTAINER = null;
+	this.INPUT = null;
+	this.WAIT = null;
+
+	this.ShowResult = function(result)
+	{
+		var suggestions = document.getElementsByClassName('search-suggestions');
+		suggestions[0].innerHTML = result;
+	}
+
+	this.onKeyPress = function(keyCode)
+	{
+		var tbl = BX.findChild(_this.RESULT, {'tag':'div','class':'search-result'}, true);
+		if(!tbl)
+			return false;
+
+		var cnt = tbl.rows.length;
+
+		switch (keyCode)
+		{
+			case 27: // escape key - close search div
+				_this.RESULT.style.display = 'none';
+				_this.currentRow = -1;
+				_this.UnSelectAll();
+				return true;
+
+			case 40: // down key - navigate down on search results
+				if(_this.RESULT.style.display == 'none')
+					_this.RESULT.style.display = 'block';
+
+				var first = -1;
+				for(var i = 0; i < cnt; i++)
+				{
+					if(!BX.findChild(tbl.rows[i], {'class':'title-search-separator'}, true))
+					{
+						if(first == -1)
+							first = i;
+
+						if(_this.currentRow < i)
+						{
+							_this.currentRow = i;
+							break;
+						}
+						else if(tbl.rows[i].className == 'title-search-selected')
+						{
+							tbl.rows[i].className = '';
+						}
+					}
+				}
+
+				if(i == cnt && _this.currentRow != i)
+					_this.currentRow = first;
+
+				tbl.rows[_this.currentRow].className = 'title-search-selected';
+				return true;
+
+			case 38: // up key - navigate up on search results
+				if(_this.RESULT.style.display == 'none')
+					_this.RESULT.style.display = 'block';
+
+				var last = -1;
+				for(var i = cnt-1; i >= 0; i--)
+				{
+					if(!BX.findChild(tbl.rows[i], {'class':'title-search-separator'}, true))
+					{
+						if(last == -1)
+							last = i;
+
+						if(_this.currentRow > i)
+						{
+							_this.currentRow = i;
+							break;
+						}
+						else if(tbl.rows[i].className == 'title-search-selected')
+						{
+							tbl.rows[i].className = '';
+						}
+					}
+				}
+
+				if(i < 0 && _this.currentRow != i)
+					_this.currentRow = last;
+
+				tbl.rows[_this.currentRow].className = 'title-search-selected';
+				return true;
+
+			case 13: // enter key - choose current search result
+				if(_this.RESULT.style.display == 'block')
+				{
+					for(var i = 0; i < cnt; i++)
+					{
+						if(_this.currentRow == i)
+						{
+							if(!BX.findChild(tbl.rows[i], {'class':'title-search-separator'}, true))
+							{
+								var a = BX.findChild(tbl.rows[i], {'tag':'a'}, true);
+								if(a)
+								{
+									window.location = a.href;
+									return true;
+								}
+							}
+						}
+					}
+				}
+				return false;
+		}
+
+		return false;
+	}
+
+	this.onTimeout = function()
+	{
+		_this.onChange(function(){
+			setTimeout(_this.onTimeout, 500);
+		});
+	}
+
+	this.onChange = function(callback)
+	{
+		if(_this.INPUT.value != _this.oldValue && _this.INPUT.value != _this.startText)
+		{
+			_this.oldValue = _this.INPUT.value;
+			if(_this.INPUT.value.length >= _this.arParams.MIN_QUERY_LEN)
+			{
+				_this.cache_key = _this.arParams.INPUT_ID + '|' + _this.INPUT.value;
+				if(_this.cache[_this.cache_key] == null)
+				{
+					if(_this.WAIT)
+					{
+						var pos = BX.pos(_this.INPUT);
+						var height = (pos.bottom - pos.top)-2;
+						_this.WAIT.style.top = (pos.top+1) + 'px';
+						_this.WAIT.style.height = height + 'px';
+						_this.WAIT.style.width = height + 'px';
+						_this.WAIT.style.left = (pos.right - height + 2) + 'px';
+						_this.WAIT.style.display = 'block';
+					}
+
+					BX.ajax.post(
+						_this.arParams.AJAX_PAGE,
+						{
+							'ajax_call':'y',
+							'INPUT_ID':_this.arParams.INPUT_ID,
+							'q':_this.INPUT.value,
+							'l':_this.arParams.MIN_QUERY_LEN
+						},
+						function(result)
+						{
+							_this.cache[_this.cache_key] = result;
+							_this.ShowResult(result);
+							_this.currentRow = -1;
+							_this.EnableMouseEvents();
+							if(_this.WAIT)
+								_this.WAIT.style.display = 'none';
+							if (!!callback)
+								callback();
+						}
+					);
+					return;
+				}
+				else
+				{
+					_this.ShowResult(_this.cache[_this.cache_key]);
+					_this.currentRow = -1;
+					_this.EnableMouseEvents();
+				}
+			}
+			else
+			{
+				_this.RESULT.style.display = 'none';
+				_this.currentRow = -1;
+				_this.UnSelectAll();
+			}
+		}
+		if (!!callback)
+			callback();
+	}
+
+	this.UnSelectAll = function()
+	{
+		var tbl = BX.findChild(_this.RESULT, {'tag':'div','class':'search-result'}, true);
+		if(tbl)
+		{
+			var cnt = tbl.rows.length;
+			for(var i = 0; i < cnt; i++)
+				tbl.rows[i].className = '';
+		}
+	}
+
+	this.EnableMouseEvents = function()
+	{
+		var tbl = BX.findChild(_this.RESULT, {'tag':'div','class':'search-result'}, true);
+		if(tbl)
+		{
+			var cnt = tbl.rows.length;
+			for(var i = 0; i < cnt; i++)
+				if(!BX.findChild(tbl.rows[i], {'class':'title-search-separator'}, true))
+				{
+					tbl.rows[i].id = 'row_' + i;
+					tbl.rows[i].onmouseover = function (e) {
+						if(_this.currentRow != this.id.substr(4))
+						{
+							_this.UnSelectAll();
+							this.className = 'title-search-selected';
+							_this.currentRow = this.id.substr(4);
+						}
+					};
+					tbl.rows[i].onmouseout = function (e) {
+						this.className = '';
+						_this.currentRow = -1;
+					};
+				}
+		}
+	}
+
+	this.onFocusLost = function(hide)
+	{
+		setTimeout(function(){_this.RESULT.style.display = 'none';}, 250);
+	}
+
+	this.onFocusGain = function()
+	{
+		if(_this.RESULT.innerHTML.length)
+			_this.ShowResult();
+	}
+
+	this.onKeyDown = function(e)
+	{
+		if(!e)
+			e = window.event;
+
+		if (_this.RESULT.style.display == 'block')
+		{
+			if(_this.onKeyPress(e.keyCode))
+				return BX.PreventDefault(e);
+		}
+	}
+
+	this.Init = function()
+	{
+		this.CONTAINER = document.getElementById(this.arParams.CONTAINER_ID);
+		this.RESULT = document.body.appendChild(document.createElement("DIV"));
+		this.RESULT.className = 'search-suggestions';
+		this.INPUT = document.getElementById(this.arParams.INPUT_ID);
+		this.startText = this.oldValue = this.INPUT.value;
+		BX.bind(this.INPUT, 'focus', function() {_this.onFocusGain()});
+		BX.bind(this.INPUT, 'blur', function() {_this.onFocusLost()});
+
+		if(BX.browser.IsSafari() || BX.browser.IsIE())
+			this.INPUT.onkeydown = this.onKeyDown;
+		else
+			this.INPUT.onkeypress = this.onKeyDown;
+
+		if(this.arParams.WAIT_IMAGE)
+		{
+			this.WAIT = document.body.appendChild(document.createElement("DIV"));
+			this.WAIT.style.backgroundImage = "url('" + this.arParams.WAIT_IMAGE + "')";
+			if(!BX.browser.IsIE())
+				this.WAIT.style.backgroundRepeat = 'none';
+			this.WAIT.style.display = 'none';
+			this.WAIT.style.position = 'absolute';
+			this.WAIT.style.zIndex = '1100';
+		}
+
+		BX.bind(this.INPUT, 'bxchange', function() {_this.onChange()});
+	}
+
+	BX.ready(function (){_this.Init(arParams)});
+
+}
+
+	BX.ready(function(){
+		new JCTitleSearchModern({
+			'AJAX_PAGE' : '/',
+			'CONTAINER_ID': 'searchTitle',
+			'INPUT_ID': 'title-search-input',
+			'MIN_QUERY_LEN': 2
+		});
+	});
+</script>                        </div>
+                        <a class="fl-r" href="https://muctr.ru/en/" title="RUS/ENG">
+                        	<i class="btn-list-mobile fa fa-language"></i>
+                     	</a>
+                        <span class="aa-hide" itemprop="Copy"><a class="fl-r" href="/?set-aa=special" data-aa-on
+                                                                 title="Версия для слабовидящих"><i
+                                        class="btn-list-mobile fa fa-blind"></i><span
+                                        class="hide">Версия для слабовидящих</span></a></span>
+                     </span>
+                </div>
+            </div>
+        </div>
+        <div class="container container-top-navigation">
+            <div class="content">
+                <div class="col col-mb-hide col-12">
+                    <div class="top-nav-block">
+                        
+    <ul>
+                                                <li class="top parent">
+                    <a tabindex="1" href="/Abitur/">Aбитуриентам</a>
+                    <div class="second-level container">
+                        <div class="content">
+                            <div class="col col-mb-12">
+                                <div class="content">
+                                    <ul class="clearfix">
+                                                            <li><a href="/Abitur/rector_address/">Обращение ректора</a></li>
+                                                <li><a href="/Abitur/the_admissions_committee/">Приемная комиссия</a></li>
+                                                <li><a href="/Abitur/calendar/">Календарь абитуриента</a></li>
+                                                <li><a href="/Abitur/bachelor/">Бакалавриат/специалитет</a></li>
+                                                <li><a href="/Abitur/magistr/">Магистратура</a></li>
+                                                <li><a href="/Abitur/aspirant/">Аспирантура</a></li>
+                                                <li><a href="/Abitur/school/">Школьникам</a></li>
+                                                <li><a href="/Abitur/paid_education/">Платное образование</a></li>
+                                                <li><a href="/Abitur/foreigner/">Прием иностранных граждан</a></li>
+                                                <li><a href="/Abitur/hostel/">Общежитие</a></li>
+                                                <li><a href="/Abitur/admission18/">Прием 2018</a></li>
+                                                <li><a href="/Abitur/transfer/">Перевод из другой образовательной организации</a></li>
+                                                <li><a href="http://www.nirhtu.ru/administration/commission.html">Новомосковский институт (филиал)</a></li>
+                                        </ul></div></div></div></div></li>
+                                            <li class="top parent">
+                    <a tabindex="1" href="/students/">Студентам</a>
+                    <div class="second-level container">
+                        <div class="content">
+                            <div class="col col-mb-12">
+                                <div class="content">
+                                    <ul class="clearfix">
+                                                            <li><a href="/students/material_support/">Материальная поддержка</a></li>
+                                                <li><a href="/students/schedule/">Расписание</a></li>
+                                                <li><a href="https://old.muctr.ru/univedu/student/reiting.php">Положение о рейтинговой системе</a></li>
+                                                <li><a href="https://old.muctr.ru/univsubs/edudept/pamiatka.php">Положение о стипендиальном обеспечении</a></li>
+                                                <li><a href="https://old.muctr.ru/univedu/student/dorm.php">Студгородок</a></li>
+                                                <li><a href="https://old.muctr.ru/univedu/student/polka.php">Поликлиника</a></li>
+                                                <li><a href="https://old.muctr.ru/univedu/student/med.php">Адреса медучреждений</a></li>
+                                                <li><a href="https://old.muctr.ru/cullife/">Студенческая жизнь</a></li>
+                                        </ul></div></div></div></div></li>
+                                            <li class="top parent">
+                    <a tabindex="1" href="/graduate_students/">Аспирантам</a>
+                    <div class="second-level container">
+                        <div class="content">
+                            <div class="col col-mb-12">
+                                <div class="content">
+                                    <ul class="clearfix">
+                                                            <li><a href="https://old.muctr.ru/univedu/postgr/aspir.php?sphrase_id=358802">Аспирантам</a></li>
+                                                <li><a href="https://old.muctr.ru/univedu/postgr/schedule.php">Расписание аспирантов</a></li>
+                                                <li><a href="https://old.muctr.ru/univedu/postgr/doct.php">Докторантам</a></li>
+                                                <li><a href="https://old.muctr.ru/univedu/postgr/obr_prog.php">Образовательные программы</a></li>
+                                                <li><a href="https://old.muctr.ru/univedu/postgr/vnutr_doc.php">Внутренние документы</a></li>
+                                                <li><a href="https://old.muctr.ru/univedu/postgr/vnesh_doc.php">Внешние документы</a></li>
+                                        </ul></div></div></div></div></li>
+                                            <li class="top parent">
+                    <a tabindex="1" href="/graduates/">Выпускникам</a>
+                    <div class="second-level container">
+                        <div class="content">
+                            <div class="col col-mb-12">
+                                <div class="content">
+                                    <ul class="clearfix">
+                                                            <li><a href="https://old.muctr.ru/univsubs/ipr/subs/occupancy/vacancy/">Центр развития карьеры</a></li>
+                                                <li><a href="https://old.muctr.ru/cullife/osmuss/index.php?sphrase_id=358874">Совет молодых ученых</a></li>
+                                                <li><a href="https://old.muctr.ru/univsubs/ipr/subs/occupancy/vacancy/">Трудоустройство</a></li>
+                                                <li><a href="https://old.muctr.ru/univsubs/extraedu/secedu.php?sphrase_id=358806">Второе высшее образование</a></li>
+                                                <li><a href="https://old.muctr.ru/Abitur/aspirantura.php">Аспирантура</a></li>
+                                        </ul></div></div></div></div></li>
+                                            <li class="top parent">
+                    <a tabindex="1" href="/sotrudnikam/">Сотрудникам</a>
+                    <div class="second-level container">
+                        <div class="content">
+                            <div class="col col-mb-12">
+                                <div class="content">
+                                    <ul class="clearfix">
+                                                            <li><a href="https://new.muctr.ru/notifies/">Календарь событий</a></li>
+                                                <li><a href="https://old.muctr.ru/univsubs/ipr/subs/qualification/up_pro.php?sphrase_id=358812">Повышение квалификации</a></li>
+                                                <li><a href="https://old.muctr.ru/cullife/profkom/index.php?sphrase_id=358813">Профком</a></li>
+                                                <li><a href="/students/schedule/">Расписание занятий</a></li>
+                                        </ul></div></div></div></div></li>
+                                            <li class="top parent">
+                    <a tabindex="1" href="/partners/">Партнерам</a>
+                    <div class="second-level container">
+                        <div class="content">
+                            <div class="col col-mb-12">
+                                <div class="content">
+                                    <ul class="clearfix">
+                                                            <li><a href="/partners/organizations/">Организации-партнеры</a></li>
+                                                <li><a href="https://scidbase.muctr.ru/">Инновационные разработки</a></li>
+                                                <li><a href="https://old.muctr.ru/sveden/fproekt.php">Реализованные проекты</a></li>
+                                                <li><a href="/partners/cooperation/">Международное сотрудничество</a></li>
+                                                <li><a href="/partners/training/">Повышение квалификации сторонних слушателей</a></li>
+                                </ul></div></div></div></div></li>
+        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container container-white pt10 pb10">
+            <div class="content">
+                <div class="col col-mb-12 col-12 col-dt-9">
+                    <div class="logo-block">
+                        <a href="/" class="logo"><img src="/include/logo.jpg">                        </a>
+                        <a href="/">
+							<span class="h1">
+							<span class="title1">
+							РОССИЙСКИЙ<br>
+ ХИМИКО-ТЕХНОЛОГИЧЕСКИЙ <br>
+ УНИВЕРСИТЕТ<br>
+ имени Д.И. Менделеева<br>							</span>
+							<br><small>D.Mendeleev University of Chemical Technology of Russia</small>
+                        </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container container-top-navigation">
+            <div class="content">
+                <div class="col col-mb-hide col-12">
+                    <div class="top-nav-block">
+                            <ul class="fl-r">
+                                                <li class="top1 parent">
+                    <a tabindex="1" href="/university/">УНИВЕРСИТЕТ</a>
+                    <div class="second-level container">
+                        <div class="content">
+                            <div class="col col-mb-12">
+                                <div class="content">
+                                    <ul class="clearfix">
+                                                            <li><a href="/university/rector_address/">Обращение ректора</a></li>
+                                                <li><a href="/sveden/">Сведения об образовательной организации</a></li>
+                                                <li><a href="/university/rector_election/">Выборы ректора</a></li>
+                                                <li><a href="/university/rectorate/">Ректорат</a></li>
+                                                <li><a href="/university/academic_council/">Ученый совет</a></li>
+                                                <li><a href="/news/">Новости</a></li>
+                                                <li><a href="/notifies/">События</a></li>
+                                                <li><a href="https://old.muctr.ru/univsubs/">Институты и факультеты</a></li>
+                                                <li><a href="http://lib.muctr.ru/">Информационно-библиотечный центр</a></li>
+                                                <li><a href="/university/campus/">Студенческий городок</a></li>
+                                                <li><a href="http://www.nirhtu.ru/">Новомосковский институт (филиал) РХТУ</a></li>
+                                                <li><a href="/university/international_cooperation/">Международное сотрудничество</a></li>
+                                                <li><a href="/university/about/">Об университете</a></li>
+                                                <li><a href="/university/contacts/">Контакты и реквизиты</a></li>
+                                        </ul></div></div></div></div></li>
+                                            <li class="top1 parent">
+                    <a tabindex="1" href="/education/">ОБРАЗОВАНИЕ</a>
+                    <div class="second-level container">
+                        <div class="content">
+                            <div class="col col-mb-12">
+                                <div class="content">
+                                    <ul class="clearfix">
+                                                            <li><a href="https://old.muctr.ru/univsubs/preadm/">Довузовская подготовка</a></li>
+                                                <li><a href="https://old.muctr.ru/Abitur/uchebnyy_protsess/BS.php">Бакалавриат и специалитет</a></li>
+                                                <li><a href="https://old.muctr.ru/Abitur/magistratura.php">Магистратура</a></li>
+                                                <li><a href="https://old.muctr.ru/univedu/postgr/">Аспирантура и докторантура</a></li>
+                                                <li><a href="https://old.muctr.ru/univedu/remtrain/">Очно-заочное и заочное обучение</a></li>
+                                                <li><a href="https://old.muctr.ru/univsubs/intstud/index.php?sphrase_id=359015">Образование для иностранцев</a></li>
+                                                <li><a href="https://old.muctr.ru/univsubs/ipr/">Дополнительные образовательные услуги</a></li>
+                                                <li><a href="https://old.muctr.ru/univedu/report/">Численность обучающихся</a></li>
+                                                <li><a href="https://old.muctr.ru/univedu/umo/">Учебно-методическое объединение</a></li>
+                                                <li><a href="https://old.muctr.ru/univsubs/edudept/local_doc.php">Локальные документы, регламентирующие образовательную деятельность</a></li>
+                                        </ul></div></div></div></div></li>
+                                            <li class="top1 parent">
+                    <a tabindex="1" href="/science/">НАУКА</a>
+                    <div class="second-level container">
+                        <div class="content">
+                            <div class="col col-mb-12">
+                                <div class="content">
+                                    <ul class="clearfix">
+                                                            <li><a href="https://old.muctr.ru/univsci/direct.php">Направления научной деятельности</a></li>
+                                                <li><a href="https://scidbase.muctr.ru/">Научные разработки "РХТУ - экономике России"</a></li>
+                                                <li><a href="https://old.muctr.ru/univsci/active/">Показатели научной деятельности организации</a></li>
+                                                <li><a href="https://old.muctr.ru/univsci/univconf/">Научные мероприятия</a></li>
+                                                <li><a href="https://old.muctr.ru/univsci/uni/">Научно-исследовательская часть</a></li>
+                                                <li><a href="https://old.muctr.ru/univsci/ckp/index.php?sphrase_id=359006">Центр коллективного пользования</a></li>
+                                                <li><a href="https://old.muctr.ru/univsubs/scidept/">Научные центры и лаборатории</a></li>
+                                                <li><a href="https://old.muctr.ru/cullife/osmuss/index.php?sphrase_id=359010">Объединенный совет молодых ученых и специалистов</a></li>
+                                        </ul></div></div></div></div></li>
+                                            <li class="top1 parent">
+                    <a tabindex="1" href="/anniversary/">120 ЛЕТ</a>
+                    <div class="second-level container">
+                        <div class="content">
+                            <div class="col col-mb-12">
+                                <div class="content">
+                                    <ul class="clearfix">
+                                                            <li><a href="/anniversary/obrashchenie-rektora/">Обращение ректора</a></li>
+                                                <li><a href="/anniversary/istoriya-universiteta-osnovnye-etapy-razvitiya">История Университета – основные этапы развития</a></li>
+                                                <li><a href="/anniversary/znamenitye-vypuskniki-mendeleevtsy">Знаменитые выпускники - Менделеевцы</a></li>
+                                                <li><a href="/anniversary/kalendar-sobytiy-yubileynykh-meropriyatiy-v-techenie-goda">Календарь событий юбилейных мероприятий в течение года</a></li>
+                                                <li><a href="/anniversary/anketa-vypusknika">Анкета выпускника</a></li>
+                                                <li><a href="/anniversary/fond-razvitiya-rkhtu-im-d-i-mendeleeva">Фонд развития РХТУ им. Д.И. Менделеева</a></li>
+                                </ul></div></div></div></div></li>
+    	<li class="top1">
+		<a class="btn-rector-election fl-r" href="/university/rector_election/"><i class="fa fa-check-square-o"></i>ВЫБОРЫ РЕКТОРА</a>
+	</li>
+    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+</header>
+	    <div class="container">
+        <div
+                class="big-slider"
+                data-owl-loop=y                 data-owl-autoplay="y"                 data-owl-autoplay-timeout="6"         >
+                                            <div class="slider-item" style="background-image: url(/upload/iblock/b75/Univer.subboty_2018.jpg);"
+                     id="bx_3218110189_11126">
+                    <div class="content">
+                        <div class="col col-mb-12 col-7 col-dt-5">
+                            <div class="slider-item-text">
+                                <div class="h1">
+                                    <div class="mb-hide">
+                                        Университетские субботы                                    </div>
+                                                                            <a class="mb-block mb-slider-ref"
+                                           href="https://muctr.ru/notifies/saturdays/11124/">
+                                            Университетские субботы                                        </a>
+                                                                    </div>
+                                <div class="mb-hide slider-item-description">
+                                    <p>
+                                        21 апреля в РХТУ продолжатся занятия цикла «Университетские субботы». В этот день в Миусском комплексе РХТУ пройдут две лекции.                                    </p>
+                                                                            <a class="btn button_long btn-slider"
+                                           href="https://muctr.ru/notifies/saturdays/11124/">Подробности</a>
+                                                                    </div>
+                                <div class="big-slider-nav mb-hide"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                            <div class="slider-item" style="background-image: url(/upload/iblock/972/dod22apr.jpg);"
+                     id="bx_3218110189_11012">
+                    <div class="content">
+                        <div class="col col-mb-12 col-7 col-dt-5">
+                            <div class="slider-item-text">
+                                <div class="h1">
+                                    <div class="mb-hide">
+                                        День открытых дверей                                    </div>
+                                                                            <a class="mb-block mb-slider-ref"
+                                           href="https://new.muctr.ru/notifies/open_days/11013/">
+                                            День открытых дверей                                        </a>
+                                                                    </div>
+                                <div class="mb-hide slider-item-description">
+                                    <p>
+                                        Приглашаем на День открытых дверей<br />
+в Тушинском комплексе РХТУ<br />
+<br />
+22 апреля 2018 г.<br />
+<br />
+Начало в 11:00                                    </p>
+                                                                            <a class="btn button_long btn-slider"
+                                           href="https://new.muctr.ru/notifies/open_days/11013/">Подробности</a>
+                                                                    </div>
+                                <div class="big-slider-nav mb-hide"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                            <div class="slider-item" style="background-image: url(/upload/iblock/4f0/4f07a539810d415d140bba4056f9ff8e.png);"
+                     id="bx_3218110189_215">
+                    <div class="content">
+                        <div class="col col-mb-12 col-7 col-dt-5">
+                            <div class="slider-item-text">
+                                <div class="h1">
+                                    <div class="mb-hide">
+                                        Рейтинг лучших университетов стран БРИКС                                    </div>
+                                                                            <a class="mb-block mb-slider-ref"
+                                           href="https://old.muctr.ru/about/reiting.php">
+                                            Рейтинг лучших университетов стран БРИКС                                        </a>
+                                                                    </div>
+                                <div class="mb-hide slider-item-description">
+                                    <p>
+                                        <p>
+	 В рейтинге лучших университетов стран БРИКС по версии QS РХТУ им. Д. И. Менделеева занял 117 место.
+</p>                                    </p>
+                                                                            <a class="btn button_long btn-slider"
+                                           href="https://old.muctr.ru/about/reiting.php">Узнать больше</a>
+                                                                    </div>
+                                <div class="big-slider-nav mb-hide"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+    <div class="container container-m50">
+        <div class="content">
+            <div class="col col-mb-12 col-4 col-margin">
+                <div class="white-box primary-border-box big-padding-box">
+                    <h2 class="mt0"><img src="/bitrix/templates/modern_blue_s1/images/abiturients.png"
+                                         alt="Абитуриентам">
+                        Абитуриентам</h2>
+                    
+    <ul class="unstyled">
+                    <li><a href="/Abitur/the_admissions_committee/">Приемная комиссия</a></li>
+                    <li><a href="/Abitur/school/">Школьникам</a></li>
+                    <li><a href="/Abitur/admission18/">Прием 2018</a></li>
+            </ul>
+ <a href="/Abitur/" class="btn col-margin-top btn-long">Подробнее</a>
+                </div>
+                <!-- .white-box primary-border-box big-padding-box -->
+            </div>
+            <!-- .col col-mb-12 col-4 col-margin -->
+            <div class="col col-mb-12 col-4 col-margin">
+                <div class="white-box primary-border-box big-padding-box">
+                    <h2 class="mt0"><img src="/bitrix/templates/modern_blue_s1/images/students.png" alt="Студентам">
+                        Студентам</h2>
+                    
+    <ul class="unstyled">
+                    <li><a href="/students/payment/">Оплата обучения</a></li>
+                    <li><a href="/students/training_materials/">Учебные материалы</a></li>
+                    <li><a href="/students/life/">Студенческая жизнь</a></li>
+            </ul>
+ <a href="/students/" class="btn col-margin-top btn-long">Подробнее</a>
+                </div>
+                <!-- .white-box primary-border-box big-padding-box -->
+            </div>
+            <!-- .col col-mb-12 col-4 col-margin -->
+            <div class="col col-mb-12 col-4 col-margin">
+                <div class="white-box primary-border-box big-padding-box">
+                    <h2 class="mt0"><img src="/bitrix/templates/modern_blue_s1/images/graduates.png" alt="Выпускникам">
+                        Выпускникам </h2>
+                    
+    <ul class="unstyled">
+                    <li><a href="/graduates/center/">Центр развития карьеры</a></li>
+                    <li><a href="/graduates/scientists/">Совет молодых ученых</a></li>
+                    <li><a href="https://muctr.ru/univsubs/ipr/subs/occupancy/vacancy/">Трудоустройство</a></li>
+            </ul>
+ <a href="/graduates/" class="btn col-margin-top btn-long">Подробнее</a>
+                </div>
+                <!-- .white-box primary-border-box big-padding-box -->
+            </div>
+            <!-- .col col-mb-12 col-4 col-margin -->
+        </div>
+        <!-- .content -->
+    </div>
+
+    <div class="container">
+        <div class="content col-margin-bottom">
+            <div class="col col-mb-6 col-8">
+                <h2 class="h1 mb0">События</h2>
+            </div>
+            <div class="col col-4 ta-right" style="float: right;margin-top: 10px">
+                <a href="/notifies/">Все события <i
+                            class="icon icon-arrow-right"></i></a>
+            </div>
+        </div>
+
+                <div class="content">
+            <div class="col col-mb-12 col-margin-bottom">
+                <div class="white-box primary-border-box padding-box">
+                    <div class="content">
+                                                    <div class="col col-mb-12 col-6 col-dt-4">
+                                <img src="/upload/iblock/e3c/gumconf_i.jpg"
+                                     alt="IX Всероссийская научная конференция студентов и аспирантов: «Человек. Образование. Наука. Культура»"
+                                     title="IX Всероссийская научная конференция студентов и аспирантов: «Человек. Образование. Наука. Культура»">
+                            </div>
+                                                <div class="col col-mb-12 col-6 col-dt-8">
+                            <h3><a href="/notifies/conference/11077/">IX Всероссийская научная конференция студентов и аспирантов: «Человек. Образование. Наука. Культура»</a></h3>
+                            17-20 апреля 2018 г. в РХТУ пройдёт IX всероссийская &#40;с международным участием&#41; научная конференция студентов и аспирантов: «Человек. Образование. Наука. Культура: к 120-летию со дня основания РХТУ&nbsp;&nbsp;имени Д.И. Менделеева». Объявляется начало приёма материалов для публикации &#40;до 1 апреля&#41;.                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                    <div class="content">
+                                    <div class="col col-mb-12 col-4 col-margin-bottom">
+                        <div class="white-box padding-box">
+                                                            <p>
+                                    <img src="/upload/iblock/cb8/unsb_i2.jpg"
+                                         alt="«Университетские субботы» - 21 апреля"
+                                         title="«Университетские субботы» - 21 апреля">
+                                </p>
+                                                        <p>
+                                <a href="/notifies/saturdays/11124/">«Университетские субботы» - 21 апреля</a>
+                            </p>
+                            <p class="fz14">21 апреля в РХТУ продолжатся занятия весеннего цикла «Университетские субботы». В этот день в Миусском комплексе РХТУ пройдут две лекции.</p>
+                        </div>
+                    </div>
+                                    <div class="col col-mb-12 col-4 col-margin-bottom">
+                        <div class="white-box padding-box">
+                                                            <p>
+                                    <img src="/upload/iblock/28d/progolymp_i.png"
+                                         alt="8 ежегодная студенческая олимпиада РХТУ по программированию"
+                                         title="8 ежегодная студенческая олимпиада РХТУ по программированию">
+                                </p>
+                                                        <p>
+                                <a href="/notifies/olimp/11104/">8 ежегодная студенческая олимпиада РХТУ по программированию</a>
+                            </p>
+                            <p class="fz14">21 апреля в 11:00 в Тушинском комплексе состоится 8 ежегодная студенческая олимпиада РХТУ по программированию.</p>
+                        </div>
+                    </div>
+                                    <div class="col col-mb-12 col-4 col-margin-bottom">
+                        <div class="white-box padding-box">
+                                                            <p>
+                                    <img src="/upload/iblock/c30/dod22apr_i.jpg"
+                                         alt="День открытых дверей в Тушинском комплексе"
+                                         title="День открытых дверей в Тушинском комплексе">
+                                </p>
+                                                        <p>
+                                <a href="/notifies/open_days/11013/">День открытых дверей в Тушинском комплексе</a>
+                            </p>
+                            <p class="fz14">Приглашаем на День открытых дверей в Тушинском комплексе РХТУ. 22 апреля 2018 г., начало в 11:00.</p>
+                        </div>
+                    </div>
+                            </div>
+            </div>
+    <div class="container container-mb70">
+        <div class="content col-margin-bottom">
+            <div class="col col-mb-6 col-8">
+                <h2 class="h1 mb0">Новости</h2>
+            </div> <!-- .col col-mb-hide col-8 -->
+            <div class="col col-4 ta-right" style="float: right;margin-top: 10px">
+                <a href="/news/">Все новости                    <i class="icon icon-arrow-right"></i></a>
+            </div> <!-- .col col-mb-hide col-4 ta-right -->
+        </div> <!-- .content col-margin-bottom -->
+
+        <div class="content">
+            <div class="col col-mb-12 col-12 col-dt-6">
+                <div class="white-box primary-border-box padding-box col-margin-bottom">
+                    <div class="news-item news-item-main">
+                        <div class="news-item-date">18 Апреля, 2018</div>
+                                                    <div class="news-item-image">
+                                <div class="big-image-col">
+                                    <a href="/news/show/11165/"><img
+                                                src="/upload/iblock/8cd/mmso_i3.png"
+                                                alt=""
+                                                title=""
+                                        ></a>
+                                </div>
+                            </div>
+                                                <div class="news-item-text">
+                            <h3>
+                                <a href="/news/show/11165/">Московский международный салон образования</a>
+                            </h3>
+                            18 &mdash; 21 апреля 2018 г. РХТУ им. Д.И. Менделеева принимает участие в Московском международном салоне образования &#40;ММСО&#41; на ВДНХ, павильон 75. Номер нашего выставочного стенда BB-10.6. Также университет станет участником обширной деловой программы форума.                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-mb-12 col-12 col-dt-6">
+                <div class="white-box padding-box col-margin-bottom">
+                                            <div class="news-item">
+                            <div class="news-item-date">17 Апреля, 2018</div>
+                            <div class="news-item-text">
+                                <h3 class="news-item-header"><a
+                                            href="/news/grants/11156/">Опубликован протокол вскрытия конвертов</a>
+                                </h3>
+                                Опубликован протокол вскрытия конвертов с заявками на проведение Конкурса среди профессорско-преподавательского состава РХТУ им. Д. И. Менделеева                            </div>
+                        </div>
+                                                                    <div class="news-item">
+                            <div class="news-item-date">11 Апреля, 2018</div>
+                            <div class="news-item-text">
+                                <h3 class="news-item-header"><a
+                                            href="/news/culture_sport/11150/">Победы студентов РХТУ на ХХХ Московских студенческих спортивных играх</a>
+                                </h3>
+                                Студенты РХТУ в начале апреля стали призерами ХХХ Московских студенческих спортивных игр &#40;МССИ&#41; по целому ряду видов спорта.                            </div>
+                        </div>
+                                                                    <div class="news-item">
+                            <div class="news-item-date">06 Апреля, 2018</div>
+                            <div class="news-item-text">
+                                <h3 class="news-item-header"><a
+                                            href="/news/international/11144/">Визит ректора Туркменского государственного архитектурно-строительного института в РХТУ</a>
+                                </h3>
+                                27 и 29 марта 2018 года РХТУ им. Д. И. Менделеева&nbsp;&nbsp;посетила делегация Туркменского государственного архитектурно-строительного института во главе с ректором&nbsp;&nbsp;Байраммиратом Яйлымовичем&nbsp;&nbsp;Атамановым.                            </div>
+                        </div>
+                                                                    <div class="news-item">
+                            <div class="news-item-date">05 Апреля, 2018</div>
+                            <div class="news-item-text">
+                                <h3 class="news-item-header"><a
+                                            href="/news/culture_sport/11145/">2 место на Чемпионате Москвы по вольной борьбе</a>
+                                </h3>
+                                30 марта женская команда РХТУ завоевала три серебряных медали Чемпионата Москвы по вольной борьбе &#40;в рамках ХХХ Московских Студенческих Спортивных Игр&#41;.                            </div>
+                        </div>
+                                        </div>
+            </div>
+        </div>
+    </div>
+    <div class="container container-white container-mb70 social">
+        <div class="content">
+            <div class="col col-mb-12">
+                <h1 class="text-centered bot-spaced">РХТУ в соцсетях</h1>
+                <p>
+                </p>
+                <table align="center">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <a href="https://www.facebook.com/muctr"> <i class="fa fa-facebook"></i> </a>
+                        </td>
+                        <td>
+                            <a href="https://vk.com/muctr.club"> <i class="fa fa-vk"></i> </a>
+                        </td>
+                        <td>
+                            <a href="https://twitter.com/mendeleevuniv"> <i class="fa fa-twitter"></i> </a>
+                        </td>
+                        <td>
+                            <a href="https://www.instagram.com/dmuctr/"> <i class="fa fa-instagram"></i> </a>
+                        </td>
+                        <td>
+                            <a href="https://www.youtube.com/channel/UCgmjCJNxlvf2IXCdE7TQOdA"> <i
+                                        class="fa fa-youtube"></i> </a>
+                        </td>
+                        <td>
+                            <a href="https://t.me/rector_muctr"> <i class="fa fa-telegram"></i> </a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <p>
+                </p>
+            </div>
+            <!-- .col col-mb-12 -->
+        </div>
+        <!-- .content -->
+    </div>
+    <!-- .container container-white container-mb70 -->
+    <div class="container container-white container-mb70">
+        <div class=" instagram">
+            <div class="content">
+                <div class="col col-mb-12">
+                    <h1 class="text-centered bot-spaced">РХТУ в Instagram</h1>
+                    <p class="row">
+                        <a href="https://www.instagram.com/p/BckxizKH8KE/?taken-by=dmuctr" class="insta-photo"> <img
+                                    width="300" alt="Картинка анонса 1"
+                                    src="https://scontent-arn2-1.cdninstagram.com/vp/9d7d7c52c734e3492e36fa3211d7f698/5B5D2CCB/t51.2885-15/e35/24845212_153792651924868_8234493574008274944_n.jpg"
+                                    height="300"> </a> <a
+                                href="https://www.instagram.com/p/BcJkbFCHbh4/?taken-by=dmuctr" class="insta-photo">
+                            <img width="300" alt="Картинка анонса 1"
+                                 src="https://scontent-arn2-1.cdninstagram.com/vp/6c72b4c2853e0cc82d689ec37af9fdad/5B6ACB64/t51.2885-15/s640x640/sh0.08/e35/24274037_684383338424033_3998314909887627264_n.jpg"
+                                 height="300"> </a> <a href="https://www.instagram.com/p/BaqdbrknVSg/?taken-by=dmuctr"
+                                                       class="insta-photo"> <img width="300" alt="Картинка анонса 1"
+                                                                                 src="https://scontent-arn2-1.cdninstagram.com/vp/e2a3da0673821b4655d69d711a87c065/5B72FE28/t51.2885-15/s640x640/sh0.08/e35/22793636_1518872611533172_3600018772640923648_n.jpg"
+                                                                                 height="300"> </a> <a
+                                href="https://www.instagram.com/p/BbmQh_4nKv5/?taken-by=dmuctr" class="insta-photo">
+                            <img width="300" alt="Картинка анонса 1"
+                                 src="https://scontent-arn2-1.cdninstagram.com/vp/632379364bad7254cb5af95e5a9e235f/5B50828C/t51.2885-15/s640x640/sh0.08/e35/23594236_1206988552736586_3482158689580744704_n.jpg"
+                                 height="300"> </a>
+                    </p>
+                </div>
+                <!-- .col col-mb-12 -->
+            </div>
+            <!-- .content -->
+        </div>
+    </div>
+    <!-- .container container-white container-mb70 --></div>
+<div class="footer-wrapper">
+    <footer class="container container-footer">
+        <div class="content mb-hide footer-menu-content">
+            <div class="col col-mb-12 col-4">
+                <ul>
+                    <li><a href="/sveden/common/">Основные сведения</a></li>
+                    <li><a href="https://old.muctr.ru/sveden/struct/">Структура и органы управления образовательной
+                            организацией</a></li>
+                    <li><a href="https://old.muctr.ru/sveden/document/">Документы</a></li>
+                    <li><a href="https://old.muctr.ru/sveden/education/">Образование</a></li>
+                    <li><a href="https://old.muctr.ru/sveden/eduStandarts/">Образовательные стандарты</a></li>
+                </ul>
+            </div>
+            <div class="col col-mb-12 col-4">
+                <ul>
+                    <li><a href="https://old.muctr.ru/sveden/employees/">Руководство. Научно-педагогический состав</a>
+                    </li>
+                    <li><a href="https://old.muctr.ru/sveden/objects/">Материально-техническое обеспечение и
+                            оснащенность образовательного процесса</a></li>
+                    <li><a href="https://old.muctr.ru/sveden/grants/">Стипендии и иные виды материальной поддержки</a>
+                    </li>
+                    <li><a href="/sveden/paid_edu/">Платные образовательные услуги</a></li>
+                    <li><a href="https://old.muctr.ru/sveden/budget/">Финансово-хозяйственная деятельность</a></li>
+                </ul>
+            </div>
+            <div class="col col-mb-12 col-4">
+                <ul>
+                    <li><a href="https://old.muctr.ru/sveden/vacant/">Вакантные места для приёма (перевода)</a></li>
+                    <li><a href="/sveden/income/">Сведения о доходах руководителя</a></li>
+                    <li><a href="/sveden/fcp/">Участие в федеральных целевых программах</a></li>
+                    <li><a href="/sveden/antiterror/">О противодействии идеологии терроризма</a></li>
+                    <li><a href="/sveden/corruption/">О противодействии коррупции</a></li>
+                    <li><a href="/sveden/antidrugs/">О противодействии наркотикам</a></li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="mb-block">
+            
+    <div class="content footer-menu-content">
+                                                <div class="col col-mb-12 col-4 grid-item">
+                <ul>
+                <li class="col-margin-bottom">
+                <div class="h4">Сведения об образовательной организации</div>
+                <ul>
+                                                                            <li><a href="/sveden/common/">Основные сведения</a></li>
+                                                                            <li><a href="https://old.muctr.ru/sveden/struct/">Структура и органы управления образовательной организацией</a></li>
+                                                                            <li><a href="https://old.muctr.ru/sveden/document/">Документы</a></li>
+                                                                            <li><a href="https://old.muctr.ru/sveden/education/">Образование</a></li>
+                                                                            <li><a href="https://old.muctr.ru/sveden/eduStandarts/">Образовательные стандарты</a></li>
+                                                                            <li><a href="https://old.muctr.ru/sveden/employees/">Руководство. Научно-педагогический состав</a></li>
+                                                                            <li><a href="https://old.muctr.ru/sveden/objects/">Материально-техническое обеспечение и оснащенность образовательного процесса</a></li>
+                                                                            <li><a href="https://old.muctr.ru/sveden/grants/">Стипендии и иные виды материальной поддержки</a></li>
+                                                                            <li><a href="/sveden/paid_edu/">Платные образовательные услуги</a></li>
+                                                                            <li><a href="https://old.muctr.ru/sveden/budget/">Финансово-хозяйственная деятельность</a></li>
+                                                                            <li><a href="https://old.muctr.ru/sveden/vacant/">Вакантные места для приёма (перевода)</a></li>
+                                                                            <li><a href="/sveden/income/">Сведения о доходах руководителя</a></li>
+                                                                            <li><a href="/sveden/fcp/">Участие в федеральных целевых программах</a></li>
+                                                                            <li><a href="/sveden/antiterror/">О противодействии идеологии терроризма</a></li>
+                                                                            <li><a href="/sveden/corruption/">О противодействии коррупции</a></li>
+                                                                            <li><a href="/sveden/antidrugs/">О противодействии наркотикам</a></li>
+                                            </ul></li></ul></div>
+        </div>
+        </div>
+        <div class="content">
+            <div class="col col-mb-12 col-4">
+                &copy; Российский химико-технологический&nbsp;университет имени Д.И. Менделеева<br>
+                <a href="/university/contacts/">Контакты</a>
+                <br><a href="/university/userconsent/?data=eyJpZCI6IjEiLCJyZXBsYWNlIjpbXX0%3D&sec=ZTVhZTZmZWYwZTJkNjY3NmQwNzk0MzY1YmMxN2VhMWM0NzFkNjI5NDJlOWZjMWNhOTI2ZWQ3NjgzYTYzNTU4MA%3D%3D">Политика конфиденциальности</a>            </div>
+            <div class="col col-mb-12 col-4">
+                                    125047, г. Москва, Миусская площадь, д. 9<br>    +7 (499) 978-86-60<br>    9:00 до 18:00, Пн-Пт<br>                <a href="/university/feedback/">Форма обратной связи</a>
+            </div>
+            <div class="col col-mb-12 col-4">
+                <div class="footer-info">
+                    <img src="/upload/images/pxty_logo.png" width="100">
+                    <br>
+                    <a href="http://минобрнауки.рф">Минобрнауки.рф</a>
+                    <br>
+                    <i class="fa fa-envelope"></i>
+                    <a href="/university/letter_rector/"> Письмо ректору</a>
+                </div>
+                <div id="bx-composite-banner">
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<!-- .footer-wrapper -->
+<div class="mobile-nav-wrapper">
+    <div class="mobile-nav">
+    </div>
+</div>
+</body>
+</html>

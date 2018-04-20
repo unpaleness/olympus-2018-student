@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<problem
+  package = "ru.ejudge.sample_contest"
+  id = "6"
+  type = "standard">
+  <statement language="ru_RU">
+    <title>Война Роскомнадзора</title>
+    <description>
+      <p>Война с пиратством и запрещённым контентом находилась в самом разгаре. На каждый заблокированный сайт пираты придумывали новую лазейку. Уже много лет борьба c VPN и зеркалами то утихала, то разгоралась с новой силой. Война была беспощадной. Старожилы помнят, как в самый разгар блокировки Telegram, множество других сайтов также пострадало. На войне не бывает без жертв. И сегодня вы становитесь новым сотрудником секретного отдела Роскомнадзора. По последней проверке активности в сети было установлено, что пираты помещают свои ссылки в html-страницы обычных и ничем не примечательных сайтов.</p>
+      <p>Первой вашей задачей становится найти в тексте все ссылки, заключенные в тег &lt;a&gt;&lt;/a&gt;, ведущие на текущий домен, подсчитав количество конечных ссылок в каждом разделе. Для выполнения этого задания вам определили набор правил:
+        <ol>
+          <li>Внутренней ссылкой считается такая ссылка, которая либо начинается с &laquo;/&raquo;, либо с названия сайта &laquo;test.com/&raquo; и, что тоже самое, &laquo;www.test.com&raquo;.</li>
+          <li>Отбрасывается указание web-протокола.</li>
+          <li>Отбрасываются параметры GET-запроса.</li>
+          <li>Отбрасываются внутри страничные ссылки.</li>
+          <li>Ссылка на корень сайта выводится, если она есть, но не считаются разделом.</li>
+          <li>Если ссылка оканчивается на &laquo;/&raquo;, то этот символ отбрасывается.</li>
+          <li>Разделом считается такая часть ссылки (оканчивающаяся на &laquo;/&raquo;), после которой находится 2 и более различных ссылок. Например, среди &laquo;/service/pass&raquo; и &laquo;/service/pass/get&raquo; разделом является только &laquo;/service/pass&raquo;.</li>
+        </ol>
+      </p>
+      <p>Вывод программы строиться по следующим правилам:
+        <ol>
+          <li>Если есть ссылка на корень сайта она выводиться первой.</li>
+          <li>Ссылки выводятся в алфавитном порядке.</li>
+          <li>Конечные страницы, находящиеся в разделе, выводятся после вывода ссылки на раздел.</li>
+          <li>Если на раздел есть конечная ссылка, то сначала выводиться раздел, всегда оканчивающийся на символ &laquo;/&raquo; и через &laquo;:&raquo; количество конечных страниц, входящих в этот раздел.</li>
+          <li>Все выводимые ссылки начинаются с символа &laquo;/&raquo;.</li>
+        </ol>
+      </p>
+    </description>
+    <input_format>
+      <p>Первой строкой вводиться домен сайта. Дальше с новой строки и далее построчно, но с возможными длинными строками подается текст разметки html любой длины до 10<sup>6</sup> символов до окончания ввода.</p>
+    </input_format>
+    <output_format>
+      <p>Список разделов и конечных ссылок в формате:
+        <ul>
+          <li>раздел:</li>
+          <li>(без указания домена и протокола) /section/ (полноразмерная ссылка на раздел, оканчивающаяся символом &laquo;/&raquo;):N</li>
+          <li>(без указания домена и протокола) /link (полноразмерная ссылка, не оканчивающаяся символом &laquo;/&raquo;)</li>
+        </ul>
+      </p>
+      <p>где <i>N</i> &mdash; количество конечных страниц в разделе.</p>
+    </output_format>
+  </statement>
+  <examples>
+    <example>
+      <input>test.com
+&lt;!DOCTYPE html&gt;
+&lt;html  dir=&quot;ltr&quot; lang=&quot;ru&quot; xml:lang=&quot;ru&quot;&gt;
+    &lt;head&gt;&lt;/head&gt;
+    &lt;body&gt;
+        &lt;li class=&quot;-item _current&quot;&gt;
+            &lt;a id=&quot;nav-questions&quot; href=&quot; class=&quot;test-class&quot;&gt;Test&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;-item&quot;&gt;
+            &lt;a id=&quot;nav-jobs&quot; href=&quot;https://test.com/jobs?med=site-ui&amp;amp;ref=jobs-tab&quot; class=&quot;test-class&quot;&gt;Test&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;-item&quot;&gt;
+            &lt;a id=&quot;nav-jobs&quot; href=&quot;/jobs/latest?med=site-ui&amp;amp;ref=jobs-tab&quot; class=&quot;test-class&quot;&gt;Test&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;-item&quot;&gt;
+            &lt;a id=&quot;nav-jobs&quot; href=&quot;http://test.com/jobs/latest/far?med=site-ui&amp;amp;ref=jobs-tab&quot; class=&quot;test-class&quot;&gt;Test&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;-item&quot;&gt;
+            &lt;a id=&quot;nav-jobs&quot; href=&quot;/jobs/faf?med=site-ui&amp;amp;ref=jobs-tab&quot; class=&quot;test-class&quot;&gt;Test&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;-item&quot;&gt;
+            &lt;a id=&quot;nav-jobs&quot; href=&quot;/jobs/beb?med=site-ui&amp;amp;ref=jobs-tab&quot; class=&quot;test-class&quot;&gt;Test&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;-item&quot;&gt;
+            &lt;a id=&quot;nav-jobs&quot; href=&quot;https://www.test.com/jobs/beb/meb?med=site-ui&amp;amp;ref=jobs-tab&quot; class=&quot;test-class&quot;&gt;Test&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;-item&quot;&gt;
+            &lt;a id=&quot;nav-jobs&quot; href=&quot;/jobs/beb/fef/kek/1/?med=site-ui&amp;amp;ref=jobs-tab&quot; class=&quot;test-class&quot;&gt;Test&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;-item&quot;&gt;
+            &lt;a id=&quot;nav-jobs&quot; href=&quot;/jobs/beb/fef/kek/2/?med=site-ui&amp;amp;ref=jobs-tab&quot; class=&quot;test-class&quot;&gt;Test&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;-item&quot;&gt;
+            &lt;a id=&quot;nav-jobs&quot; href=&quot;/jobs/beb/fef/kek/3/?med=site-ui&amp;amp;ref=jobs-tab&quot; class=&quot;test-class&quot;&gt;Test&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;-item&quot;&gt;
+            &lt;a id=&quot;nav-tags&quot; href=&quot;/tags&quot; class=&quot;test-class&quot;&gt;Test&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;-item&quot;&gt;
+            &lt;a id=&quot;nav-users&quot; href=&quot;/users&quot; class=&quot;test-class&quot;&gt;Test&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;-item&quot;&gt;
+            &lt;a id=&quot;nav-tags&quot; href=&quot;/services/pass/&quot; class=&quot;test-class&quot;&gt;Test&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;-item&quot;&gt;
+            &lt;a id=&quot;nav-users&quot; href=&quot;/services/pass/security/&quot; class=&quot;test-class&quot;&gt;Test&lt;/a&gt;
+        &lt;/li&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</input>
+      <output>/jobs/:9
+/jobs
+/jobs/beb/:5
+/jobs/beb
+/jobs/beb/fef/kek/:3
+/jobs/beb/fef/kek/1
+/jobs/beb/fef/kek/2
+/jobs/beb/fef/kek/3
+/jobs/beb/meb
+/jobs/faf
+/jobs/latest/:2
+/jobs/latest
+/jobs/latest/far
+/services/pass/:2
+/services/pass
+/services/pass/security
+/tags
+/users</output>
+    </example>
+  </examples>
+</problem>
